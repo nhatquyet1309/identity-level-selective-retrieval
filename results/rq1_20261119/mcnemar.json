@@ -1,0 +1,69 @@
+{
+  "siglip2": {
+    "encoder": "siglip2",
+    "n": 1663,
+    "n_identities_universe": 145,
+    "table_2x2": {
+      "S_correct_I_correct": 937,
+      "S_correct_I_wrong": 46,
+      "S_wrong_I_correct": 412,
+      "S_wrong_I_wrong": 268
+    },
+    "b_S_correct_I_wrong": 46,
+    "c_S_wrong_I_correct": 412,
+    "n_discordant": 458,
+    "acc_S": 0.5911004209260373,
+    "acc_I": 0.8111846061334936,
+    "delta_I_minus_S": 0.22008418520745632,
+    "delta_I_minus_S_pp": 22.008418520745632,
+    "mcnemar_exact_p_two_sided": 1.3304793004014549e-74,
+    "paired_bootstrap_identity": {
+      "seed": 20261022,
+      "n_boot": 2000,
+      "n_clusters": 145,
+      "cluster_unit": "identity (145 cụm, D3)",
+      "ci95_delta": [
+        0.15883714200920024,
+        0.284370528616852
+      ],
+      "ci95_delta_pp": [
+        15.883714200920023,
+        28.437052861685203
+      ]
+    }
+  },
+  "clip": {
+    "encoder": "clip",
+    "n": 1663,
+    "n_identities_universe": 145,
+    "table_2x2": {
+      "S_correct_I_correct": 588,
+      "S_correct_I_wrong": 150,
+      "S_wrong_I_correct": 177,
+      "S_wrong_I_wrong": 748
+    },
+    "b_S_correct_I_wrong": 150,
+    "c_S_wrong_I_correct": 177,
+    "n_discordant": 327,
+    "acc_S": 0.44377630787733013,
+    "acc_I": 0.46001202645820805,
+    "delta_I_minus_S": 0.01623571858087791,
+    "delta_I_minus_S_pp": 1.6235718580877911,
+    "mcnemar_exact_p_two_sided": 0.15037903893147264,
+    "paired_bootstrap_identity": {
+      "seed": 20261022,
+      "n_boot": 2000,
+      "n_clusters": 145,
+      "cluster_unit": "identity (145 cụm, D3)",
+      "ci95_delta": [
+        -0.025737724481128176,
+        0.05671841811999354
+      ],
+      "ci95_delta_pp": [
+        -2.5737724481128175,
+        5.6718418119993546
+      ]
+    }
+  },
+  "note_clipl14_dinov2": "clipl14/dinov2 S≡I — không có cặp (D2: bit-exact, không tách S/I)."
+}

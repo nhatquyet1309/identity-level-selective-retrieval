@@ -1,0 +1,5665 @@
+{
+ "seed": 20261022,
+ "frac": 0.3,
+ "calib_frac": 0.4,
+ "index": [
+  {
+   "path": "visual_gallery/air_defense/2k12_kub/2k12_kub_1edeb486.jpg",
+   "category": "air_defense",
+   "variant": "2k12_kub"
+  },
+  {
+   "path": "visual_gallery/air_defense/2k12_kub/2k12_kub_23aa1d94.jpg",
+   "category": "air_defense",
+   "variant": "2k12_kub"
+  },
+  {
+   "path": "visual_gallery/air_defense/2k12_kub/2k12_kub_306551f9.jpg",
+   "category": "air_defense",
+   "variant": "2k12_kub"
+  },
+  {
+   "path": "visual_gallery/air_defense/2k12_kub/2k12_kub_56544e04.jpg",
+   "category": "air_defense",
+   "variant": "2k12_kub"
+  },
+  {
+   "path": "visual_gallery/air_defense/2k12_kub/2k12_kub_7d81e442.jpg",
+   "category": "air_defense",
+   "variant": "2k12_kub"
+  },
+  {
+   "path": "visual_gallery/air_defense/2k12_kub/2k12_kub_dbfc24d7.jpg",
+   "category": "air_defense",
+   "variant": "2k12_kub"
+  },
+  {
+   "path": "visual_gallery/air_defense/2k12_kub/2k12_kub_e9cf01ba.jpg",
+   "category": "air_defense",
+   "variant": "2k12_kub"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow2/arrow2_000.png",
+   "category": "air_defense",
+   "variant": "arrow2"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow2/arrow2_002.png",
+   "category": "air_defense",
+   "variant": "arrow2"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow2/arrow2_003.png",
+   "category": "air_defense",
+   "variant": "arrow2"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow2/arrow2_004.png",
+   "category": "air_defense",
+   "variant": "arrow2"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow2/arrow2_005.png",
+   "category": "air_defense",
+   "variant": "arrow2"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow2/arrow_2_39ae7554.jpg",
+   "category": "air_defense",
+   "variant": "arrow2"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow2/confirmed_009.jpg",
+   "category": "air_defense",
+   "variant": "arrow2"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow3/arrow3_000.png",
+   "category": "air_defense",
+   "variant": "arrow3"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow3/arrow3_001.png",
+   "category": "air_defense",
+   "variant": "arrow3"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow3/arrow3_2380871d.jpg",
+   "category": "air_defense",
+   "variant": "arrow3"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow3/arrow3_6469d88b.jpg",
+   "category": "air_defense",
+   "variant": "arrow3"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow3/arrow3_e4e36c68.jpg",
+   "category": "air_defense",
+   "variant": "arrow3"
+  },
+  {
+   "path": "visual_gallery/air_defense/bavar373/bavar373_000.png",
+   "category": "air_defense",
+   "variant": "bavar373"
+  },
+  {
+   "path": "visual_gallery/air_defense/bavar373/bavar373_001.png",
+   "category": "air_defense",
+   "variant": "bavar373"
+  },
+  {
+   "path": "visual_gallery/air_defense/bavar373/bavar373_002.png",
+   "category": "air_defense",
+   "variant": "bavar373"
+  },
+  {
+   "path": "visual_gallery/air_defense/bavar373/bavar373_003.png",
+   "category": "air_defense",
+   "variant": "bavar373"
+  },
+  {
+   "path": "visual_gallery/air_defense/bavar373/bavar373_004.png",
+   "category": "air_defense",
+   "variant": "bavar373"
+  },
+  {
+   "path": "visual_gallery/air_defense/bavar373/bavar373_005.png",
+   "category": "air_defense",
+   "variant": "bavar373"
+  },
+  {
+   "path": "visual_gallery/air_defense/bavar373/bavar373_008.png",
+   "category": "air_defense",
+   "variant": "bavar373"
+  },
+  {
+   "path": "visual_gallery/air_defense/buk/buk_000.png",
+   "category": "air_defense",
+   "variant": "buk"
+  },
+  {
+   "path": "visual_gallery/air_defense/buk/buk_001.png",
+   "category": "air_defense",
+   "variant": "buk"
+  },
+  {
+   "path": "visual_gallery/air_defense/buk/buk_002.png",
+   "category": "air_defense",
+   "variant": "buk"
+  },
+  {
+   "path": "visual_gallery/air_defense/buk/buk_004.png",
+   "category": "air_defense",
+   "variant": "buk"
+  },
+  {
+   "path": "visual_gallery/air_defense/buk/buk_3f1e5d16.jpg",
+   "category": "air_defense",
+   "variant": "buk"
+  },
+  {
+   "path": "visual_gallery/air_defense/buk/buk_430dfa6d.jpg",
+   "category": "air_defense",
+   "variant": "buk"
+  },
+  {
+   "path": "visual_gallery/air_defense/buk/buk_ba8a4fe8.jpg",
+   "category": "air_defense",
+   "variant": "buk"
+  },
+  {
+   "path": "visual_gallery/air_defense/gepard/gepard_000.png",
+   "category": "air_defense",
+   "variant": "gepard"
+  },
+  {
+   "path": "visual_gallery/air_defense/gepard/gepard_001.png",
+   "category": "air_defense",
+   "variant": "gepard"
+  },
+  {
+   "path": "visual_gallery/air_defense/gepard/gepard_002.png",
+   "category": "air_defense",
+   "variant": "gepard"
+  },
+  {
+   "path": "visual_gallery/air_defense/gepard/gepard_003.png",
+   "category": "air_defense",
+   "variant": "gepard"
+  },
+  {
+   "path": "visual_gallery/air_defense/gepard/gepard_006.png",
+   "category": "air_defense",
+   "variant": "gepard"
+  },
+  {
+   "path": "visual_gallery/air_defense/gepard/gepard_007.png",
+   "category": "air_defense",
+   "variant": "gepard"
+  },
+  {
+   "path": "visual_gallery/air_defense/gepard/gepard_008.png",
+   "category": "air_defense",
+   "variant": "gepard"
+  },
+  {
+   "path": "visual_gallery/air_defense/gepard/gepard_009.png",
+   "category": "air_defense",
+   "variant": "gepard"
+  },
+  {
+   "path": "visual_gallery/air_defense/gepard/gepard_010.png",
+   "category": "air_defense",
+   "variant": "gepard"
+  },
+  {
+   "path": "visual_gallery/air_defense/gepard/gepard_012.png",
+   "category": "air_defense",
+   "variant": "gepard"
+  },
+  {
+   "path": "visual_gallery/air_defense/hq22/hq22_000.png",
+   "category": "air_defense",
+   "variant": "hq22"
+  },
+  {
+   "path": "visual_gallery/air_defense/hq22/hq22_001.png",
+   "category": "air_defense",
+   "variant": "hq22"
+  },
+  {
+   "path": "visual_gallery/air_defense/hq22/hq22_002.png",
+   "category": "air_defense",
+   "variant": "hq22"
+  },
+  {
+   "path": "visual_gallery/air_defense/hq22/hq22_005.png",
+   "category": "air_defense",
+   "variant": "hq22"
+  },
+  {
+   "path": "visual_gallery/air_defense/hq22/hq22_006.png",
+   "category": "air_defense",
+   "variant": "hq22"
+  },
+  {
+   "path": "visual_gallery/air_defense/hq22/hq22_007.png",
+   "category": "air_defense",
+   "variant": "hq22"
+  },
+  {
+   "path": "visual_gallery/air_defense/hq22/hq22_60049f9f.jpg",
+   "category": "air_defense",
+   "variant": "hq22"
+  },
+  {
+   "path": "visual_gallery/air_defense/pantsir_s1/pantsir_s1_1bb775bc.jpg",
+   "category": "air_defense",
+   "variant": "pantsir_s1"
+  },
+  {
+   "path": "visual_gallery/air_defense/pantsir_s1/pantsir_s1_241f091a.jpg",
+   "category": "air_defense",
+   "variant": "pantsir_s1"
+  },
+  {
+   "path": "visual_gallery/air_defense/pantsir_s1/pantsir_s1_28ac98f7.jpg",
+   "category": "air_defense",
+   "variant": "pantsir_s1"
+  },
+  {
+   "path": "visual_gallery/air_defense/pantsir_s1/pantsir_s1_52908cdc.jpg",
+   "category": "air_defense",
+   "variant": "pantsir_s1"
+  },
+  {
+   "path": "visual_gallery/air_defense/pantsir_s1/pantsir_s1_7124fdc2.jpg",
+   "category": "air_defense",
+   "variant": "pantsir_s1"
+  },
+  {
+   "path": "visual_gallery/air_defense/pantsir_s1/pantsir_s1_a6963c02.jpg",
+   "category": "air_defense",
+   "variant": "pantsir_s1"
+  },
+  {
+   "path": "visual_gallery/air_defense/pantsir_s1/pantsir_s1_c369185e.jpg",
+   "category": "air_defense",
+   "variant": "pantsir_s1"
+  },
+  {
+   "path": "visual_gallery/air_defense/pantsir_s1/pantsir_s1_c60ef072.jpg",
+   "category": "air_defense",
+   "variant": "pantsir_s1"
+  },
+  {
+   "path": "visual_gallery/air_defense/pantsir_s1/pantsir_s1_dd0d1507.jpg",
+   "category": "air_defense",
+   "variant": "pantsir_s1"
+  },
+  {
+   "path": "visual_gallery/air_defense/pantsir_s1/pantsir_s1_e01f6179.jpg",
+   "category": "air_defense",
+   "variant": "pantsir_s1"
+  },
+  {
+   "path": "visual_gallery/air_defense/pantsir_s1/pantsir_s1_fa197493.jpg",
+   "category": "air_defense",
+   "variant": "pantsir_s1"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/confirmed_019.jpg",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_000.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_002.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_003.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_004.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_006.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_007.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_009.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_010.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_011.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_012.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_013.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_014.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_015.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300v/s300v_25d66414.jpg",
+   "category": "air_defense",
+   "variant": "s300v"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300v/s300v_922ce299.jpg",
+   "category": "air_defense",
+   "variant": "s300v"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300v/s300v_e2ec1e28.jpg",
+   "category": "air_defense",
+   "variant": "s300v"
+  },
+  {
+   "path": "visual_gallery/air_defense/thaad/thaad_000.png",
+   "category": "air_defense",
+   "variant": "thaad"
+  },
+  {
+   "path": "visual_gallery/air_defense/thaad/thaad_001.png",
+   "category": "air_defense",
+   "variant": "thaad"
+  },
+  {
+   "path": "visual_gallery/air_defense/thaad/thaad_002.png",
+   "category": "air_defense",
+   "variant": "thaad"
+  },
+  {
+   "path": "visual_gallery/air_defense/thaad/thaad_004.png",
+   "category": "air_defense",
+   "variant": "thaad"
+  },
+  {
+   "path": "visual_gallery/air_defense/thaad/thaad_005.png",
+   "category": "air_defense",
+   "variant": "thaad"
+  },
+  {
+   "path": "visual_gallery/air_defense/thaad/thaad_006.png",
+   "category": "air_defense",
+   "variant": "thaad"
+  },
+  {
+   "path": "visual_gallery/air_defense/thaad/thaad_1716d5f6.jpg",
+   "category": "air_defense",
+   "variant": "thaad"
+  },
+  {
+   "path": "visual_gallery/air_defense/thaad/thaad_1ae71020.jpg",
+   "category": "air_defense",
+   "variant": "thaad"
+  },
+  {
+   "path": "visual_gallery/air_defense/thaad/thaad_2c48930f.jpg",
+   "category": "air_defense",
+   "variant": "thaad"
+  },
+  {
+   "path": "visual_gallery/air_defense/thaad/thaad_de8c8b80.jpg",
+   "category": "air_defense",
+   "variant": "thaad"
+  },
+  {
+   "path": "visual_gallery/air_defense/tor_m2/tor_m2_1cee28e4.jpg",
+   "category": "air_defense",
+   "variant": "tor_m2"
+  },
+  {
+   "path": "visual_gallery/air_defense/tor_m2/tor_m2_51287226.jpg",
+   "category": "air_defense",
+   "variant": "tor_m2"
+  },
+  {
+   "path": "visual_gallery/air_defense/tor_m2/tor_m2_556fe989.jpg",
+   "category": "air_defense",
+   "variant": "tor_m2"
+  },
+  {
+   "path": "visual_gallery/air_defense/tor_m2/tor_m2_86c6ccd4.jpg",
+   "category": "air_defense",
+   "variant": "tor_m2"
+  },
+  {
+   "path": "visual_gallery/air_defense/tor_m2/tor_m2_9d95ed7a.jpg",
+   "category": "air_defense",
+   "variant": "tor_m2"
+  },
+  {
+   "path": "visual_gallery/air_defense/tor_m2/tor_m2_9f5445e5.jpg",
+   "category": "air_defense",
+   "variant": "tor_m2"
+  },
+  {
+   "path": "visual_gallery/air_defense/tor_m2/tor_m2_e08ddcfa.jpg",
+   "category": "air_defense",
+   "variant": "tor_m2"
+  },
+  {
+   "path": "visual_gallery/air_defense/zsu23_4/zsu23_4_09917421.jpg",
+   "category": "air_defense",
+   "variant": "zsu23_4"
+  },
+  {
+   "path": "visual_gallery/air_defense/zsu23_4/zsu23_4_0de41333.jpg",
+   "category": "air_defense",
+   "variant": "zsu23_4"
+  },
+  {
+   "path": "visual_gallery/air_defense/zsu23_4/zsu23_4_1edf6785.jpg",
+   "category": "air_defense",
+   "variant": "zsu23_4"
+  },
+  {
+   "path": "visual_gallery/air_defense/zsu23_4/zsu23_4_1f038da8.jpg",
+   "category": "air_defense",
+   "variant": "zsu23_4"
+  },
+  {
+   "path": "visual_gallery/air_defense/zsu23_4/zsu23_4_5436e57d.jpg",
+   "category": "air_defense",
+   "variant": "zsu23_4"
+  },
+  {
+   "path": "visual_gallery/air_defense/zsu23_4/zsu23_4_76470f12.jpg",
+   "category": "air_defense",
+   "variant": "zsu23_4"
+  },
+  {
+   "path": "visual_gallery/air_defense/zsu23_4/zsu23_4_b757d61c.jpg",
+   "category": "air_defense",
+   "variant": "zsu23_4"
+  },
+  {
+   "path": "visual_gallery/air_defense/zsu23_4/zsu23_4_c8e07cd2.jpg",
+   "category": "air_defense",
+   "variant": "zsu23_4"
+  },
+  {
+   "path": "visual_gallery/air_defense/zsu23_4/zsu23_4_e1716fa4.jpg",
+   "category": "air_defense",
+   "variant": "zsu23_4"
+  },
+  {
+   "path": "visual_gallery/aircraft/a10_thunderbolt/a10_thunderbolt_b0d78d1a.jpg",
+   "category": "aircraft",
+   "variant": "a10_thunderbolt"
+  },
+  {
+   "path": "visual_gallery/aircraft/a10_thunderbolt/confirmed_002.jpg",
+   "category": "aircraft",
+   "variant": "a10_thunderbolt"
+  },
+  {
+   "path": "visual_gallery/aircraft/a10_thunderbolt/confirmed_005.jpg",
+   "category": "aircraft",
+   "variant": "a10_thunderbolt"
+  },
+  {
+   "path": "visual_gallery/aircraft/a10_thunderbolt/confirmed_006.jpg",
+   "category": "aircraft",
+   "variant": "a10_thunderbolt"
+  },
+  {
+   "path": "visual_gallery/aircraft/a10_thunderbolt/confirmed_007.jpg",
+   "category": "aircraft",
+   "variant": "a10_thunderbolt"
+  },
+  {
+   "path": "visual_gallery/aircraft/a10_thunderbolt/confirmed_008.jpg",
+   "category": "aircraft",
+   "variant": "a10_thunderbolt"
+  },
+  {
+   "path": "visual_gallery/aircraft/a10_thunderbolt/confirmed_009.jpg",
+   "category": "aircraft",
+   "variant": "a10_thunderbolt"
+  },
+  {
+   "path": "visual_gallery/aircraft/a50_awacs/a50_awacs_b10147f8.jpg",
+   "category": "aircraft",
+   "variant": "a50_awacs"
+  },
+  {
+   "path": "visual_gallery/aircraft/a50_awacs/confirmed_002.jpg",
+   "category": "aircraft",
+   "variant": "a50_awacs"
+  },
+  {
+   "path": "visual_gallery/aircraft/a50_awacs/confirmed_003.jpg",
+   "category": "aircraft",
+   "variant": "a50_awacs"
+  },
+  {
+   "path": "visual_gallery/aircraft/a50_awacs/confirmed_004.jpg",
+   "category": "aircraft",
+   "variant": "a50_awacs"
+  },
+  {
+   "path": "visual_gallery/aircraft/a50_awacs/confirmed_007.jpg",
+   "category": "aircraft",
+   "variant": "a50_awacs"
+  },
+  {
+   "path": "visual_gallery/aircraft/a50_awacs/confirmed_008.jpg",
+   "category": "aircraft",
+   "variant": "a50_awacs"
+  },
+  {
+   "path": "visual_gallery/aircraft/a50_awacs/confirmed_009.jpg",
+   "category": "aircraft",
+   "variant": "a50_awacs"
+  },
+  {
+   "path": "visual_gallery/aircraft/a50_awacs/confirmed_010.jpg",
+   "category": "aircraft",
+   "variant": "a50_awacs"
+  },
+  {
+   "path": "visual_gallery/aircraft/an124/an124_48854961.jpg",
+   "category": "aircraft",
+   "variant": "an124"
+  },
+  {
+   "path": "visual_gallery/aircraft/an124/confirmed_002.jpg",
+   "category": "aircraft",
+   "variant": "an124"
+  },
+  {
+   "path": "visual_gallery/aircraft/an124/confirmed_003.jpg",
+   "category": "aircraft",
+   "variant": "an124"
+  },
+  {
+   "path": "visual_gallery/aircraft/an124/confirmed_004.jpg",
+   "category": "aircraft",
+   "variant": "an124"
+  },
+  {
+   "path": "visual_gallery/aircraft/an124/confirmed_006.jpg",
+   "category": "aircraft",
+   "variant": "an124"
+  },
+  {
+   "path": "visual_gallery/aircraft/an124/confirmed_007.jpg",
+   "category": "aircraft",
+   "variant": "an124"
+  },
+  {
+   "path": "visual_gallery/aircraft/an124/confirmed_009.jpg",
+   "category": "aircraft",
+   "variant": "an124"
+  },
+  {
+   "path": "visual_gallery/aircraft/b1b/b1b_18187f0b.jpg",
+   "category": "aircraft",
+   "variant": "b1b"
+  },
+  {
+   "path": "visual_gallery/aircraft/b1b/b1b_276f7599.jpg",
+   "category": "aircraft",
+   "variant": "b1b"
+  },
+  {
+   "path": "visual_gallery/aircraft/b1b/b1b_30192fc4.jpg",
+   "category": "aircraft",
+   "variant": "b1b"
+  },
+  {
+   "path": "visual_gallery/aircraft/b1b/b1b_57d1f490.jpg",
+   "category": "aircraft",
+   "variant": "b1b"
+  },
+  {
+   "path": "visual_gallery/aircraft/b1b/b1b_5f5a462a.jpg",
+   "category": "aircraft",
+   "variant": "b1b"
+  },
+  {
+   "path": "visual_gallery/aircraft/b1b/b1b_68037914.jpg",
+   "category": "aircraft",
+   "variant": "b1b"
+  },
+  {
+   "path": "visual_gallery/aircraft/b1b/b1b_9ab9b3d1.jpg",
+   "category": "aircraft",
+   "variant": "b1b"
+  },
+  {
+   "path": "visual_gallery/aircraft/b1b/b1b_aa841a7e.jpg",
+   "category": "aircraft",
+   "variant": "b1b"
+  },
+  {
+   "path": "visual_gallery/aircraft/b1b/b1b_b22c6f15.jpg",
+   "category": "aircraft",
+   "variant": "b1b"
+  },
+  {
+   "path": "visual_gallery/aircraft/b1b/b1b_fe10f8f4.jpg",
+   "category": "aircraft",
+   "variant": "b1b"
+  },
+  {
+   "path": "visual_gallery/aircraft/b2_spirit/b2_spirit_6e686e4c.jpg",
+   "category": "aircraft",
+   "variant": "b2_spirit"
+  },
+  {
+   "path": "visual_gallery/aircraft/b2_spirit/confirmed_002.jpg",
+   "category": "aircraft",
+   "variant": "b2_spirit"
+  },
+  {
+   "path": "visual_gallery/aircraft/b2_spirit/confirmed_003.jpg",
+   "category": "aircraft",
+   "variant": "b2_spirit"
+  },
+  {
+   "path": "visual_gallery/aircraft/b2_spirit/confirmed_004.jpg",
+   "category": "aircraft",
+   "variant": "b2_spirit"
+  },
+  {
+   "path": "visual_gallery/aircraft/b2_spirit/confirmed_007.jpg",
+   "category": "aircraft",
+   "variant": "b2_spirit"
+  },
+  {
+   "path": "visual_gallery/aircraft/b2_spirit/confirmed_008.jpg",
+   "category": "aircraft",
+   "variant": "b2_spirit"
+  },
+  {
+   "path": "visual_gallery/aircraft/b2_spirit/confirmed_009.jpg",
+   "category": "aircraft",
+   "variant": "b2_spirit"
+  },
+  {
+   "path": "visual_gallery/aircraft/b52_stratofortress/confirmed_003.jpg",
+   "category": "aircraft",
+   "variant": "b52_stratofortress"
+  },
+  {
+   "path": "visual_gallery/aircraft/b52_stratofortress/confirmed_004.jpg",
+   "category": "aircraft",
+   "variant": "b52_stratofortress"
+  },
+  {
+   "path": "visual_gallery/aircraft/b52_stratofortress/confirmed_006.jpg",
+   "category": "aircraft",
+   "variant": "b52_stratofortress"
+  },
+  {
+   "path": "visual_gallery/aircraft/b52_stratofortress/confirmed_007.jpg",
+   "category": "aircraft",
+   "variant": "b52_stratofortress"
+  },
+  {
+   "path": "visual_gallery/aircraft/b52_stratofortress/confirmed_008.jpg",
+   "category": "aircraft",
+   "variant": "b52_stratofortress"
+  },
+  {
+   "path": "visual_gallery/aircraft/b52_stratofortress/confirmed_009.jpg",
+   "category": "aircraft",
+   "variant": "b52_stratofortress"
+  },
+  {
+   "path": "visual_gallery/aircraft/b52_stratofortress/confirmed_011.jpg",
+   "category": "aircraft",
+   "variant": "b52_stratofortress"
+  },
+  {
+   "path": "visual_gallery/aircraft/b52_stratofortress/confirmed_012.jpg",
+   "category": "aircraft",
+   "variant": "b52_stratofortress"
+  },
+  {
+   "path": "visual_gallery/aircraft/b52_stratofortress/confirmed_013.jpg",
+   "category": "aircraft",
+   "variant": "b52_stratofortress"
+  },
+  {
+   "path": "visual_gallery/aircraft/b52_stratofortress/confirmed_014.jpg",
+   "category": "aircraft",
+   "variant": "b52_stratofortress"
+  },
+  {
+   "path": "visual_gallery/aircraft/b52_stratofortress/confirmed_015.jpg",
+   "category": "aircraft",
+   "variant": "b52_stratofortress"
+  },
+  {
+   "path": "visual_gallery/aircraft/c130_hercules/c130_hercules_05865a69.jpg",
+   "category": "aircraft",
+   "variant": "c130_hercules"
+  },
+  {
+   "path": "visual_gallery/aircraft/c130_hercules/c130_hercules_20f1cfcb.jpg",
+   "category": "aircraft",
+   "variant": "c130_hercules"
+  },
+  {
+   "path": "visual_gallery/aircraft/c130_hercules/c130_hercules_6083fda8.jpg",
+   "category": "aircraft",
+   "variant": "c130_hercules"
+  },
+  {
+   "path": "visual_gallery/aircraft/c130_hercules/c130_hercules_64f0264e.jpg",
+   "category": "aircraft",
+   "variant": "c130_hercules"
+  },
+  {
+   "path": "visual_gallery/aircraft/c130_hercules/c130_hercules_ad47fa93.jpg",
+   "category": "aircraft",
+   "variant": "c130_hercules"
+  },
+  {
+   "path": "visual_gallery/aircraft/c130_hercules/c130_hercules_c993ccc2.jpg",
+   "category": "aircraft",
+   "variant": "c130_hercules"
+  },
+  {
+   "path": "visual_gallery/aircraft/c130_hercules/c130_hercules_d5fc9ef5.jpg",
+   "category": "aircraft",
+   "variant": "c130_hercules"
+  },
+  {
+   "path": "visual_gallery/aircraft/c130_hercules/c130_hercules_dd8d2020.jpg",
+   "category": "aircraft",
+   "variant": "c130_hercules"
+  },
+  {
+   "path": "visual_gallery/aircraft/c130_hercules/c130_hercules_f18b71a3.jpg",
+   "category": "aircraft",
+   "variant": "c130_hercules"
+  },
+  {
+   "path": "visual_gallery/aircraft/c130_hercules/c130_hercules_f69c6931.jpg",
+   "category": "aircraft",
+   "variant": "c130_hercules"
+  },
+  {
+   "path": "visual_gallery/aircraft/c5_galaxy/c5_galaxy_779f055f.jpg",
+   "category": "aircraft",
+   "variant": "c5_galaxy"
+  },
+  {
+   "path": "visual_gallery/aircraft/c5_galaxy/confirmed_003.jpg",
+   "category": "aircraft",
+   "variant": "c5_galaxy"
+  },
+  {
+   "path": "visual_gallery/aircraft/c5_galaxy/confirmed_004.jpg",
+   "category": "aircraft",
+   "variant": "c5_galaxy"
+  },
+  {
+   "path": "visual_gallery/aircraft/c5_galaxy/confirmed_005.jpg",
+   "category": "aircraft",
+   "variant": "c5_galaxy"
+  },
+  {
+   "path": "visual_gallery/aircraft/c5_galaxy/confirmed_007.jpg",
+   "category": "aircraft",
+   "variant": "c5_galaxy"
+  },
+  {
+   "path": "visual_gallery/aircraft/c5_galaxy/confirmed_008.jpg",
+   "category": "aircraft",
+   "variant": "c5_galaxy"
+  },
+  {
+   "path": "visual_gallery/aircraft/c5_galaxy/confirmed_009.jpg",
+   "category": "aircraft",
+   "variant": "c5_galaxy"
+  },
+  {
+   "path": "visual_gallery/aircraft/e3_sentry/e3_sentry_0c247299.jpg",
+   "category": "aircraft",
+   "variant": "e3_sentry"
+  },
+  {
+   "path": "visual_gallery/aircraft/e3_sentry/e3_sentry_39884534.jpg",
+   "category": "aircraft",
+   "variant": "e3_sentry"
+  },
+  {
+   "path": "visual_gallery/aircraft/e3_sentry/e3_sentry_39c93c3e.jpg",
+   "category": "aircraft",
+   "variant": "e3_sentry"
+  },
+  {
+   "path": "visual_gallery/aircraft/e3_sentry/e3_sentry_9d20a4c1.jpg",
+   "category": "aircraft",
+   "variant": "e3_sentry"
+  },
+  {
+   "path": "visual_gallery/aircraft/e3_sentry/e3_sentry_b88549c1.jpg",
+   "category": "aircraft",
+   "variant": "e3_sentry"
+  },
+  {
+   "path": "visual_gallery/aircraft/e3_sentry/e3_sentry_bcbbf3f5.jpg",
+   "category": "aircraft",
+   "variant": "e3_sentry"
+  },
+  {
+   "path": "visual_gallery/aircraft/e3_sentry/e3_sentry_c104d209.jpg",
+   "category": "aircraft",
+   "variant": "e3_sentry"
+  },
+  {
+   "path": "visual_gallery/aircraft/e3_sentry/e3_sentry_c7b4dd19.jpg",
+   "category": "aircraft",
+   "variant": "e3_sentry"
+  },
+  {
+   "path": "visual_gallery/aircraft/e3_sentry/e3_sentry_d02276fc.jpg",
+   "category": "aircraft",
+   "variant": "e3_sentry"
+  },
+  {
+   "path": "visual_gallery/aircraft/e3_sentry/e3_sentry_d41fe046.jpg",
+   "category": "aircraft",
+   "variant": "e3_sentry"
+  },
+  {
+   "path": "visual_gallery/aircraft/e3_sentry/e3_sentry_f5b9877f.jpg",
+   "category": "aircraft",
+   "variant": "e3_sentry"
+  },
+  {
+   "path": "visual_gallery/aircraft/f15_eagle/f15_eagle_0af803bb.jpg",
+   "category": "aircraft",
+   "variant": "f15_eagle"
+  },
+  {
+   "path": "visual_gallery/aircraft/f15_eagle/f15_eagle_0cf0adc7.jpg",
+   "category": "aircraft",
+   "variant": "f15_eagle"
+  },
+  {
+   "path": "visual_gallery/aircraft/f15_eagle/f15_eagle_1112eb08.jpg",
+   "category": "aircraft",
+   "variant": "f15_eagle"
+  },
+  {
+   "path": "visual_gallery/aircraft/f15_eagle/f15_eagle_3dd86a2b.jpg",
+   "category": "aircraft",
+   "variant": "f15_eagle"
+  },
+  {
+   "path": "visual_gallery/aircraft/f15_eagle/f15_eagle_54cbc0ab.jpg",
+   "category": "aircraft",
+   "variant": "f15_eagle"
+  },
+  {
+   "path": "visual_gallery/aircraft/f15_eagle/f15_eagle_72773570.jpg",
+   "category": "aircraft",
+   "variant": "f15_eagle"
+  },
+  {
+   "path": "visual_gallery/aircraft/f15_eagle/f15_eagle_7c73774a.jpg",
+   "category": "aircraft",
+   "variant": "f15_eagle"
+  },
+  {
+   "path": "visual_gallery/aircraft/f15_eagle/f15_eagle_9db825be.jpg",
+   "category": "aircraft",
+   "variant": "f15_eagle"
+  },
+  {
+   "path": "visual_gallery/aircraft/f15_eagle/f15_eagle_c735f835.jpg",
+   "category": "aircraft",
+   "variant": "f15_eagle"
+  },
+  {
+   "path": "visual_gallery/aircraft/f15_eagle/f15_eagle_f5e4db6a.jpg",
+   "category": "aircraft",
+   "variant": "f15_eagle"
+  },
+  {
+   "path": "visual_gallery/aircraft/f16_falcon/f16_falcon_1112e464.jpg",
+   "category": "aircraft",
+   "variant": "f16_falcon"
+  },
+  {
+   "path": "visual_gallery/aircraft/f16_falcon/f16_falcon_1282ed4c.jpg",
+   "category": "aircraft",
+   "variant": "f16_falcon"
+  },
+  {
+   "path": "visual_gallery/aircraft/f16_falcon/f16_falcon_2f100829.jpg",
+   "category": "aircraft",
+   "variant": "f16_falcon"
+  },
+  {
+   "path": "visual_gallery/aircraft/f16_falcon/f16_falcon_546ee80c.jpg",
+   "category": "aircraft",
+   "variant": "f16_falcon"
+  },
+  {
+   "path": "visual_gallery/aircraft/f16_falcon/f16_falcon_7269f639.jpg",
+   "category": "aircraft",
+   "variant": "f16_falcon"
+  },
+  {
+   "path": "visual_gallery/aircraft/f16_falcon/f16_falcon_8f091978.jpg",
+   "category": "aircraft",
+   "variant": "f16_falcon"
+  },
+  {
+   "path": "visual_gallery/aircraft/f16_falcon/f16_falcon_b8728556.jpg",
+   "category": "aircraft",
+   "variant": "f16_falcon"
+  },
+  {
+   "path": "visual_gallery/aircraft/f16_falcon/f16_falcon_e25b8e28.jpg",
+   "category": "aircraft",
+   "variant": "f16_falcon"
+  },
+  {
+   "path": "visual_gallery/aircraft/f16_falcon/f16_falcon_ef213386.jpg",
+   "category": "aircraft",
+   "variant": "f16_falcon"
+  },
+  {
+   "path": "visual_gallery/aircraft/f16_falcon/f16_falcon_f389c89f.jpg",
+   "category": "aircraft",
+   "variant": "f16_falcon"
+  },
+  {
+   "path": "visual_gallery/aircraft/f18_hornet/confirmed_013.jpg",
+   "category": "aircraft",
+   "variant": "f18_hornet"
+  },
+  {
+   "path": "visual_gallery/aircraft/f18_hornet/confirmed_015.jpg",
+   "category": "aircraft",
+   "variant": "f18_hornet"
+  },
+  {
+   "path": "visual_gallery/aircraft/f18_hornet/f18_hornet_10c1f222.jpg",
+   "category": "aircraft",
+   "variant": "f18_hornet"
+  },
+  {
+   "path": "visual_gallery/aircraft/f18_hornet/f18_hornet_1996b9a6.jpg",
+   "category": "aircraft",
+   "variant": "f18_hornet"
+  },
+  {
+   "path": "visual_gallery/aircraft/f18_hornet/f18_hornet_37e5a444.jpg",
+   "category": "aircraft",
+   "variant": "f18_hornet"
+  },
+  {
+   "path": "visual_gallery/aircraft/f18_hornet/f18_hornet_76db82cf.jpg",
+   "category": "aircraft",
+   "variant": "f18_hornet"
+  },
+  {
+   "path": "visual_gallery/aircraft/f18_hornet/f18_hornet_9e4edec0.jpg",
+   "category": "aircraft",
+   "variant": "f18_hornet"
+  },
+  {
+   "path": "visual_gallery/aircraft/f18_hornet/f18_hornet_b642b065.jpg",
+   "category": "aircraft",
+   "variant": "f18_hornet"
+  },
+  {
+   "path": "visual_gallery/aircraft/f18_hornet/f18_hornet_d0d892a5.jpg",
+   "category": "aircraft",
+   "variant": "f18_hornet"
+  },
+  {
+   "path": "visual_gallery/aircraft/f35_lightning/confirmed_002.jpg",
+   "category": "aircraft",
+   "variant": "f35_lightning"
+  },
+  {
+   "path": "visual_gallery/aircraft/f35_lightning/confirmed_003.jpg",
+   "category": "aircraft",
+   "variant": "f35_lightning"
+  },
+  {
+   "path": "visual_gallery/aircraft/f35_lightning/confirmed_004.jpg",
+   "category": "aircraft",
+   "variant": "f35_lightning"
+  },
+  {
+   "path": "visual_gallery/aircraft/f35_lightning/confirmed_005.jpg",
+   "category": "aircraft",
+   "variant": "f35_lightning"
+  },
+  {
+   "path": "visual_gallery/aircraft/f35_lightning/confirmed_006.jpg",
+   "category": "aircraft",
+   "variant": "f35_lightning"
+  },
+  {
+   "path": "visual_gallery/aircraft/h6/confirmed_003.jpg",
+   "category": "aircraft",
+   "variant": "h6"
+  },
+  {
+   "path": "visual_gallery/aircraft/h6/confirmed_004.jpg",
+   "category": "aircraft",
+   "variant": "h6"
+  },
+  {
+   "path": "visual_gallery/aircraft/h6/confirmed_005.jpg",
+   "category": "aircraft",
+   "variant": "h6"
+  },
+  {
+   "path": "visual_gallery/aircraft/h6/confirmed_007.jpg",
+   "category": "aircraft",
+   "variant": "h6"
+  },
+  {
+   "path": "visual_gallery/aircraft/h6/confirmed_008.jpg",
+   "category": "aircraft",
+   "variant": "h6"
+  },
+  {
+   "path": "visual_gallery/aircraft/h6/confirmed_009.jpg",
+   "category": "aircraft",
+   "variant": "h6"
+  },
+  {
+   "path": "visual_gallery/aircraft/h6/confirmed_011.jpg",
+   "category": "aircraft",
+   "variant": "h6"
+  },
+  {
+   "path": "visual_gallery/aircraft/il76/il76_0a996c03.jpg",
+   "category": "aircraft",
+   "variant": "il76"
+  },
+  {
+   "path": "visual_gallery/aircraft/il76/il76_2279e401.jpg",
+   "category": "aircraft",
+   "variant": "il76"
+  },
+  {
+   "path": "visual_gallery/aircraft/il76/il76_2e85503b.jpg",
+   "category": "aircraft",
+   "variant": "il76"
+  },
+  {
+   "path": "visual_gallery/aircraft/il76/il76_4fdc8cfa.jpg",
+   "category": "aircraft",
+   "variant": "il76"
+  },
+  {
+   "path": "visual_gallery/aircraft/il76/il76_a6e62932.jpg",
+   "category": "aircraft",
+   "variant": "il76"
+  },
+  {
+   "path": "visual_gallery/aircraft/il76/il76_ac700cca.jpg",
+   "category": "aircraft",
+   "variant": "il76"
+  },
+  {
+   "path": "visual_gallery/aircraft/il76/il76_e1a6dfba.jpg",
+   "category": "aircraft",
+   "variant": "il76"
+  },
+  {
+   "path": "visual_gallery/aircraft/mig29/confirmed_001.jpg",
+   "category": "aircraft",
+   "variant": "mig29"
+  },
+  {
+   "path": "visual_gallery/aircraft/mig29/confirmed_003.jpg",
+   "category": "aircraft",
+   "variant": "mig29"
+  },
+  {
+   "path": "visual_gallery/aircraft/mig29/confirmed_005.jpg",
+   "category": "aircraft",
+   "variant": "mig29"
+  },
+  {
+   "path": "visual_gallery/aircraft/mig29/confirmed_006.jpg",
+   "category": "aircraft",
+   "variant": "mig29"
+  },
+  {
+   "path": "visual_gallery/aircraft/mig29/confirmed_007.jpg",
+   "category": "aircraft",
+   "variant": "mig29"
+  },
+  {
+   "path": "visual_gallery/aircraft/mig29/confirmed_008.jpg",
+   "category": "aircraft",
+   "variant": "mig29"
+  },
+  {
+   "path": "visual_gallery/aircraft/mig29/confirmed_009.jpg",
+   "category": "aircraft",
+   "variant": "mig29"
+  },
+  {
+   "path": "visual_gallery/aircraft/su25_frogfoot/su25_frogfoot_218c1509.jpg",
+   "category": "aircraft",
+   "variant": "su25_frogfoot"
+  },
+  {
+   "path": "visual_gallery/aircraft/su25_frogfoot/su25_frogfoot_5ec9a82a.jpg",
+   "category": "aircraft",
+   "variant": "su25_frogfoot"
+  },
+  {
+   "path": "visual_gallery/aircraft/su25_frogfoot/su25_frogfoot_cd78baae.jpg",
+   "category": "aircraft",
+   "variant": "su25_frogfoot"
+  },
+  {
+   "path": "visual_gallery/aircraft/su25_frogfoot/su25_frogfoot_e574a691.jpg",
+   "category": "aircraft",
+   "variant": "su25_frogfoot"
+  },
+  {
+   "path": "visual_gallery/aircraft/su25_frogfoot/su25_frogfoot_ef09e37d.jpg",
+   "category": "aircraft",
+   "variant": "su25_frogfoot"
+  },
+  {
+   "path": "visual_gallery/aircraft/su25_frogfoot/su25_frogfoot_f12a15d7.jpg",
+   "category": "aircraft",
+   "variant": "su25_frogfoot"
+  },
+  {
+   "path": "visual_gallery/aircraft/su25_frogfoot/su25_frogfoot_fad7ea83.jpg",
+   "category": "aircraft",
+   "variant": "su25_frogfoot"
+  },
+  {
+   "path": "visual_gallery/aircraft/su34_fullback/confirmed_001.jpg",
+   "category": "aircraft",
+   "variant": "su34_fullback"
+  },
+  {
+   "path": "visual_gallery/aircraft/su34_fullback/confirmed_002.jpg",
+   "category": "aircraft",
+   "variant": "su34_fullback"
+  },
+  {
+   "path": "visual_gallery/aircraft/su34_fullback/confirmed_003.jpg",
+   "category": "aircraft",
+   "variant": "su34_fullback"
+  },
+  {
+   "path": "visual_gallery/aircraft/su34_fullback/su34_fullback_55763959.jpg",
+   "category": "aircraft",
+   "variant": "su34_fullback"
+  },
+  {
+   "path": "visual_gallery/aircraft/su34_fullback/su34_fullback_71a845a8.jpg",
+   "category": "aircraft",
+   "variant": "su34_fullback"
+  },
+  {
+   "path": "visual_gallery/aircraft/su34_fullback/su34_fullback_824d0a1c.jpg",
+   "category": "aircraft",
+   "variant": "su34_fullback"
+  },
+  {
+   "path": "visual_gallery/aircraft/su34_fullback/su34_fullback_d49cdf8f.jpg",
+   "category": "aircraft",
+   "variant": "su34_fullback"
+  },
+  {
+   "path": "visual_gallery/aircraft/su34_fullback/su34_fullback_fa3573e2.jpg",
+   "category": "aircraft",
+   "variant": "su34_fullback"
+  },
+  {
+   "path": "visual_gallery/aircraft/tu95/confirmed_007.jpg",
+   "category": "aircraft",
+   "variant": "tu95"
+  },
+  {
+   "path": "visual_gallery/aircraft/tu95/confirmed_008.jpg",
+   "category": "aircraft",
+   "variant": "tu95"
+  },
+  {
+   "path": "visual_gallery/aircraft/tu95/tu95_00fc3c5d.jpg",
+   "category": "aircraft",
+   "variant": "tu95"
+  },
+  {
+   "path": "visual_gallery/aircraft/tu95/tu95_0544dbb1.jpg",
+   "category": "aircraft",
+   "variant": "tu95"
+  },
+  {
+   "path": "visual_gallery/aircraft/tu95/tu95_20c0d5e8.jpg",
+   "category": "aircraft",
+   "variant": "tu95"
+  },
+  {
+   "path": "visual_gallery/aircraft/tu95/tu95_67ca325f.jpg",
+   "category": "aircraft",
+   "variant": "tu95"
+  },
+  {
+   "path": "visual_gallery/aircraft/tu95/tu95_ac9b3d91.jpg",
+   "category": "aircraft",
+   "variant": "tu95"
+  },
+  {
+   "path": "visual_gallery/aircraft/tu95/tu95_d4fdd639.jpg",
+   "category": "aircraft",
+   "variant": "tu95"
+  },
+  {
+   "path": "visual_gallery/aircraft/tu95/tu95_ef44e628.jpg",
+   "category": "aircraft",
+   "variant": "tu95"
+  },
+  {
+   "path": "visual_gallery/aircraft/tu95/tu95_fe42d56e.jpg",
+   "category": "aircraft",
+   "variant": "tu95"
+  },
+  {
+   "path": "visual_gallery/artillery/2s19_msta/2s19_msta_10bba62d.jpg",
+   "category": "artillery",
+   "variant": "2s19_msta"
+  },
+  {
+   "path": "visual_gallery/artillery/2s19_msta/2s19_msta_2.jpg",
+   "category": "artillery",
+   "variant": "2s19_msta"
+  },
+  {
+   "path": "visual_gallery/artillery/2s19_msta/2s19_msta_2133b280.jpg",
+   "category": "artillery",
+   "variant": "2s19_msta"
+  },
+  {
+   "path": "visual_gallery/artillery/2s19_msta/2s19_msta_5e57be2e.jpg",
+   "category": "artillery",
+   "variant": "2s19_msta"
+  },
+  {
+   "path": "visual_gallery/artillery/2s19_msta/2s19_msta_7c4ed683.jpg",
+   "category": "artillery",
+   "variant": "2s19_msta"
+  },
+  {
+   "path": "visual_gallery/artillery/2s19_msta/2s19_msta_a1c118b5.jpg",
+   "category": "artillery",
+   "variant": "2s19_msta"
+  },
+  {
+   "path": "visual_gallery/artillery/2s19_msta/2s19_msta_bddb8b9c.jpg",
+   "category": "artillery",
+   "variant": "2s19_msta"
+  },
+  {
+   "path": "visual_gallery/artillery/2s19_msta/2s19_msta_d7606e1d.jpg",
+   "category": "artillery",
+   "variant": "2s19_msta"
+  },
+  {
+   "path": "visual_gallery/artillery/2s35_koalitsiya/2s35_koalitsiya_1c994602.jpg",
+   "category": "artillery",
+   "variant": "2s35_koalitsiya"
+  },
+  {
+   "path": "visual_gallery/artillery/2s35_koalitsiya/2s35_koalitsiya_727a6055.jpg",
+   "category": "artillery",
+   "variant": "2s35_koalitsiya"
+  },
+  {
+   "path": "visual_gallery/artillery/bm21_grad/bm21_grad_11bad38c.jpg",
+   "category": "artillery",
+   "variant": "bm21_grad"
+  },
+  {
+   "path": "visual_gallery/artillery/bm21_grad/bm21_grad_13c353bd.jpg",
+   "category": "artillery",
+   "variant": "bm21_grad"
+  },
+  {
+   "path": "visual_gallery/artillery/bm21_grad/bm21_grad_17a0cac3.jpg",
+   "category": "artillery",
+   "variant": "bm21_grad"
+  },
+  {
+   "path": "visual_gallery/artillery/bm21_grad/bm21_grad_3c170e83.jpg",
+   "category": "artillery",
+   "variant": "bm21_grad"
+  },
+  {
+   "path": "visual_gallery/artillery/bm21_grad/bm21_grad_4083c5c8.jpg",
+   "category": "artillery",
+   "variant": "bm21_grad"
+  },
+  {
+   "path": "visual_gallery/artillery/bm21_grad/bm21_grad_5a097c22.jpg",
+   "category": "artillery",
+   "variant": "bm21_grad"
+  },
+  {
+   "path": "visual_gallery/artillery/bm21_grad/bm21_grad_9ba2f7c2.jpg",
+   "category": "artillery",
+   "variant": "bm21_grad"
+  },
+  {
+   "path": "visual_gallery/artillery/bm21_grad/bm21_grad_ada857de.jpg",
+   "category": "artillery",
+   "variant": "bm21_grad"
+  },
+  {
+   "path": "visual_gallery/artillery/bm21_grad/bm21_grad_ed0d49ba.jpg",
+   "category": "artillery",
+   "variant": "bm21_grad"
+  },
+  {
+   "path": "visual_gallery/artillery/bm21_grad/bm21_grad_ef5b2436.jpg",
+   "category": "artillery",
+   "variant": "bm21_grad"
+  },
+  {
+   "path": "visual_gallery/artillery/bm21_grad/bm21_grad_ff51c5f0.jpg",
+   "category": "artillery",
+   "variant": "bm21_grad"
+  },
+  {
+   "path": "visual_gallery/artillery/caesar/caesar_31c2df28.jpg",
+   "category": "artillery",
+   "variant": "caesar"
+  },
+  {
+   "path": "visual_gallery/artillery/caesar/caesar_3662641b.jpg",
+   "category": "artillery",
+   "variant": "caesar"
+  },
+  {
+   "path": "visual_gallery/artillery/caesar/caesar_80e9090d.jpg",
+   "category": "artillery",
+   "variant": "caesar"
+  },
+  {
+   "path": "visual_gallery/artillery/caesar/caesar_8a531cad.jpg",
+   "category": "artillery",
+   "variant": "caesar"
+  },
+  {
+   "path": "visual_gallery/artillery/caesar/confirmed_003.jpg",
+   "category": "artillery",
+   "variant": "caesar"
+  },
+  {
+   "path": "visual_gallery/artillery/caesar/confirmed_004.jpg",
+   "category": "artillery",
+   "variant": "caesar"
+  },
+  {
+   "path": "visual_gallery/artillery/caesar/confirmed_005.jpg",
+   "category": "artillery",
+   "variant": "caesar"
+  },
+  {
+   "path": "visual_gallery/artillery/caesar/confirmed_007.jpg",
+   "category": "artillery",
+   "variant": "caesar"
+  },
+  {
+   "path": "visual_gallery/artillery/caesar/confirmed_008.jpg",
+   "category": "artillery",
+   "variant": "caesar"
+  },
+  {
+   "path": "visual_gallery/artillery/k9_thunder/k9_thunder_06b63de5.jpg",
+   "category": "artillery",
+   "variant": "k9_thunder"
+  },
+  {
+   "path": "visual_gallery/artillery/k9_thunder/k9_thunder_40eec148.jpg",
+   "category": "artillery",
+   "variant": "k9_thunder"
+  },
+  {
+   "path": "visual_gallery/artillery/k9_thunder/k9_thunder_441ca960.jpg",
+   "category": "artillery",
+   "variant": "k9_thunder"
+  },
+  {
+   "path": "visual_gallery/artillery/k9_thunder/k9_thunder_9f94d95e.jpg",
+   "category": "artillery",
+   "variant": "k9_thunder"
+  },
+  {
+   "path": "visual_gallery/artillery/k9_thunder/k9_thunder_a92aa438.jpg",
+   "category": "artillery",
+   "variant": "k9_thunder"
+  },
+  {
+   "path": "visual_gallery/artillery/k9_thunder/k9_thunder_bac1569a.jpg",
+   "category": "artillery",
+   "variant": "k9_thunder"
+  },
+  {
+   "path": "visual_gallery/artillery/k9_thunder/k9_thunder_d4a59b6e.jpg",
+   "category": "artillery",
+   "variant": "k9_thunder"
+  },
+  {
+   "path": "visual_gallery/artillery/k9_thunder/k9_thunder_df5bc452.jpg",
+   "category": "artillery",
+   "variant": "k9_thunder"
+  },
+  {
+   "path": "visual_gallery/artillery/k9_thunder/k9_thunder_e8160a27.jpg",
+   "category": "artillery",
+   "variant": "k9_thunder"
+  },
+  {
+   "path": "visual_gallery/artillery/m109_howitzer/m109_howitzer_32da5da3.jpg",
+   "category": "artillery",
+   "variant": "m109_howitzer"
+  },
+  {
+   "path": "visual_gallery/artillery/m109_howitzer/m109_howitzer_513871dc.jpg",
+   "category": "artillery",
+   "variant": "m109_howitzer"
+  },
+  {
+   "path": "visual_gallery/artillery/m109_howitzer/m109_howitzer_76948088.jpg",
+   "category": "artillery",
+   "variant": "m109_howitzer"
+  },
+  {
+   "path": "visual_gallery/artillery/m109_howitzer/m109_howitzer_8d7472bd.jpg",
+   "category": "artillery",
+   "variant": "m109_howitzer"
+  },
+  {
+   "path": "visual_gallery/artillery/m109_howitzer/m109_howitzer_9e10e208.jpg",
+   "category": "artillery",
+   "variant": "m109_howitzer"
+  },
+  {
+   "path": "visual_gallery/artillery/m109_howitzer/m109_howitzer_c1081b1b.jpg",
+   "category": "artillery",
+   "variant": "m109_howitzer"
+  },
+  {
+   "path": "visual_gallery/artillery/m109_howitzer/m109_howitzer_c8901895.jpg",
+   "category": "artillery",
+   "variant": "m109_howitzer"
+  },
+  {
+   "path": "visual_gallery/artillery/m109_howitzer/m109_howitzer_ce2e82d9.jpg",
+   "category": "artillery",
+   "variant": "m109_howitzer"
+  },
+  {
+   "path": "visual_gallery/artillery/m109_howitzer/m109_howitzer_e0ee6717.jpg",
+   "category": "artillery",
+   "variant": "m109_howitzer"
+  },
+  {
+   "path": "visual_gallery/artillery/m142_himars/m142_himars_08ca788c.jpg",
+   "category": "artillery",
+   "variant": "m142_himars"
+  },
+  {
+   "path": "visual_gallery/artillery/m142_himars/m142_himars_1873344c.jpg",
+   "category": "artillery",
+   "variant": "m142_himars"
+  },
+  {
+   "path": "visual_gallery/artillery/m142_himars/m142_himars_1fb8ce68.jpg",
+   "category": "artillery",
+   "variant": "m142_himars"
+  },
+  {
+   "path": "visual_gallery/artillery/m142_himars/m142_himars_306fbf52.jpg",
+   "category": "artillery",
+   "variant": "m142_himars"
+  },
+  {
+   "path": "visual_gallery/artillery/m142_himars/m142_himars_533c7146.jpg",
+   "category": "artillery",
+   "variant": "m142_himars"
+  },
+  {
+   "path": "visual_gallery/artillery/m142_himars/m142_himars_8ee788c7.jpg",
+   "category": "artillery",
+   "variant": "m142_himars"
+  },
+  {
+   "path": "visual_gallery/artillery/m142_himars/m142_himars_9fe2422f.jpg",
+   "category": "artillery",
+   "variant": "m142_himars"
+  },
+  {
+   "path": "visual_gallery/artillery/m142_himars/m142_himars_a17cb4a0.jpg",
+   "category": "artillery",
+   "variant": "m142_himars"
+  },
+  {
+   "path": "visual_gallery/artillery/m142_himars/m142_himars_a1a03b97.jpg",
+   "category": "artillery",
+   "variant": "m142_himars"
+  },
+  {
+   "path": "visual_gallery/artillery/m142_himars/m142_himars_b499131d.jpg",
+   "category": "artillery",
+   "variant": "m142_himars"
+  },
+  {
+   "path": "visual_gallery/artillery/m270_mlrs/m270_mlrs_04022bb1.jpg",
+   "category": "artillery",
+   "variant": "m270_mlrs"
+  },
+  {
+   "path": "visual_gallery/artillery/m270_mlrs/m270_mlrs_2.jpg",
+   "category": "artillery",
+   "variant": "m270_mlrs"
+  },
+  {
+   "path": "visual_gallery/artillery/m270_mlrs/m270_mlrs_7c705394.jpg",
+   "category": "artillery",
+   "variant": "m270_mlrs"
+  },
+  {
+   "path": "visual_gallery/artillery/m270_mlrs/m270_mlrs_c874c95a.jpg",
+   "category": "artillery",
+   "variant": "m270_mlrs"
+  },
+  {
+   "path": "visual_gallery/artillery/m270_mlrs/m270_mlrs_d0f4c2f5.jpg",
+   "category": "artillery",
+   "variant": "m270_mlrs"
+  },
+  {
+   "path": "visual_gallery/artillery/m270_mlrs/m270_mlrs_d716c5b4.jpg",
+   "category": "artillery",
+   "variant": "m270_mlrs"
+  },
+  {
+   "path": "visual_gallery/artillery/m270_mlrs/m270_mlrs_d790b5de.jpg",
+   "category": "artillery",
+   "variant": "m270_mlrs"
+  },
+  {
+   "path": "visual_gallery/artillery/m270_mlrs/m270_mlrs_da2291c5.jpg",
+   "category": "artillery",
+   "variant": "m270_mlrs"
+  },
+  {
+   "path": "visual_gallery/artillery/pzh2000/pzh2000_51867f18.jpg",
+   "category": "artillery",
+   "variant": "pzh2000"
+  },
+  {
+   "path": "visual_gallery/artillery/pzh2000/pzh2000_52311a17.jpg",
+   "category": "artillery",
+   "variant": "pzh2000"
+  },
+  {
+   "path": "visual_gallery/artillery/pzh2000/pzh2000_61c6553f.jpg",
+   "category": "artillery",
+   "variant": "pzh2000"
+  },
+  {
+   "path": "visual_gallery/artillery/pzh2000/pzh2000_6650a6cd.jpg",
+   "category": "artillery",
+   "variant": "pzh2000"
+  },
+  {
+   "path": "visual_gallery/artillery/pzh2000/pzh2000_6c27e582.jpg",
+   "category": "artillery",
+   "variant": "pzh2000"
+  },
+  {
+   "path": "visual_gallery/artillery/pzh2000/pzh2000_84f1d1e7.jpg",
+   "category": "artillery",
+   "variant": "pzh2000"
+  },
+  {
+   "path": "visual_gallery/artillery/pzh2000/pzh2000_8897868a.jpg",
+   "category": "artillery",
+   "variant": "pzh2000"
+  },
+  {
+   "path": "visual_gallery/artillery/pzh2000/pzh2000_bc6962fa.jpg",
+   "category": "artillery",
+   "variant": "pzh2000"
+  },
+  {
+   "path": "visual_gallery/artillery/pzh2000/pzh2000_dd1cc533.jpg",
+   "category": "artillery",
+   "variant": "pzh2000"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/Screenshot 2026-09-28 134845.png",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/Screenshot 2026-09-28 134902.png",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/Screenshot 2026-09-28 134922.png",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/Screenshot 2026-09-28 134942.png",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/Screenshot 2026-09-28 135027.png",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/Screenshot 2026-09-28 135038.png",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/ababil_73f4b487.jpg",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/confirmed_009.jpg",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/confirmed_010.jpg",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/confirmed_012.jpg",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/confirmed_019.jpg",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/confirmed_021.jpg",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/anka/anka_53957073.jpg",
+   "category": "drone",
+   "variant": "anka"
+  },
+  {
+   "path": "visual_gallery/drone/anka/anka_571c9c11.jpg",
+   "category": "drone",
+   "variant": "anka"
+  },
+  {
+   "path": "visual_gallery/drone/anka/anka_6561f47b.jpg",
+   "category": "drone",
+   "variant": "anka"
+  },
+  {
+   "path": "visual_gallery/drone/anka/anka_abc545a2.jpg",
+   "category": "drone",
+   "variant": "anka"
+  },
+  {
+   "path": "visual_gallery/drone/anka/anka_c66b3e97.jpg",
+   "category": "drone",
+   "variant": "anka"
+  },
+  {
+   "path": "visual_gallery/drone/bayraktar_tb2/Screenshot 2026-09-28 135809.png",
+   "category": "drone",
+   "variant": "bayraktar_tb2"
+  },
+  {
+   "path": "visual_gallery/drone/bayraktar_tb2/Screenshot 2026-09-28 135833.png",
+   "category": "drone",
+   "variant": "bayraktar_tb2"
+  },
+  {
+   "path": "visual_gallery/drone/bayraktar_tb2/Screenshot 2026-09-28 140327.png",
+   "category": "drone",
+   "variant": "bayraktar_tb2"
+  },
+  {
+   "path": "visual_gallery/drone/bayraktar_tb2/Screenshot 2026-09-28 140354.png",
+   "category": "drone",
+   "variant": "bayraktar_tb2"
+  },
+  {
+   "path": "visual_gallery/drone/bayraktar_tb2/Screenshot 2026-09-28 140412.png",
+   "category": "drone",
+   "variant": "bayraktar_tb2"
+  },
+  {
+   "path": "visual_gallery/drone/bayraktar_tb2/Screenshot 2026-09-28 140435.png",
+   "category": "drone",
+   "variant": "bayraktar_tb2"
+  },
+  {
+   "path": "visual_gallery/drone/bayraktar_tb2/Screenshot 2026-09-28 140443.png",
+   "category": "drone",
+   "variant": "bayraktar_tb2"
+  },
+  {
+   "path": "visual_gallery/drone/bayraktar_tb2/Screenshot 2026-09-28 140458.png",
+   "category": "drone",
+   "variant": "bayraktar_tb2"
+  },
+  {
+   "path": "visual_gallery/drone/bayraktar_tb2/Screenshot 2026-09-28 140524.png",
+   "category": "drone",
+   "variant": "bayraktar_tb2"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/Screenshot 2026-09-28 141030.png",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/Screenshot 2026-09-28 141041.png",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/Screenshot 2026-09-28 141112.png",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/Screenshot 2026-09-28 141122.png",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/Screenshot 2026-09-28 141141.png",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/confirmed_013.jpg",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/confirmed_015.jpg",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/confirmed_020.jpg",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/confirmed_021.jpg",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/confirmed_024.jpg",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/confirmed_026.jpg",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/confirmed_029.jpg",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/Screenshot 2026-09-28 142144.png",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/Screenshot 2026-09-28 142603.png",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/Screenshot 2026-09-28 142611.png",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/Screenshot 2026-09-28 142621.png",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/Screenshot 2026-09-28 142641.png",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/confirmed_008.jpg",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/confirmed_009.jpg",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/confirmed_010.jpg",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/confirmed_013.jpg",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/confirmed_015.jpg",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/confirmed_016.jpg",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/confirmed_017.jpg",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/fpv_kamikaze_aze/Screenshot 2026-09-28 143228.png",
+   "category": "drone",
+   "variant": "fpv_kamikaze_aze"
+  },
+  {
+   "path": "visual_gallery/drone/fpv_kamikaze_aze/Screenshot 2026-09-28 143235.png",
+   "category": "drone",
+   "variant": "fpv_kamikaze_aze"
+  },
+  {
+   "path": "visual_gallery/drone/fpv_kamikaze_aze/Screenshot 2026-09-28 143249.png",
+   "category": "drone",
+   "variant": "fpv_kamikaze_aze"
+  },
+  {
+   "path": "visual_gallery/drone/fpv_kamikaze_aze/confirmed_006.jpg",
+   "category": "drone",
+   "variant": "fpv_kamikaze_aze"
+  },
+  {
+   "path": "visual_gallery/drone/fpv_kamikaze_aze/confirmed_007.jpg",
+   "category": "drone",
+   "variant": "fpv_kamikaze_aze"
+  },
+  {
+   "path": "visual_gallery/drone/fpv_kamikaze_aze/confirmed_008.jpg",
+   "category": "drone",
+   "variant": "fpv_kamikaze_aze"
+  },
+  {
+   "path": "visual_gallery/drone/fpv_kamikaze_aze/confirmed_009.jpg",
+   "category": "drone",
+   "variant": "fpv_kamikaze_aze"
+  },
+  {
+   "path": "visual_gallery/drone/fpv_kamikaze_aze/confirmed_011.jpg",
+   "category": "drone",
+   "variant": "fpv_kamikaze_aze"
+  },
+  {
+   "path": "visual_gallery/drone/fpv_kamikaze_aze/confirmed_012.jpg",
+   "category": "drone",
+   "variant": "fpv_kamikaze_aze"
+  },
+  {
+   "path": "visual_gallery/drone/harop/Screenshot 2026-09-28 143826.png",
+   "category": "drone",
+   "variant": "harop"
+  },
+  {
+   "path": "visual_gallery/drone/harop/Screenshot 2026-09-28 143851.png",
+   "category": "drone",
+   "variant": "harop"
+  },
+  {
+   "path": "visual_gallery/drone/harop/Screenshot 2026-09-28 143903.png",
+   "category": "drone",
+   "variant": "harop"
+  },
+  {
+   "path": "visual_gallery/drone/harop/Screenshot 2026-09-28 143913.png",
+   "category": "drone",
+   "variant": "harop"
+  },
+  {
+   "path": "visual_gallery/drone/harop/Screenshot 2026-09-28 144008.png",
+   "category": "drone",
+   "variant": "harop"
+  },
+  {
+   "path": "visual_gallery/drone/harop/confirmed_008.jpg",
+   "category": "drone",
+   "variant": "harop"
+  },
+  {
+   "path": "visual_gallery/drone/harop/confirmed_009.jpg",
+   "category": "drone",
+   "variant": "harop"
+  },
+  {
+   "path": "visual_gallery/drone/harop/confirmed_010.jpg",
+   "category": "drone",
+   "variant": "harop"
+  },
+  {
+   "path": "visual_gallery/drone/harop/confirmed_011.jpg",
+   "category": "drone",
+   "variant": "harop"
+  },
+  {
+   "path": "visual_gallery/drone/heron_tp/Screenshot 2026-09-28 144749.png",
+   "category": "drone",
+   "variant": "heron_tp"
+  },
+  {
+   "path": "visual_gallery/drone/heron_tp/Screenshot 2026-09-28 144803.png",
+   "category": "drone",
+   "variant": "heron_tp"
+  },
+  {
+   "path": "visual_gallery/drone/heron_tp/Screenshot 2026-09-28 144918.png",
+   "category": "drone",
+   "variant": "heron_tp"
+  },
+  {
+   "path": "visual_gallery/drone/heron_tp/Screenshot 2026-09-28 144927.png",
+   "category": "drone",
+   "variant": "heron_tp"
+  },
+  {
+   "path": "visual_gallery/drone/heron_tp/Screenshot 2026-09-28 144941.png",
+   "category": "drone",
+   "variant": "heron_tp"
+  },
+  {
+   "path": "visual_gallery/drone/heron_tp/heron_tp_f4d40738.jpg",
+   "category": "drone",
+   "variant": "heron_tp"
+  },
+  {
+   "path": "visual_gallery/drone/heron_tp/heron_tp_fc579f28.jpg",
+   "category": "drone",
+   "variant": "heron_tp"
+  },
+  {
+   "path": "visual_gallery/drone/mq9_reaper/mq9_reaper_139b71f9.jpg",
+   "category": "drone",
+   "variant": "mq9_reaper"
+  },
+  {
+   "path": "visual_gallery/drone/mq9_reaper/mq9_reaper_187cc1b4.jpg",
+   "category": "drone",
+   "variant": "mq9_reaper"
+  },
+  {
+   "path": "visual_gallery/drone/mq9_reaper/mq9_reaper_203c7f12.jpg",
+   "category": "drone",
+   "variant": "mq9_reaper"
+  },
+  {
+   "path": "visual_gallery/drone/mq9_reaper/mq9_reaper_293bea57.jpg",
+   "category": "drone",
+   "variant": "mq9_reaper"
+  },
+  {
+   "path": "visual_gallery/drone/mq9_reaper/mq9_reaper_499eb4fb.jpg",
+   "category": "drone",
+   "variant": "mq9_reaper"
+  },
+  {
+   "path": "visual_gallery/drone/mq9_reaper/mq9_reaper_687e97b5.jpg",
+   "category": "drone",
+   "variant": "mq9_reaper"
+  },
+  {
+   "path": "visual_gallery/drone/mq9_reaper/mq9_reaper_82a9b365.jpg",
+   "category": "drone",
+   "variant": "mq9_reaper"
+  },
+  {
+   "path": "visual_gallery/drone/mq9_reaper/mq9_reaper_adb17dba.jpg",
+   "category": "drone",
+   "variant": "mq9_reaper"
+  },
+  {
+   "path": "visual_gallery/drone/mq9_reaper/mq9_reaper_b03e18a8.jpg",
+   "category": "drone",
+   "variant": "mq9_reaper"
+  },
+  {
+   "path": "visual_gallery/drone/mq9_reaper/mq9_reaper_f441a951.jpg",
+   "category": "drone",
+   "variant": "mq9_reaper"
+  },
+  {
+   "path": "visual_gallery/drone/mq9_reaper/mq9_reaper_f5b34ab7.jpg",
+   "category": "drone",
+   "variant": "mq9_reaper"
+  },
+  {
+   "path": "visual_gallery/drone/orlan_10/orlan_10_a3709692.jpg",
+   "category": "drone",
+   "variant": "orlan_10"
+  },
+  {
+   "path": "visual_gallery/drone/rq1_predator/rq1_predator_22a7e00c.jpg",
+   "category": "drone",
+   "variant": "rq1_predator"
+  },
+  {
+   "path": "visual_gallery/drone/rq4_global_hawk/Screenshot 2026-09-28 160907.png",
+   "category": "drone",
+   "variant": "rq4_global_hawk"
+  },
+  {
+   "path": "visual_gallery/drone/rq4_global_hawk/Screenshot 2026-09-28 160921.png",
+   "category": "drone",
+   "variant": "rq4_global_hawk"
+  },
+  {
+   "path": "visual_gallery/drone/rq4_global_hawk/Screenshot 2026-09-28 160953.png",
+   "category": "drone",
+   "variant": "rq4_global_hawk"
+  },
+  {
+   "path": "visual_gallery/drone/rq4_global_hawk/Screenshot 2026-09-28 161009.png",
+   "category": "drone",
+   "variant": "rq4_global_hawk"
+  },
+  {
+   "path": "visual_gallery/drone/rq4_global_hawk/confirmed_007.jpg",
+   "category": "drone",
+   "variant": "rq4_global_hawk"
+  },
+  {
+   "path": "visual_gallery/drone/rq4_global_hawk/confirmed_009.jpg",
+   "category": "drone",
+   "variant": "rq4_global_hawk"
+  },
+  {
+   "path": "visual_gallery/drone/rq4_global_hawk/confirmed_010.jpg",
+   "category": "drone",
+   "variant": "rq4_global_hawk"
+  },
+  {
+   "path": "visual_gallery/drone/shahed_136/shahed_136_8aa2f08e.jpg",
+   "category": "drone",
+   "variant": "shahed_136"
+  },
+  {
+   "path": "visual_gallery/drone/wing_loong/wing_loong_2ae90fd9.jpg",
+   "category": "drone",
+   "variant": "wing_loong"
+  },
+  {
+   "path": "visual_gallery/drone/wing_loong/wing_loong_6a1645f1.jpg",
+   "category": "drone",
+   "variant": "wing_loong"
+  },
+  {
+   "path": "visual_gallery/drone/wing_loong/wing_loong_f9f22dbc.jpg",
+   "category": "drone",
+   "variant": "wing_loong"
+  },
+  {
+   "path": "visual_gallery/drone/zala_lancet/zala_lancet_0950f0a7.jpg",
+   "category": "drone",
+   "variant": "zala_lancet"
+  },
+  {
+   "path": "visual_gallery/helicopter/a129_mangusta/Screenshot 2026-09-30 145850.png",
+   "category": "helicopter",
+   "variant": "a129_mangusta"
+  },
+  {
+   "path": "visual_gallery/helicopter/a129_mangusta/Screenshot 2026-09-30 145950.png",
+   "category": "helicopter",
+   "variant": "a129_mangusta"
+  },
+  {
+   "path": "visual_gallery/helicopter/a129_mangusta/Screenshot 2026-10-01 135808.png",
+   "category": "helicopter",
+   "variant": "a129_mangusta"
+  },
+  {
+   "path": "visual_gallery/helicopter/a129_mangusta/Screenshot 2026-10-01 135827.png",
+   "category": "helicopter",
+   "variant": "a129_mangusta"
+  },
+  {
+   "path": "visual_gallery/helicopter/a129_mangusta/Screenshot 2026-10-01 135920.png",
+   "category": "helicopter",
+   "variant": "a129_mangusta"
+  },
+  {
+   "path": "visual_gallery/helicopter/a129_mangusta/Screenshot 2026-10-01 135934.png",
+   "category": "helicopter",
+   "variant": "a129_mangusta"
+  },
+  {
+   "path": "visual_gallery/helicopter/a129_mangusta/a129_mangusta_9283bc49.jpg",
+   "category": "helicopter",
+   "variant": "a129_mangusta"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 140834.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 151030.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 151102.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 151220.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 151233.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 151244.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 151253.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 151301.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 151318.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 151328.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 151359.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 151413.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 151425.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150416.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150426.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150443.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150508.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150518.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150527.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150536.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150621.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150630.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150639.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150648.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150655.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 151706.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152053.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152105.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152117.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152126.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152138.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152152.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152204.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152229.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152310.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152319.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152333.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152342.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152401.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152409.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152420.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152430.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah6_little_bird/Screenshot 2026-10-01 143227.png",
+   "category": "helicopter",
+   "variant": "ah6_little_bird"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah6_little_bird/Screenshot 2026-10-01 143237.png",
+   "category": "helicopter",
+   "variant": "ah6_little_bird"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah6_little_bird/Screenshot 2026-10-01 143248.png",
+   "category": "helicopter",
+   "variant": "ah6_little_bird"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah6_little_bird/Screenshot 2026-10-01 143257.png",
+   "category": "helicopter",
+   "variant": "ah6_little_bird"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah6_little_bird/Screenshot 2026-10-01 143306.png",
+   "category": "helicopter",
+   "variant": "ah6_little_bird"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah6_little_bird/Screenshot 2026-10-01 143401.png",
+   "category": "helicopter",
+   "variant": "ah6_little_bird"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah6_little_bird/Screenshot 2026-10-01 143551.png",
+   "category": "helicopter",
+   "variant": "ah6_little_bird"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah6_little_bird/Screenshot 2026-10-01 143610.png",
+   "category": "helicopter",
+   "variant": "ah6_little_bird"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah6_little_bird/Screenshot 2026-10-01 143625.png",
+   "category": "helicopter",
+   "variant": "ah6_little_bird"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw101_merlin/aw101-merlin_000.png",
+   "category": "helicopter",
+   "variant": "aw101_merlin"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw101_merlin/aw101-merlin_001.png",
+   "category": "helicopter",
+   "variant": "aw101_merlin"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw101_merlin/aw101-merlin_004.png",
+   "category": "helicopter",
+   "variant": "aw101_merlin"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw101_merlin/aw101-merlin_005.png",
+   "category": "helicopter",
+   "variant": "aw101_merlin"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw101_merlin/aw101-merlin_006.png",
+   "category": "helicopter",
+   "variant": "aw101_merlin"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw101_merlin/aw101-merlin_007.png",
+   "category": "helicopter",
+   "variant": "aw101_merlin"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw101_merlin/aw101-merlin_009.png",
+   "category": "helicopter",
+   "variant": "aw101_merlin"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw101_merlin/aw101-merlin_010.png",
+   "category": "helicopter",
+   "variant": "aw101_merlin"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw101_merlin/aw101_merlin_83d23d64.jpg",
+   "category": "helicopter",
+   "variant": "aw101_merlin"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_000.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_001.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_002.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_003.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_004.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_005.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_007.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_008.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_009.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_010.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_013.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_1ea7c184.jpg",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_001.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_002.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_003.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_005.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_006.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_007.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_008.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_009.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_010.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_013.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_014.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_015.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_018.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_019.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_000.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_002.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_003.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_004.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_007.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_008.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_009.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_010.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_012.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_013.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_015.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_017.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_018.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_019.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_000.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_001.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_002.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_003.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_005.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_006.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_007.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_009.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_010.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_011.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_012.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_015.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/ship/ins_vikrant/ins_vikrant_2a9b49e7.jpg",
+   "category": "ship",
+   "variant": "ins_vikrant"
+  },
+  {
+   "path": "visual_gallery/ship/uss_gerald_r_ford/uss_gerald_r_ford_e0fee33c.jpg",
+   "category": "ship",
+   "variant": "uss_gerald_r_ford"
+  },
+  {
+   "path": "visual_gallery/tank/altay/Screenshot 2026-09-28 134010.png",
+   "category": "tank",
+   "variant": "altay"
+  },
+  {
+   "path": "visual_gallery/tank/altay/Screenshot 2026-09-28 134210.png",
+   "category": "tank",
+   "variant": "altay"
+  },
+  {
+   "path": "visual_gallery/tank/altay/Screenshot 2026-09-28 134302.png",
+   "category": "tank",
+   "variant": "altay"
+  },
+  {
+   "path": "visual_gallery/tank/altay/Screenshot 2026-09-28 134413.png",
+   "category": "tank",
+   "variant": "altay"
+  },
+  {
+   "path": "visual_gallery/tank/altay/Screenshot 2026-09-28 134418.png",
+   "category": "tank",
+   "variant": "altay"
+  },
+  {
+   "path": "visual_gallery/tank/altay/confirmed_009.jpg",
+   "category": "tank",
+   "variant": "altay"
+  },
+  {
+   "path": "visual_gallery/tank/altay/confirmed_012.jpg",
+   "category": "tank",
+   "variant": "altay"
+  },
+  {
+   "path": "visual_gallery/tank/ariete/ariete_3f713920.jpg",
+   "category": "tank",
+   "variant": "ariete"
+  },
+  {
+   "path": "visual_gallery/tank/ariete/ariete_468440f2.jpg",
+   "category": "tank",
+   "variant": "ariete"
+  },
+  {
+   "path": "visual_gallery/tank/ariete/ariete_c0eca779.jpg",
+   "category": "tank",
+   "variant": "ariete"
+  },
+  {
+   "path": "visual_gallery/tank/ariete/confirmed_002.jpg",
+   "category": "tank",
+   "variant": "ariete"
+  },
+  {
+   "path": "visual_gallery/tank/ariete/confirmed_004.jpg",
+   "category": "tank",
+   "variant": "ariete"
+  },
+  {
+   "path": "visual_gallery/tank/ariete/confirmed_006.jpg",
+   "category": "tank",
+   "variant": "ariete"
+  },
+  {
+   "path": "visual_gallery/tank/ariete/confirmed_008.jpg",
+   "category": "tank",
+   "variant": "ariete"
+  },
+  {
+   "path": "visual_gallery/tank/ariete/confirmed_009.jpg",
+   "category": "tank",
+   "variant": "ariete"
+  },
+  {
+   "path": "visual_gallery/tank/challenger1/Screenshot 2026-09-27 091536.png",
+   "category": "tank",
+   "variant": "challenger1"
+  },
+  {
+   "path": "visual_gallery/tank/challenger1/Screenshot 2026-09-27 091554.png",
+   "category": "tank",
+   "variant": "challenger1"
+  },
+  {
+   "path": "visual_gallery/tank/challenger1/Screenshot 2026-09-27 091619.png",
+   "category": "tank",
+   "variant": "challenger1"
+  },
+  {
+   "path": "visual_gallery/tank/challenger1/challenger_1_ea179f4a.jpg",
+   "category": "tank",
+   "variant": "challenger1"
+  },
+  {
+   "path": "visual_gallery/tank/challenger1/confirmed_005.jpg",
+   "category": "tank",
+   "variant": "challenger1"
+  },
+  {
+   "path": "visual_gallery/tank/challenger2/challenger2_07dc2fe1.jpg",
+   "category": "tank",
+   "variant": "challenger2"
+  },
+  {
+   "path": "visual_gallery/tank/challenger2/challenger2_557d6fa1.jpg",
+   "category": "tank",
+   "variant": "challenger2"
+  },
+  {
+   "path": "visual_gallery/tank/challenger2/challenger2_5d3adbf4.jpg",
+   "category": "tank",
+   "variant": "challenger2"
+  },
+  {
+   "path": "visual_gallery/tank/challenger2/challenger2_7b099a6e.jpg",
+   "category": "tank",
+   "variant": "challenger2"
+  },
+  {
+   "path": "visual_gallery/tank/challenger2/challenger2_7fd60160.jpg",
+   "category": "tank",
+   "variant": "challenger2"
+  },
+  {
+   "path": "visual_gallery/tank/challenger2/challenger2_95c6ba69.jpg",
+   "category": "tank",
+   "variant": "challenger2"
+  },
+  {
+   "path": "visual_gallery/tank/challenger2/challenger2_c2e43e5b.jpg",
+   "category": "tank",
+   "variant": "challenger2"
+  },
+  {
+   "path": "visual_gallery/tank/challenger2/challenger2_c45ed1c5.jpg",
+   "category": "tank",
+   "variant": "challenger2"
+  },
+  {
+   "path": "visual_gallery/tank/challenger2/challenger2_d62c1107.jpg",
+   "category": "tank",
+   "variant": "challenger2"
+  },
+  {
+   "path": "visual_gallery/tank/challenger2/challenger2_ed14a426.jpg",
+   "category": "tank",
+   "variant": "challenger2"
+  },
+  {
+   "path": "visual_gallery/tank/k2_black_panther/Screenshot 2026-09-26 183137.png",
+   "category": "tank",
+   "variant": "k2_black_panther"
+  },
+  {
+   "path": "visual_gallery/tank/k2_black_panther/Screenshot 2026-09-26 183149.png",
+   "category": "tank",
+   "variant": "k2_black_panther"
+  },
+  {
+   "path": "visual_gallery/tank/k2_black_panther/Screenshot 2026-09-26 183158.png",
+   "category": "tank",
+   "variant": "k2_black_panther"
+  },
+  {
+   "path": "visual_gallery/tank/k2_black_panther/Screenshot 2026-09-26 183351.png",
+   "category": "tank",
+   "variant": "k2_black_panther"
+  },
+  {
+   "path": "visual_gallery/tank/k2_black_panther/Screenshot 2026-09-26 183401.png",
+   "category": "tank",
+   "variant": "k2_black_panther"
+  },
+  {
+   "path": "visual_gallery/tank/k2_black_panther/k2_black_panther_07ceabf6.jpg",
+   "category": "tank",
+   "variant": "k2_black_panther"
+  },
+  {
+   "path": "visual_gallery/tank/k2_black_panther/k2_black_panther_6ccd2c9f.jpg",
+   "category": "tank",
+   "variant": "k2_black_panther"
+  },
+  {
+   "path": "visual_gallery/tank/k2_black_panther/k2_black_panther_a79773e0.jpg",
+   "category": "tank",
+   "variant": "k2_black_panther"
+  },
+  {
+   "path": "visual_gallery/tank/k2_black_panther/k2_black_panther_aa8d8fea.jpg",
+   "category": "tank",
+   "variant": "k2_black_panther"
+  },
+  {
+   "path": "visual_gallery/tank/k2_black_panther/k2_black_panther_de08d0fd.jpg",
+   "category": "tank",
+   "variant": "k2_black_panther"
+  },
+  {
+   "path": "visual_gallery/tank/k2_black_panther/k2_black_panther_e786a1ff.jpg",
+   "category": "tank",
+   "variant": "k2_black_panther"
+  },
+  {
+   "path": "visual_gallery/tank/karrar_tank/Screenshot 2026-09-25 211244.png",
+   "category": "tank",
+   "variant": "karrar_tank"
+  },
+  {
+   "path": "visual_gallery/tank/karrar_tank/Screenshot 2026-09-25 211257.png",
+   "category": "tank",
+   "variant": "karrar_tank"
+  },
+  {
+   "path": "visual_gallery/tank/karrar_tank/Screenshot 2026-09-25 211340.png",
+   "category": "tank",
+   "variant": "karrar_tank"
+  },
+  {
+   "path": "visual_gallery/tank/karrar_tank/Screenshot 2026-09-25 211405.png",
+   "category": "tank",
+   "variant": "karrar_tank"
+  },
+  {
+   "path": "visual_gallery/tank/karrar_tank/Screenshot 2026-09-25 211631.png",
+   "category": "tank",
+   "variant": "karrar_tank"
+  },
+  {
+   "path": "visual_gallery/tank/leclerc/leclerc_07601721.jpg",
+   "category": "tank",
+   "variant": "leclerc"
+  },
+  {
+   "path": "visual_gallery/tank/leclerc/leclerc_25548469.jpg",
+   "category": "tank",
+   "variant": "leclerc"
+  },
+  {
+   "path": "visual_gallery/tank/leclerc/leclerc_2986ddfd.jpg",
+   "category": "tank",
+   "variant": "leclerc"
+  },
+  {
+   "path": "visual_gallery/tank/leclerc/leclerc_4cfc9ef7.jpg",
+   "category": "tank",
+   "variant": "leclerc"
+  },
+  {
+   "path": "visual_gallery/tank/leclerc/leclerc_6b7d4916.jpg",
+   "category": "tank",
+   "variant": "leclerc"
+  },
+  {
+   "path": "visual_gallery/tank/leclerc/leclerc_a6d615c0.jpg",
+   "category": "tank",
+   "variant": "leclerc"
+  },
+  {
+   "path": "visual_gallery/tank/leclerc/leclerc_ae3dd887.jpg",
+   "category": "tank",
+   "variant": "leclerc"
+  },
+  {
+   "path": "visual_gallery/tank/leclerc/leclerc_b279b67b.jpg",
+   "category": "tank",
+   "variant": "leclerc"
+  },
+  {
+   "path": "visual_gallery/tank/leclerc/leclerc_e98bce27.jpg",
+   "category": "tank",
+   "variant": "leclerc"
+  },
+  {
+   "path": "visual_gallery/tank/leclerc/leclerc_ee94cc91.jpg",
+   "category": "tank",
+   "variant": "leclerc"
+  },
+  {
+   "path": "visual_gallery/tank/leopard_2/leopard_2_068aa7ba.jpg",
+   "category": "tank",
+   "variant": "leopard_2"
+  },
+  {
+   "path": "visual_gallery/tank/leopard_2/leopard_2_0db22e5a.jpg",
+   "category": "tank",
+   "variant": "leopard_2"
+  },
+  {
+   "path": "visual_gallery/tank/leopard_2/leopard_2_10e4cb6f.jpg",
+   "category": "tank",
+   "variant": "leopard_2"
+  },
+  {
+   "path": "visual_gallery/tank/leopard_2/leopard_2_42798b2d.jpg",
+   "category": "tank",
+   "variant": "leopard_2"
+  },
+  {
+   "path": "visual_gallery/tank/leopard_2/leopard_2_6e8d181e.jpg",
+   "category": "tank",
+   "variant": "leopard_2"
+  },
+  {
+   "path": "visual_gallery/tank/leopard_2/leopard_2_83c3b5ca.jpg",
+   "category": "tank",
+   "variant": "leopard_2"
+  },
+  {
+   "path": "visual_gallery/tank/leopard_2/leopard_2_8e315022.jpg",
+   "category": "tank",
+   "variant": "leopard_2"
+  },
+  {
+   "path": "visual_gallery/tank/leopard_2/leopard_2_a1969472.jpg",
+   "category": "tank",
+   "variant": "leopard_2"
+  },
+  {
+   "path": "visual_gallery/tank/leopard_2/leopard_2_bae07b2e.jpg",
+   "category": "tank",
+   "variant": "leopard_2"
+  },
+  {
+   "path": "visual_gallery/tank/leopard_2/leopard_2_e7a435a8.jpg",
+   "category": "tank",
+   "variant": "leopard_2"
+  },
+  {
+   "path": "visual_gallery/tank/leopard_2/leopard_2_fed1860c.jpg",
+   "category": "tank",
+   "variant": "leopard_2"
+  },
+  {
+   "path": "visual_gallery/tank/m1_abrams/m1_abrams_020d365e.jpg",
+   "category": "tank",
+   "variant": "m1_abrams"
+  },
+  {
+   "path": "visual_gallery/tank/m1_abrams/m1_abrams_045d59f7.jpg",
+   "category": "tank",
+   "variant": "m1_abrams"
+  },
+  {
+   "path": "visual_gallery/tank/m1_abrams/m1_abrams_1506c5ca.jpg",
+   "category": "tank",
+   "variant": "m1_abrams"
+  },
+  {
+   "path": "visual_gallery/tank/m1_abrams/m1_abrams_21d25842.jpg",
+   "category": "tank",
+   "variant": "m1_abrams"
+  },
+  {
+   "path": "visual_gallery/tank/m1_abrams/m1_abrams_27f613ee.jpg",
+   "category": "tank",
+   "variant": "m1_abrams"
+  },
+  {
+   "path": "visual_gallery/tank/m1_abrams/m1_abrams_3d2ffc7e.jpg",
+   "category": "tank",
+   "variant": "m1_abrams"
+  },
+  {
+   "path": "visual_gallery/tank/m1_abrams/m1_abrams_45245f3d.jpg",
+   "category": "tank",
+   "variant": "m1_abrams"
+  },
+  {
+   "path": "visual_gallery/tank/m1_abrams/m1_abrams_66384404.jpg",
+   "category": "tank",
+   "variant": "m1_abrams"
+  },
+  {
+   "path": "visual_gallery/tank/m1_abrams/m1_abrams_847004bb.jpg",
+   "category": "tank",
+   "variant": "m1_abrams"
+  },
+  {
+   "path": "visual_gallery/tank/m1_abrams/m1_abrams_bcafd114.jpg",
+   "category": "tank",
+   "variant": "m1_abrams"
+  },
+  {
+   "path": "visual_gallery/tank/m1_abrams/m1_abrams_dc571413.jpg",
+   "category": "tank",
+   "variant": "m1_abrams"
+  },
+  {
+   "path": "visual_gallery/tank/merkava/merkava_0c2fea68.jpg",
+   "category": "tank",
+   "variant": "merkava"
+  },
+  {
+   "path": "visual_gallery/tank/merkava/merkava_19a98698.jpg",
+   "category": "tank",
+   "variant": "merkava"
+  },
+  {
+   "path": "visual_gallery/tank/merkava/merkava_2f3584f2.jpg",
+   "category": "tank",
+   "variant": "merkava"
+  },
+  {
+   "path": "visual_gallery/tank/merkava/merkava_43154235.jpg",
+   "category": "tank",
+   "variant": "merkava"
+  },
+  {
+   "path": "visual_gallery/tank/merkava/merkava_520ebf65.jpg",
+   "category": "tank",
+   "variant": "merkava"
+  },
+  {
+   "path": "visual_gallery/tank/merkava/merkava_66277493.jpg",
+   "category": "tank",
+   "variant": "merkava"
+  },
+  {
+   "path": "visual_gallery/tank/merkava/merkava_6b878df9.jpg",
+   "category": "tank",
+   "variant": "merkava"
+  },
+  {
+   "path": "visual_gallery/tank/merkava/merkava_bd4ec11d.jpg",
+   "category": "tank",
+   "variant": "merkava"
+  },
+  {
+   "path": "visual_gallery/tank/merkava/merkava_cbaabcfc.jpg",
+   "category": "tank",
+   "variant": "merkava"
+  },
+  {
+   "path": "visual_gallery/tank/merkava/merkava_d21ec359.jpg",
+   "category": "tank",
+   "variant": "merkava"
+  },
+  {
+   "path": "visual_gallery/tank/merkava/merkava_d3adcc3d.jpg",
+   "category": "tank",
+   "variant": "merkava"
+  },
+  {
+   "path": "visual_gallery/tank/t14_armata/Screenshot 2026-09-25 204934.png",
+   "category": "tank",
+   "variant": "t14_armata"
+  },
+  {
+   "path": "visual_gallery/tank/t14_armata/Screenshot 2026-09-25 204950.png",
+   "category": "tank",
+   "variant": "t14_armata"
+  },
+  {
+   "path": "visual_gallery/tank/t14_armata/Screenshot 2026-09-25 205110.png",
+   "category": "tank",
+   "variant": "t14_armata"
+  },
+  {
+   "path": "visual_gallery/tank/t14_armata/Screenshot 2026-09-25 205125.png",
+   "category": "tank",
+   "variant": "t14_armata"
+  },
+  {
+   "path": "visual_gallery/tank/t14_armata/t14_armata_35292c9d.jpg",
+   "category": "tank",
+   "variant": "t14_armata"
+  },
+  {
+   "path": "visual_gallery/tank/t14_armata/t14_armata_c38e8514.jpg",
+   "category": "tank",
+   "variant": "t14_armata"
+  },
+  {
+   "path": "visual_gallery/tank/t14_armata/t14_armata_d1e9821c.jpg",
+   "category": "tank",
+   "variant": "t14_armata"
+  },
+  {
+   "path": "visual_gallery/tank/t14_armata/t14_armata_d6055d1d.jpg",
+   "category": "tank",
+   "variant": "t14_armata"
+  },
+  {
+   "path": "visual_gallery/tank/t14_armata/t14_armata_fe25f182.jpg",
+   "category": "tank",
+   "variant": "t14_armata"
+  },
+  {
+   "path": "visual_gallery/tank/t14_armata/t14_armata_ffce4183.jpg",
+   "category": "tank",
+   "variant": "t14_armata"
+  },
+  {
+   "path": "visual_gallery/tank/t62/t62_09903c2f.jpg",
+   "category": "tank",
+   "variant": "t62"
+  },
+  {
+   "path": "visual_gallery/tank/t62/t62_551b573c.jpg",
+   "category": "tank",
+   "variant": "t62"
+  },
+  {
+   "path": "visual_gallery/tank/t62/t62_90b86544.jpg",
+   "category": "tank",
+   "variant": "t62"
+  },
+  {
+   "path": "visual_gallery/tank/t62/t62_b77bf312.jpg",
+   "category": "tank",
+   "variant": "t62"
+  },
+  {
+   "path": "visual_gallery/tank/t72/Screenshot 2026-09-25 202630.png",
+   "category": "tank",
+   "variant": "t72"
+  },
+  {
+   "path": "visual_gallery/tank/t72/Screenshot 2026-09-25 203510.png",
+   "category": "tank",
+   "variant": "t72"
+  },
+  {
+   "path": "visual_gallery/tank/t72/Screenshot 2026-09-25 203527.png",
+   "category": "tank",
+   "variant": "t72"
+  },
+  {
+   "path": "visual_gallery/tank/t72/Screenshot 2026-09-25 203612.png",
+   "category": "tank",
+   "variant": "t72"
+  },
+  {
+   "path": "visual_gallery/tank/t72/Screenshot 2026-09-25 203634.png",
+   "category": "tank",
+   "variant": "t72"
+  },
+  {
+   "path": "visual_gallery/tank/t72/Screenshot 2026-09-25 204310.png",
+   "category": "tank",
+   "variant": "t72"
+  },
+  {
+   "path": "visual_gallery/tank/t72/confirmed_009.jpg",
+   "category": "tank",
+   "variant": "t72"
+  },
+  {
+   "path": "visual_gallery/tank/t72/confirmed_010.jpg",
+   "category": "tank",
+   "variant": "t72"
+  },
+  {
+   "path": "visual_gallery/tank/t72/confirmed_013.jpg",
+   "category": "tank",
+   "variant": "t72"
+  },
+  {
+   "path": "visual_gallery/tank/t72/confirmed_014.jpg",
+   "category": "tank",
+   "variant": "t72"
+  },
+  {
+   "path": "visual_gallery/tank/t72b3/Screenshot 2026-09-25 205853.png",
+   "category": "tank",
+   "variant": "t72b3"
+  },
+  {
+   "path": "visual_gallery/tank/t72b3/Screenshot 2026-09-25 205909.png",
+   "category": "tank",
+   "variant": "t72b3"
+  },
+  {
+   "path": "visual_gallery/tank/t72b3/Screenshot 2026-09-25 205920.png",
+   "category": "tank",
+   "variant": "t72b3"
+  },
+  {
+   "path": "visual_gallery/tank/t72b3/Screenshot 2026-09-25 205950.png",
+   "category": "tank",
+   "variant": "t72b3"
+  },
+  {
+   "path": "visual_gallery/tank/t72b3/Screenshot 2026-09-25 205959.png",
+   "category": "tank",
+   "variant": "t72b3"
+  },
+  {
+   "path": "visual_gallery/tank/t72b3/confirmed_009.jpg",
+   "category": "tank",
+   "variant": "t72b3"
+  },
+  {
+   "path": "visual_gallery/tank/t72b3/confirmed_011.jpg",
+   "category": "tank",
+   "variant": "t72b3"
+  },
+  {
+   "path": "visual_gallery/tank/t72b3/t72b3_1.jpg",
+   "category": "tank",
+   "variant": "t72b3"
+  },
+  {
+   "path": "visual_gallery/tank/t80/t80_cb6a2c94.jpg",
+   "category": "tank",
+   "variant": "t80"
+  },
+  {
+   "path": "visual_gallery/tank/t90/confirmed_001.jpg",
+   "category": "tank",
+   "variant": "t90"
+  },
+  {
+   "path": "visual_gallery/tank/t90/confirmed_002.jpg",
+   "category": "tank",
+   "variant": "t90"
+  },
+  {
+   "path": "visual_gallery/tank/t90/confirmed_003.jpg",
+   "category": "tank",
+   "variant": "t90"
+  },
+  {
+   "path": "visual_gallery/tank/t90/confirmed_004.jpg",
+   "category": "tank",
+   "variant": "t90"
+  },
+  {
+   "path": "visual_gallery/tank/t90/confirmed_005.jpg",
+   "category": "tank",
+   "variant": "t90"
+  },
+  {
+   "path": "visual_gallery/tank/t90/t90_0c4b415c.jpg",
+   "category": "tank",
+   "variant": "t90"
+  },
+  {
+   "path": "visual_gallery/tank/t90/t90_1a49685c.jpg",
+   "category": "tank",
+   "variant": "t90"
+  },
+  {
+   "path": "visual_gallery/tank/t90/t90_8989ee7e.jpg",
+   "category": "tank",
+   "variant": "t90"
+  },
+  {
+   "path": "visual_gallery/tank/t90/t90_dcdd0b19.jpg",
+   "category": "tank",
+   "variant": "t90"
+  },
+  {
+   "path": "visual_gallery/tank/t90/t90_fc0b0eab.jpg",
+   "category": "tank",
+   "variant": "t90"
+  },
+  {
+   "path": "visual_gallery/tank/type_96/confirmed_004.jpg",
+   "category": "tank",
+   "variant": "type_96"
+  },
+  {
+   "path": "visual_gallery/tank/type_96/confirmed_006.jpg",
+   "category": "tank",
+   "variant": "type_96"
+  },
+  {
+   "path": "visual_gallery/tank/type_96/confirmed_007.jpg",
+   "category": "tank",
+   "variant": "type_96"
+  },
+  {
+   "path": "visual_gallery/tank/type_96/type_96_2e16d0c2.jpg",
+   "category": "tank",
+   "variant": "type_96"
+  },
+  {
+   "path": "visual_gallery/tank/type_96/type_96_3ca3f836.jpg",
+   "category": "tank",
+   "variant": "type_96"
+  },
+  {
+   "path": "visual_gallery/tank/type_96/type_96_47dba4a0.jpg",
+   "category": "tank",
+   "variant": "type_96"
+  },
+  {
+   "path": "visual_gallery/tank/type_96/type_96_4b05890f.jpg",
+   "category": "tank",
+   "variant": "type_96"
+  },
+  {
+   "path": "visual_gallery/tank/type_99/type_99_57b5714c.jpg",
+   "category": "tank",
+   "variant": "type_99"
+  },
+  {
+   "path": "visual_gallery/tank/type_99/type_99_72941a5d.jpg",
+   "category": "tank",
+   "variant": "type_99"
+  },
+  {
+   "path": "visual_gallery/tank/type_99/type_99_80a27552.jpg",
+   "category": "tank",
+   "variant": "type_99"
+  },
+  {
+   "path": "visual_gallery/tank/type_99/type_99_81a09c65.jpg",
+   "category": "tank",
+   "variant": "type_99"
+  },
+  {
+   "path": "visual_gallery/tank/type_99/type_99_d56da4bd.jpg",
+   "category": "tank",
+   "variant": "type_99"
+  },
+  {
+   "path": "visual_gallery/vehicle/ampv/Screenshot 2026-09-28 161714.png",
+   "category": "vehicle",
+   "variant": "ampv"
+  },
+  {
+   "path": "visual_gallery/vehicle/ampv/Screenshot 2026-09-28 161806.png",
+   "category": "vehicle",
+   "variant": "ampv"
+  },
+  {
+   "path": "visual_gallery/vehicle/ampv/Screenshot 2026-09-28 162234.png",
+   "category": "vehicle",
+   "variant": "ampv"
+  },
+  {
+   "path": "visual_gallery/vehicle/ampv/Screenshot 2026-09-28 162427.png",
+   "category": "vehicle",
+   "variant": "ampv"
+  },
+  {
+   "path": "visual_gallery/vehicle/ampv/Screenshot 2026-09-28 162450.png",
+   "category": "vehicle",
+   "variant": "ampv"
+  },
+  {
+   "path": "visual_gallery/vehicle/ascod/Screenshot 2026-09-28 163533.png",
+   "category": "vehicle",
+   "variant": "ascod"
+  },
+  {
+   "path": "visual_gallery/vehicle/ascod/Screenshot 2026-09-29 212053.png",
+   "category": "vehicle",
+   "variant": "ascod"
+  },
+  {
+   "path": "visual_gallery/vehicle/ascod/Screenshot 2026-09-29 212218.png",
+   "category": "vehicle",
+   "variant": "ascod"
+  },
+  {
+   "path": "visual_gallery/vehicle/ascod/Screenshot 2026-09-29 212327.png",
+   "category": "vehicle",
+   "variant": "ascod"
+  },
+  {
+   "path": "visual_gallery/vehicle/ascod/Screenshot 2026-09-29 212345.png",
+   "category": "vehicle",
+   "variant": "ascod"
+  },
+  {
+   "path": "visual_gallery/vehicle/ascod/Screenshot 2026-09-29 212443.png",
+   "category": "vehicle",
+   "variant": "ascod"
+  },
+  {
+   "path": "visual_gallery/vehicle/ascod/Screenshot 2026-09-29 212546.png",
+   "category": "vehicle",
+   "variant": "ascod"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp2/Screenshot 2026-09-29 213150.png",
+   "category": "vehicle",
+   "variant": "bmp2"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp2/Screenshot 2026-09-29 213222.png",
+   "category": "vehicle",
+   "variant": "bmp2"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp2/Screenshot 2026-09-29 213236.png",
+   "category": "vehicle",
+   "variant": "bmp2"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp2/Screenshot 2026-09-29 213310.png",
+   "category": "vehicle",
+   "variant": "bmp2"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp2/Screenshot 2026-09-29 213327.png",
+   "category": "vehicle",
+   "variant": "bmp2"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp2/Screenshot 2026-09-29 213335.png",
+   "category": "vehicle",
+   "variant": "bmp2"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp2/bmp2_1aeedb8b.jpg",
+   "category": "vehicle",
+   "variant": "bmp2"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp2/confirmed_011.jpg",
+   "category": "vehicle",
+   "variant": "bmp2"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp3/Screenshot 2026-09-29 214206.png",
+   "category": "vehicle",
+   "variant": "bmp3"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp3/Screenshot 2026-09-29 214228.png",
+   "category": "vehicle",
+   "variant": "bmp3"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp3/Screenshot 2026-09-29 214238.png",
+   "category": "vehicle",
+   "variant": "bmp3"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp3/Screenshot 2026-09-29 214252.png",
+   "category": "vehicle",
+   "variant": "bmp3"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp3/Screenshot 2026-09-29 214413.png",
+   "category": "vehicle",
+   "variant": "bmp3"
+  },
+  {
+   "path": "visual_gallery/vehicle/borsuk/Screenshot 2026-09-29 214903.png",
+   "category": "vehicle",
+   "variant": "borsuk"
+  },
+  {
+   "path": "visual_gallery/vehicle/borsuk/Screenshot 2026-09-29 215001.png",
+   "category": "vehicle",
+   "variant": "borsuk"
+  },
+  {
+   "path": "visual_gallery/vehicle/borsuk/Screenshot 2026-09-29 215013.png",
+   "category": "vehicle",
+   "variant": "borsuk"
+  },
+  {
+   "path": "visual_gallery/vehicle/borsuk/Screenshot 2026-09-29 215403.png",
+   "category": "vehicle",
+   "variant": "borsuk"
+  },
+  {
+   "path": "visual_gallery/vehicle/borsuk/Screenshot 2026-09-29 215430.png",
+   "category": "vehicle",
+   "variant": "borsuk"
+  },
+  {
+   "path": "visual_gallery/vehicle/borsuk/confirmed_009.jpg",
+   "category": "vehicle",
+   "variant": "borsuk"
+  },
+  {
+   "path": "visual_gallery/vehicle/borsuk/confirmed_010.jpg",
+   "category": "vehicle",
+   "variant": "borsuk"
+  },
+  {
+   "path": "visual_gallery/vehicle/borsuk/confirmed_012.jpg",
+   "category": "vehicle",
+   "variant": "borsuk"
+  },
+  {
+   "path": "visual_gallery/vehicle/borsuk/confirmed_013.jpg",
+   "category": "vehicle",
+   "variant": "borsuk"
+  },
+  {
+   "path": "visual_gallery/vehicle/borsuk/confirmed_014.jpg",
+   "category": "vehicle",
+   "variant": "borsuk"
+  },
+  {
+   "path": "visual_gallery/vehicle/btr80/Screenshot 2026-09-29 220742.png",
+   "category": "vehicle",
+   "variant": "btr80"
+  },
+  {
+   "path": "visual_gallery/vehicle/btr80/Screenshot 2026-09-29 220753.png",
+   "category": "vehicle",
+   "variant": "btr80"
+  },
+  {
+   "path": "visual_gallery/vehicle/btr80/Screenshot 2026-09-29 220918.png",
+   "category": "vehicle",
+   "variant": "btr80"
+  },
+  {
+   "path": "visual_gallery/vehicle/cv90/Screenshot 2026-09-29 221354.png",
+   "category": "vehicle",
+   "variant": "cv90"
+  },
+  {
+   "path": "visual_gallery/vehicle/cv90/Screenshot 2026-09-29 221415.png",
+   "category": "vehicle",
+   "variant": "cv90"
+  },
+  {
+   "path": "visual_gallery/vehicle/cv90/Screenshot 2026-09-29 221424.png",
+   "category": "vehicle",
+   "variant": "cv90"
+  },
+  {
+   "path": "visual_gallery/vehicle/cv90/Screenshot 2026-09-29 221436.png",
+   "category": "vehicle",
+   "variant": "cv90"
+  },
+  {
+   "path": "visual_gallery/vehicle/cv90/confirmed_008.jpg",
+   "category": "vehicle",
+   "variant": "cv90"
+  },
+  {
+   "path": "visual_gallery/vehicle/cv90/confirmed_009.jpg",
+   "category": "vehicle",
+   "variant": "cv90"
+  },
+  {
+   "path": "visual_gallery/vehicle/cv90/cv90_9c1d6147.jpg",
+   "category": "vehicle",
+   "variant": "cv90"
+  },
+  {
+   "path": "visual_gallery/vehicle/fmtv/Screenshot 2026-09-29 221731.png",
+   "category": "vehicle",
+   "variant": "fmtv"
+  },
+  {
+   "path": "visual_gallery/vehicle/fmtv/Screenshot 2026-09-29 221736.png",
+   "category": "vehicle",
+   "variant": "fmtv"
+  },
+  {
+   "path": "visual_gallery/vehicle/fmtv/Screenshot 2026-09-29 221753.png",
+   "category": "vehicle",
+   "variant": "fmtv"
+  },
+  {
+   "path": "visual_gallery/vehicle/fmtv/Screenshot 2026-09-29 221808.png",
+   "category": "vehicle",
+   "variant": "fmtv"
+  },
+  {
+   "path": "visual_gallery/vehicle/fmtv/fmtv_cdd440b0.jpg",
+   "category": "vehicle",
+   "variant": "fmtv"
+  },
+  {
+   "path": "visual_gallery/vehicle/hemtt/Screenshot 2026-09-29 222148.png",
+   "category": "vehicle",
+   "variant": "hemtt"
+  },
+  {
+   "path": "visual_gallery/vehicle/hemtt/Screenshot 2026-09-29 222153.png",
+   "category": "vehicle",
+   "variant": "hemtt"
+  },
+  {
+   "path": "visual_gallery/vehicle/hemtt/Screenshot 2026-09-29 222233.png",
+   "category": "vehicle",
+   "variant": "hemtt"
+  },
+  {
+   "path": "visual_gallery/vehicle/hemtt/Screenshot 2026-09-29 222431.png",
+   "category": "vehicle",
+   "variant": "hemtt"
+  },
+  {
+   "path": "visual_gallery/vehicle/hemtt/Screenshot 2026-09-29 222444.png",
+   "category": "vehicle",
+   "variant": "hemtt"
+  },
+  {
+   "path": "visual_gallery/vehicle/hemtt/Screenshot 2026-09-29 222452.png",
+   "category": "vehicle",
+   "variant": "hemtt"
+  },
+  {
+   "path": "visual_gallery/vehicle/hemtt/Screenshot 2026-09-29 222500.png",
+   "category": "vehicle",
+   "variant": "hemtt"
+  },
+  {
+   "path": "visual_gallery/vehicle/hmmww/Screenshot 2026-09-29 223025.png",
+   "category": "vehicle",
+   "variant": "hmmww"
+  },
+  {
+   "path": "visual_gallery/vehicle/hmmww/Screenshot 2026-09-29 223044.png",
+   "category": "vehicle",
+   "variant": "hmmww"
+  },
+  {
+   "path": "visual_gallery/vehicle/hmmww/Screenshot 2026-09-29 223052.png",
+   "category": "vehicle",
+   "variant": "hmmww"
+  },
+  {
+   "path": "visual_gallery/vehicle/hmmww/Screenshot 2026-09-29 223107.png",
+   "category": "vehicle",
+   "variant": "hmmww"
+  },
+  {
+   "path": "visual_gallery/vehicle/hmmww/Screenshot 2026-09-29 223131.png",
+   "category": "vehicle",
+   "variant": "hmmww"
+  },
+  {
+   "path": "visual_gallery/vehicle/hmmww/Screenshot 2026-09-29 223206.png",
+   "category": "vehicle",
+   "variant": "hmmww"
+  },
+  {
+   "path": "visual_gallery/vehicle/hmmww/Screenshot 2026-09-29 223215.png",
+   "category": "vehicle",
+   "variant": "hmmww"
+  },
+  {
+   "path": "visual_gallery/vehicle/infantry_soldier/Screenshot 2026-09-30 094645.png",
+   "category": "vehicle",
+   "variant": "infantry_soldier"
+  },
+  {
+   "path": "visual_gallery/vehicle/infantry_soldier/Screenshot 2026-09-30 094657.png",
+   "category": "vehicle",
+   "variant": "infantry_soldier"
+  },
+  {
+   "path": "visual_gallery/vehicle/infantry_soldier/Screenshot 2026-09-30 095945.png",
+   "category": "vehicle",
+   "variant": "infantry_soldier"
+  },
+  {
+   "path": "visual_gallery/vehicle/infantry_soldier/Screenshot 2026-09-30 095949.png",
+   "category": "vehicle",
+   "variant": "infantry_soldier"
+  },
+  {
+   "path": "visual_gallery/vehicle/infantry_soldier/Screenshot 2026-09-30 095954.png",
+   "category": "vehicle",
+   "variant": "infantry_soldier"
+  },
+  {
+   "path": "visual_gallery/vehicle/lav25/Screenshot 2026-09-30 100336.png",
+   "category": "vehicle",
+   "variant": "lav25"
+  },
+  {
+   "path": "visual_gallery/vehicle/lav25/Screenshot 2026-09-30 100356.png",
+   "category": "vehicle",
+   "variant": "lav25"
+  },
+  {
+   "path": "visual_gallery/vehicle/lav25/Screenshot 2026-09-30 100643.png",
+   "category": "vehicle",
+   "variant": "lav25"
+  },
+  {
+   "path": "visual_gallery/vehicle/lav25/Screenshot 2026-09-30 100956.png",
+   "category": "vehicle",
+   "variant": "lav25"
+  },
+  {
+   "path": "visual_gallery/vehicle/lav25/Screenshot 2026-09-30 101000.png",
+   "category": "vehicle",
+   "variant": "lav25"
+  },
+  {
+   "path": "visual_gallery/vehicle/lav25/Screenshot 2026-09-30 101006.png",
+   "category": "vehicle",
+   "variant": "lav25"
+  },
+  {
+   "path": "visual_gallery/vehicle/m113/Screenshot 2026-09-30 101847.png",
+   "category": "vehicle",
+   "variant": "m113"
+  },
+  {
+   "path": "visual_gallery/vehicle/m113/Screenshot 2026-09-30 101858.png",
+   "category": "vehicle",
+   "variant": "m113"
+  },
+  {
+   "path": "visual_gallery/vehicle/m113/Screenshot 2026-09-30 101924.png",
+   "category": "vehicle",
+   "variant": "m113"
+  },
+  {
+   "path": "visual_gallery/vehicle/m113/Screenshot 2026-09-30 101929.png",
+   "category": "vehicle",
+   "variant": "m113"
+  },
+  {
+   "path": "visual_gallery/vehicle/m113/Screenshot 2026-09-30 133031.png",
+   "category": "vehicle",
+   "variant": "m113"
+  },
+  {
+   "path": "visual_gallery/vehicle/m113/Screenshot 2026-09-30 133041.png",
+   "category": "vehicle",
+   "variant": "m113"
+  },
+  {
+   "path": "visual_gallery/vehicle/m113/Screenshot 2026-09-30 133054.png",
+   "category": "vehicle",
+   "variant": "m113"
+  },
+  {
+   "path": "visual_gallery/vehicle/m113/Screenshot 2026-09-30 133100.png",
+   "category": "vehicle",
+   "variant": "m113"
+  },
+  {
+   "path": "visual_gallery/vehicle/m113/confirmed_001.jpg",
+   "category": "vehicle",
+   "variant": "m113"
+  },
+  {
+   "path": "visual_gallery/vehicle/m113/confirmed_011.jpg",
+   "category": "vehicle",
+   "variant": "m113"
+  },
+  {
+   "path": "visual_gallery/vehicle/namer_apc/namer_apc_2.jpg",
+   "category": "vehicle",
+   "variant": "namer_apc"
+  },
+  {
+   "path": "visual_gallery/vehicle/namer_apc/namer_apc_3.jpg",
+   "category": "vehicle",
+   "variant": "namer_apc"
+  },
+  {
+   "path": "visual_gallery/vehicle/namer_apc/namer_apc_5.jpg",
+   "category": "vehicle",
+   "variant": "namer_apc"
+  }
+ ],
+ "query": [
+  {
+   "path": "visual_gallery/air_defense/2k12_kub/2k12_kub_36c085b2.jpg",
+   "category": "air_defense",
+   "variant": "2k12_kub"
+  },
+  {
+   "path": "visual_gallery/air_defense/2k12_kub/2k12_kub_89c5de1b.jpg",
+   "category": "air_defense",
+   "variant": "2k12_kub"
+  },
+  {
+   "path": "visual_gallery/air_defense/2k12_kub/2k12_kub_daca127a.jpg",
+   "category": "air_defense",
+   "variant": "2k12_kub"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow2/arrow2_001.png",
+   "category": "air_defense",
+   "variant": "arrow2"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow2/arrow2_006.png",
+   "category": "air_defense",
+   "variant": "arrow2"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow2/arrow2_007.png",
+   "category": "air_defense",
+   "variant": "arrow2"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow3/arrow3_002.png",
+   "category": "air_defense",
+   "variant": "arrow3"
+  },
+  {
+   "path": "visual_gallery/air_defense/arrow3/arrow3_e01257f8.jpg",
+   "category": "air_defense",
+   "variant": "arrow3"
+  },
+  {
+   "path": "visual_gallery/air_defense/bavar373/bavar373_006.png",
+   "category": "air_defense",
+   "variant": "bavar373"
+  },
+  {
+   "path": "visual_gallery/air_defense/bavar373/bavar373_007.png",
+   "category": "air_defense",
+   "variant": "bavar373"
+  },
+  {
+   "path": "visual_gallery/air_defense/bavar373/bavar373_009.png",
+   "category": "air_defense",
+   "variant": "bavar373"
+  },
+  {
+   "path": "visual_gallery/air_defense/buk/buk_003.png",
+   "category": "air_defense",
+   "variant": "buk"
+  },
+  {
+   "path": "visual_gallery/air_defense/buk/buk_005.png",
+   "category": "air_defense",
+   "variant": "buk"
+  },
+  {
+   "path": "visual_gallery/air_defense/buk/buk_87fe5893.jpg",
+   "category": "air_defense",
+   "variant": "buk"
+  },
+  {
+   "path": "visual_gallery/air_defense/gepard/gepard_004.png",
+   "category": "air_defense",
+   "variant": "gepard"
+  },
+  {
+   "path": "visual_gallery/air_defense/gepard/gepard_005.png",
+   "category": "air_defense",
+   "variant": "gepard"
+  },
+  {
+   "path": "visual_gallery/air_defense/gepard/gepard_011.png",
+   "category": "air_defense",
+   "variant": "gepard"
+  },
+  {
+   "path": "visual_gallery/air_defense/hq22/hq22_003.png",
+   "category": "air_defense",
+   "variant": "hq22"
+  },
+  {
+   "path": "visual_gallery/air_defense/hq22/hq22_004.png",
+   "category": "air_defense",
+   "variant": "hq22"
+  },
+  {
+   "path": "visual_gallery/air_defense/pantsir_s1/pantsir_s1_9836641f.jpg",
+   "category": "air_defense",
+   "variant": "pantsir_s1"
+  },
+  {
+   "path": "visual_gallery/air_defense/pantsir_s1/pantsir_s1_c548c762.jpg",
+   "category": "air_defense",
+   "variant": "pantsir_s1"
+  },
+  {
+   "path": "visual_gallery/air_defense/pantsir_s1/pantsir_s1_eac716f5.jpg",
+   "category": "air_defense",
+   "variant": "pantsir_s1"
+  },
+  {
+   "path": "visual_gallery/air_defense/pantsir_s1/pantsir_s1_f3b58685.jpg",
+   "category": "air_defense",
+   "variant": "pantsir_s1"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_001.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_005.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_008.png",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_2.jpg",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300/s300_3.jpg",
+   "category": "air_defense",
+   "variant": "s300"
+  },
+  {
+   "path": "visual_gallery/air_defense/s300v/s300v_813830c3.jpg",
+   "category": "air_defense",
+   "variant": "s300v"
+  },
+  {
+   "path": "visual_gallery/air_defense/thaad/thaad_003.png",
+   "category": "air_defense",
+   "variant": "thaad"
+  },
+  {
+   "path": "visual_gallery/air_defense/thaad/thaad_41313670.jpg",
+   "category": "air_defense",
+   "variant": "thaad"
+  },
+  {
+   "path": "visual_gallery/air_defense/thaad/thaad_ac1a7fd4.jpg",
+   "category": "air_defense",
+   "variant": "thaad"
+  },
+  {
+   "path": "visual_gallery/air_defense/tor_m2/tor_m2_0f8908c6.jpg",
+   "category": "air_defense",
+   "variant": "tor_m2"
+  },
+  {
+   "path": "visual_gallery/air_defense/tor_m2/tor_m2_11dae62e.jpg",
+   "category": "air_defense",
+   "variant": "tor_m2"
+  },
+  {
+   "path": "visual_gallery/air_defense/zsu23_4/zsu23_4_02d387c2.jpg",
+   "category": "air_defense",
+   "variant": "zsu23_4"
+  },
+  {
+   "path": "visual_gallery/air_defense/zsu23_4/zsu23_4_23af65c6.jpg",
+   "category": "air_defense",
+   "variant": "zsu23_4"
+  },
+  {
+   "path": "visual_gallery/air_defense/zsu23_4/zsu23_4_39dd8e45.jpg",
+   "category": "air_defense",
+   "variant": "zsu23_4"
+  },
+  {
+   "path": "visual_gallery/aircraft/a10_thunderbolt/confirmed_003.jpg",
+   "category": "aircraft",
+   "variant": "a10_thunderbolt"
+  },
+  {
+   "path": "visual_gallery/aircraft/a10_thunderbolt/confirmed_004.jpg",
+   "category": "aircraft",
+   "variant": "a10_thunderbolt"
+  },
+  {
+   "path": "visual_gallery/aircraft/a10_thunderbolt/confirmed_010.jpg",
+   "category": "aircraft",
+   "variant": "a10_thunderbolt"
+  },
+  {
+   "path": "visual_gallery/aircraft/a50_awacs/confirmed_005.jpg",
+   "category": "aircraft",
+   "variant": "a50_awacs"
+  },
+  {
+   "path": "visual_gallery/aircraft/a50_awacs/confirmed_006.jpg",
+   "category": "aircraft",
+   "variant": "a50_awacs"
+  },
+  {
+   "path": "visual_gallery/aircraft/a50_awacs/confirmed_011.jpg",
+   "category": "aircraft",
+   "variant": "a50_awacs"
+  },
+  {
+   "path": "visual_gallery/aircraft/an124/confirmed_005.jpg",
+   "category": "aircraft",
+   "variant": "an124"
+  },
+  {
+   "path": "visual_gallery/aircraft/an124/confirmed_008.jpg",
+   "category": "aircraft",
+   "variant": "an124"
+  },
+  {
+   "path": "visual_gallery/aircraft/b1b/b1b_763bd149.jpg",
+   "category": "aircraft",
+   "variant": "b1b"
+  },
+  {
+   "path": "visual_gallery/aircraft/b1b/b1b_77654df0.jpg",
+   "category": "aircraft",
+   "variant": "b1b"
+  },
+  {
+   "path": "visual_gallery/aircraft/b1b/b1b_98577df5.jpg",
+   "category": "aircraft",
+   "variant": "b1b"
+  },
+  {
+   "path": "visual_gallery/aircraft/b1b/b1b_b3bb9327.jpg",
+   "category": "aircraft",
+   "variant": "b1b"
+  },
+  {
+   "path": "visual_gallery/aircraft/b2_spirit/confirmed_005.jpg",
+   "category": "aircraft",
+   "variant": "b2_spirit"
+  },
+  {
+   "path": "visual_gallery/aircraft/b2_spirit/confirmed_006.jpg",
+   "category": "aircraft",
+   "variant": "b2_spirit"
+  },
+  {
+   "path": "visual_gallery/aircraft/b2_spirit/confirmed_010.jpg",
+   "category": "aircraft",
+   "variant": "b2_spirit"
+  },
+  {
+   "path": "visual_gallery/aircraft/b52_stratofortress/b52_stratofortress_339301b7.jpg",
+   "category": "aircraft",
+   "variant": "b52_stratofortress"
+  },
+  {
+   "path": "visual_gallery/aircraft/b52_stratofortress/confirmed_002.jpg",
+   "category": "aircraft",
+   "variant": "b52_stratofortress"
+  },
+  {
+   "path": "visual_gallery/aircraft/b52_stratofortress/confirmed_005.jpg",
+   "category": "aircraft",
+   "variant": "b52_stratofortress"
+  },
+  {
+   "path": "visual_gallery/aircraft/b52_stratofortress/confirmed_010.jpg",
+   "category": "aircraft",
+   "variant": "b52_stratofortress"
+  },
+  {
+   "path": "visual_gallery/aircraft/c130_hercules/c130_hercules_8359ab91.jpg",
+   "category": "aircraft",
+   "variant": "c130_hercules"
+  },
+  {
+   "path": "visual_gallery/aircraft/c130_hercules/c130_hercules_96e54eb5.jpg",
+   "category": "aircraft",
+   "variant": "c130_hercules"
+  },
+  {
+   "path": "visual_gallery/aircraft/c130_hercules/c130_hercules_aa1cb0ef.jpg",
+   "category": "aircraft",
+   "variant": "c130_hercules"
+  },
+  {
+   "path": "visual_gallery/aircraft/c5_galaxy/c5_galaxy_e2be47d5.jpg",
+   "category": "aircraft",
+   "variant": "c5_galaxy"
+  },
+  {
+   "path": "visual_gallery/aircraft/c5_galaxy/confirmed_006.jpg",
+   "category": "aircraft",
+   "variant": "c5_galaxy"
+  },
+  {
+   "path": "visual_gallery/aircraft/e3_sentry/e3_sentry_19e80773.jpg",
+   "category": "aircraft",
+   "variant": "e3_sentry"
+  },
+  {
+   "path": "visual_gallery/aircraft/e3_sentry/e3_sentry_5443e4ba.jpg",
+   "category": "aircraft",
+   "variant": "e3_sentry"
+  },
+  {
+   "path": "visual_gallery/aircraft/e3_sentry/e3_sentry_87ba3c60.jpg",
+   "category": "aircraft",
+   "variant": "e3_sentry"
+  },
+  {
+   "path": "visual_gallery/aircraft/e3_sentry/e3_sentry_e5883adf.jpg",
+   "category": "aircraft",
+   "variant": "e3_sentry"
+  },
+  {
+   "path": "visual_gallery/aircraft/f15_eagle/f15_eagle_656bb2c7.jpg",
+   "category": "aircraft",
+   "variant": "f15_eagle"
+  },
+  {
+   "path": "visual_gallery/aircraft/f15_eagle/f15_eagle_6f1426d9.jpg",
+   "category": "aircraft",
+   "variant": "f15_eagle"
+  },
+  {
+   "path": "visual_gallery/aircraft/f15_eagle/f15_eagle_794b8a2c.jpg",
+   "category": "aircraft",
+   "variant": "f15_eagle"
+  },
+  {
+   "path": "visual_gallery/aircraft/f15_eagle/f15_eagle_bfef7be7.jpg",
+   "category": "aircraft",
+   "variant": "f15_eagle"
+  },
+  {
+   "path": "visual_gallery/aircraft/f16_falcon/f16_falcon_417e7ddd.jpg",
+   "category": "aircraft",
+   "variant": "f16_falcon"
+  },
+  {
+   "path": "visual_gallery/aircraft/f16_falcon/f16_falcon_ab0571b5.jpg",
+   "category": "aircraft",
+   "variant": "f16_falcon"
+  },
+  {
+   "path": "visual_gallery/aircraft/f16_falcon/f16_falcon_b7c1e07d.jpg",
+   "category": "aircraft",
+   "variant": "f16_falcon"
+  },
+  {
+   "path": "visual_gallery/aircraft/f18_hornet/confirmed_012.jpg",
+   "category": "aircraft",
+   "variant": "f18_hornet"
+  },
+  {
+   "path": "visual_gallery/aircraft/f18_hornet/f18_hornet_1d4ca7fe.jpg",
+   "category": "aircraft",
+   "variant": "f18_hornet"
+  },
+  {
+   "path": "visual_gallery/aircraft/f18_hornet/f18_hornet_6c80ba6c.jpg",
+   "category": "aircraft",
+   "variant": "f18_hornet"
+  },
+  {
+   "path": "visual_gallery/aircraft/f35_lightning/confirmed_007.jpg",
+   "category": "aircraft",
+   "variant": "f35_lightning"
+  },
+  {
+   "path": "visual_gallery/aircraft/h6/confirmed_002.jpg",
+   "category": "aircraft",
+   "variant": "h6"
+  },
+  {
+   "path": "visual_gallery/aircraft/h6/confirmed_006.jpg",
+   "category": "aircraft",
+   "variant": "h6"
+  },
+  {
+   "path": "visual_gallery/aircraft/h6/confirmed_010.jpg",
+   "category": "aircraft",
+   "variant": "h6"
+  },
+  {
+   "path": "visual_gallery/aircraft/il76/il76_390f05e7.jpg",
+   "category": "aircraft",
+   "variant": "il76"
+  },
+  {
+   "path": "visual_gallery/aircraft/il76/il76_831fdf5b.jpg",
+   "category": "aircraft",
+   "variant": "il76"
+  },
+  {
+   "path": "visual_gallery/aircraft/il76/il76_db300e5d.jpg",
+   "category": "aircraft",
+   "variant": "il76"
+  },
+  {
+   "path": "visual_gallery/aircraft/mig29/confirmed_002.jpg",
+   "category": "aircraft",
+   "variant": "mig29"
+  },
+  {
+   "path": "visual_gallery/aircraft/mig29/confirmed_004.jpg",
+   "category": "aircraft",
+   "variant": "mig29"
+  },
+  {
+   "path": "visual_gallery/aircraft/mig29/confirmed_010.jpg",
+   "category": "aircraft",
+   "variant": "mig29"
+  },
+  {
+   "path": "visual_gallery/aircraft/su25_frogfoot/su25_frogfoot_57a90c0a.jpg",
+   "category": "aircraft",
+   "variant": "su25_frogfoot"
+  },
+  {
+   "path": "visual_gallery/aircraft/su25_frogfoot/su25_frogfoot_a411fcad.jpg",
+   "category": "aircraft",
+   "variant": "su25_frogfoot"
+  },
+  {
+   "path": "visual_gallery/aircraft/su25_frogfoot/su25_frogfoot_a831668f.jpg",
+   "category": "aircraft",
+   "variant": "su25_frogfoot"
+  },
+  {
+   "path": "visual_gallery/aircraft/su34_fullback/confirmed_004.jpg",
+   "category": "aircraft",
+   "variant": "su34_fullback"
+  },
+  {
+   "path": "visual_gallery/aircraft/su34_fullback/confirmed_005.jpg",
+   "category": "aircraft",
+   "variant": "su34_fullback"
+  },
+  {
+   "path": "visual_gallery/aircraft/su34_fullback/su34_fullback_e74011d8.jpg",
+   "category": "aircraft",
+   "variant": "su34_fullback"
+  },
+  {
+   "path": "visual_gallery/aircraft/tu95/tu95_0c76ced5.jpg",
+   "category": "aircraft",
+   "variant": "tu95"
+  },
+  {
+   "path": "visual_gallery/aircraft/tu95/tu95_8625f73c.jpg",
+   "category": "aircraft",
+   "variant": "tu95"
+  },
+  {
+   "path": "visual_gallery/aircraft/tu95/tu95_d8b0c53f.jpg",
+   "category": "aircraft",
+   "variant": "tu95"
+  },
+  {
+   "path": "visual_gallery/artillery/2s19_msta/2s19_msta_1c01036e.jpg",
+   "category": "artillery",
+   "variant": "2s19_msta"
+  },
+  {
+   "path": "visual_gallery/artillery/2s19_msta/2s19_msta_5c951448.jpg",
+   "category": "artillery",
+   "variant": "2s19_msta"
+  },
+  {
+   "path": "visual_gallery/artillery/2s19_msta/2s19_msta_bc5aadf6.jpg",
+   "category": "artillery",
+   "variant": "2s19_msta"
+  },
+  {
+   "path": "visual_gallery/artillery/2s35_koalitsiya/2s35_koalitsiya_8f7105f2.jpg",
+   "category": "artillery",
+   "variant": "2s35_koalitsiya"
+  },
+  {
+   "path": "visual_gallery/artillery/bm21_grad/bm21_grad_7cbc68f4.jpg",
+   "category": "artillery",
+   "variant": "bm21_grad"
+  },
+  {
+   "path": "visual_gallery/artillery/bm21_grad/bm21_grad_8d439b7e.jpg",
+   "category": "artillery",
+   "variant": "bm21_grad"
+  },
+  {
+   "path": "visual_gallery/artillery/bm21_grad/bm21_grad_9e5d8486.jpg",
+   "category": "artillery",
+   "variant": "bm21_grad"
+  },
+  {
+   "path": "visual_gallery/artillery/bm21_grad/bm21_grad_b05ff42e.jpg",
+   "category": "artillery",
+   "variant": "bm21_grad"
+  },
+  {
+   "path": "visual_gallery/artillery/caesar/confirmed_001.jpg",
+   "category": "artillery",
+   "variant": "caesar"
+  },
+  {
+   "path": "visual_gallery/artillery/caesar/confirmed_002.jpg",
+   "category": "artillery",
+   "variant": "caesar"
+  },
+  {
+   "path": "visual_gallery/artillery/caesar/confirmed_006.jpg",
+   "category": "artillery",
+   "variant": "caesar"
+  },
+  {
+   "path": "visual_gallery/artillery/k9_thunder/k9_thunder_0997a8f3.jpg",
+   "category": "artillery",
+   "variant": "k9_thunder"
+  },
+  {
+   "path": "visual_gallery/artillery/k9_thunder/k9_thunder_67492e7c.jpg",
+   "category": "artillery",
+   "variant": "k9_thunder"
+  },
+  {
+   "path": "visual_gallery/artillery/k9_thunder/k9_thunder_e8bde1c8.jpg",
+   "category": "artillery",
+   "variant": "k9_thunder"
+  },
+  {
+   "path": "visual_gallery/artillery/m109_howitzer/m109_howitzer_0a98026e.jpg",
+   "category": "artillery",
+   "variant": "m109_howitzer"
+  },
+  {
+   "path": "visual_gallery/artillery/m109_howitzer/m109_howitzer_291d32ae.jpg",
+   "category": "artillery",
+   "variant": "m109_howitzer"
+  },
+  {
+   "path": "visual_gallery/artillery/m109_howitzer/m109_howitzer_9cbfc3fb.jpg",
+   "category": "artillery",
+   "variant": "m109_howitzer"
+  },
+  {
+   "path": "visual_gallery/artillery/m142_himars/m142_himars_2340df52.jpg",
+   "category": "artillery",
+   "variant": "m142_himars"
+  },
+  {
+   "path": "visual_gallery/artillery/m142_himars/m142_himars_31ffefd0.jpg",
+   "category": "artillery",
+   "variant": "m142_himars"
+  },
+  {
+   "path": "visual_gallery/artillery/m142_himars/m142_himars_a65cce24.jpg",
+   "category": "artillery",
+   "variant": "m142_himars"
+  },
+  {
+   "path": "visual_gallery/artillery/m142_himars/m142_himars_e1a3912a.jpg",
+   "category": "artillery",
+   "variant": "m142_himars"
+  },
+  {
+   "path": "visual_gallery/artillery/m270_mlrs/m270_mlrs_098b6ef1.jpg",
+   "category": "artillery",
+   "variant": "m270_mlrs"
+  },
+  {
+   "path": "visual_gallery/artillery/m270_mlrs/m270_mlrs_43c481f7.jpg",
+   "category": "artillery",
+   "variant": "m270_mlrs"
+  },
+  {
+   "path": "visual_gallery/artillery/m270_mlrs/m270_mlrs_4b555b02.jpg",
+   "category": "artillery",
+   "variant": "m270_mlrs"
+  },
+  {
+   "path": "visual_gallery/artillery/pzh2000/pzh2000_1da4ae29.jpg",
+   "category": "artillery",
+   "variant": "pzh2000"
+  },
+  {
+   "path": "visual_gallery/artillery/pzh2000/pzh2000_a8efd7e5.jpg",
+   "category": "artillery",
+   "variant": "pzh2000"
+  },
+  {
+   "path": "visual_gallery/artillery/pzh2000/pzh2000_cd2fb2d4.jpg",
+   "category": "artillery",
+   "variant": "pzh2000"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/Screenshot 2026-09-28 134953.png",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/Screenshot 2026-09-28 135101.png",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/confirmed_013.jpg",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/confirmed_017.jpg",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/ababil/confirmed_020.jpg",
+   "category": "drone",
+   "variant": "ababil"
+  },
+  {
+   "path": "visual_gallery/drone/anka/anka_91124e49.jpg",
+   "category": "drone",
+   "variant": "anka"
+  },
+  {
+   "path": "visual_gallery/drone/bayraktar_tb2/Screenshot 2026-09-28 140424.png",
+   "category": "drone",
+   "variant": "bayraktar_tb2"
+  },
+  {
+   "path": "visual_gallery/drone/bayraktar_tb2/bayraktar_tb2_0817c77b.jpg",
+   "category": "drone",
+   "variant": "bayraktar_tb2"
+  },
+  {
+   "path": "visual_gallery/drone/bayraktar_tb2/confirmed_011.jpg",
+   "category": "drone",
+   "variant": "bayraktar_tb2"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/confirmed_010.jpg",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/confirmed_017.jpg",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/confirmed_018.jpg",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch4/confirmed_022.jpg",
+   "category": "drone",
+   "variant": "ch4"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/Screenshot 2026-09-28 142136.png",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/Screenshot 2026-09-28 142518.png",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/confirmed_011.jpg",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/confirmed_012.jpg",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/ch5/confirmed_014.jpg",
+   "category": "drone",
+   "variant": "ch5"
+  },
+  {
+   "path": "visual_gallery/drone/fpv_kamikaze_aze/Screenshot 2026-09-28 143217.png",
+   "category": "drone",
+   "variant": "fpv_kamikaze_aze"
+  },
+  {
+   "path": "visual_gallery/drone/fpv_kamikaze_aze/Screenshot 2026-09-28 143326.png",
+   "category": "drone",
+   "variant": "fpv_kamikaze_aze"
+  },
+  {
+   "path": "visual_gallery/drone/fpv_kamikaze_aze/confirmed_010.jpg",
+   "category": "drone",
+   "variant": "fpv_kamikaze_aze"
+  },
+  {
+   "path": "visual_gallery/drone/harop/Screenshot 2026-09-28 143807.png",
+   "category": "drone",
+   "variant": "harop"
+  },
+  {
+   "path": "visual_gallery/drone/harop/Screenshot 2026-09-28 143836.png",
+   "category": "drone",
+   "variant": "harop"
+  },
+  {
+   "path": "visual_gallery/drone/harop/confirmed_012.jpg",
+   "category": "drone",
+   "variant": "harop"
+  },
+  {
+   "path": "visual_gallery/drone/heron_tp/Screenshot 2026-09-28 144735.png",
+   "category": "drone",
+   "variant": "heron_tp"
+  },
+  {
+   "path": "visual_gallery/drone/heron_tp/Screenshot 2026-09-28 144814.png",
+   "category": "drone",
+   "variant": "heron_tp"
+  },
+  {
+   "path": "visual_gallery/drone/heron_tp/confirmed_010.jpg",
+   "category": "drone",
+   "variant": "heron_tp"
+  },
+  {
+   "path": "visual_gallery/drone/mq9_reaper/mq9_reaper_aa84d6b6.jpg",
+   "category": "drone",
+   "variant": "mq9_reaper"
+  },
+  {
+   "path": "visual_gallery/drone/mq9_reaper/mq9_reaper_b75fd1e7.jpg",
+   "category": "drone",
+   "variant": "mq9_reaper"
+  },
+  {
+   "path": "visual_gallery/drone/mq9_reaper/mq9_reaper_b95a606f.jpg",
+   "category": "drone",
+   "variant": "mq9_reaper"
+  },
+  {
+   "path": "visual_gallery/drone/mq9_reaper/mq9_reaper_dd314a6a.jpg",
+   "category": "drone",
+   "variant": "mq9_reaper"
+  },
+  {
+   "path": "visual_gallery/drone/rq1_predator/rq1_predator_42680d4b.jpg",
+   "category": "drone",
+   "variant": "rq1_predator"
+  },
+  {
+   "path": "visual_gallery/drone/rq4_global_hawk/Screenshot 2026-09-28 160939.png",
+   "category": "drone",
+   "variant": "rq4_global_hawk"
+  },
+  {
+   "path": "visual_gallery/drone/rq4_global_hawk/confirmed_006.jpg",
+   "category": "drone",
+   "variant": "rq4_global_hawk"
+  },
+  {
+   "path": "visual_gallery/drone/rq4_global_hawk/confirmed_008.jpg",
+   "category": "drone",
+   "variant": "rq4_global_hawk"
+  },
+  {
+   "path": "visual_gallery/drone/wing_loong/wing_loong_04bcbe25.jpg",
+   "category": "drone",
+   "variant": "wing_loong"
+  },
+  {
+   "path": "visual_gallery/helicopter/a129_mangusta/Screenshot 2026-09-30 145840.png",
+   "category": "helicopter",
+   "variant": "a129_mangusta"
+  },
+  {
+   "path": "visual_gallery/helicopter/a129_mangusta/Screenshot 2026-10-01 135901.png",
+   "category": "helicopter",
+   "variant": "a129_mangusta"
+  },
+  {
+   "path": "visual_gallery/helicopter/a129_mangusta/Screenshot 2026-10-01 135909.png",
+   "category": "helicopter",
+   "variant": "a129_mangusta"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 140849.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 151043.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/Screenshot 2026-10-01 151112.png",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/ah1_cobra_da3edc34.jpg",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1_cobra/confirmed_025.jpg",
+   "category": "helicopter",
+   "variant": "ah1_cobra"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150435.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150451.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150545.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah1z_viper/Screenshot 2026-10-01 150607.png",
+   "category": "helicopter",
+   "variant": "ah1z_viper"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 151657.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152040.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152212.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152241.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152300.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah64_apache/Screenshot 2026-10-01 152352.png",
+   "category": "helicopter",
+   "variant": "ah64_apache"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah6_little_bird/Screenshot 2026-10-01 142334.png",
+   "category": "helicopter",
+   "variant": "ah6_little_bird"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah6_little_bird/Screenshot 2026-10-01 143559.png",
+   "category": "helicopter",
+   "variant": "ah6_little_bird"
+  },
+  {
+   "path": "visual_gallery/helicopter/ah6_little_bird/Screenshot 2026-10-01 143638.png",
+   "category": "helicopter",
+   "variant": "ah6_little_bird"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw101_merlin/aw101-merlin_002.png",
+   "category": "helicopter",
+   "variant": "aw101_merlin"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw101_merlin/aw101-merlin_003.png",
+   "category": "helicopter",
+   "variant": "aw101_merlin"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw101_merlin/aw101-merlin_008.png",
+   "category": "helicopter",
+   "variant": "aw101_merlin"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_006.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_011.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_012.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_014.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/aw249/aw249_015.png",
+   "category": "helicopter",
+   "variant": "aw249"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_000.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_004.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_011.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_012.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_016.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/ch47_chinook/ch47-chinook_017.png",
+   "category": "helicopter",
+   "variant": "ch47_chinook"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_001.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_005.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_006.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_011.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_014.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/uh60_black_hawk/uh60-black-hawk_016.png",
+   "category": "helicopter",
+   "variant": "uh60_black_hawk"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_004.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_008.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_013.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/helicopter/z19/z19_014.png",
+   "category": "helicopter",
+   "variant": "z19"
+  },
+  {
+   "path": "visual_gallery/ship/ins_vikrant/ins_vikrant_c869a063.jpg",
+   "category": "ship",
+   "variant": "ins_vikrant"
+  },
+  {
+   "path": "visual_gallery/tank/altay/Screenshot 2026-09-28 134358.png",
+   "category": "tank",
+   "variant": "altay"
+  },
+  {
+   "path": "visual_gallery/tank/altay/Screenshot 2026-09-28 134430.png",
+   "category": "tank",
+   "variant": "altay"
+  },
+  {
+   "path": "visual_gallery/tank/altay/confirmed_010.jpg",
+   "category": "tank",
+   "variant": "altay"
+  },
+  {
+   "path": "visual_gallery/tank/ariete/confirmed_003.jpg",
+   "category": "tank",
+   "variant": "ariete"
+  },
+  {
+   "path": "visual_gallery/tank/ariete/confirmed_005.jpg",
+   "category": "tank",
+   "variant": "ariete"
+  },
+  {
+   "path": "visual_gallery/tank/ariete/confirmed_007.jpg",
+   "category": "tank",
+   "variant": "ariete"
+  },
+  {
+   "path": "visual_gallery/tank/challenger1/Screenshot 2026-09-27 091607.png",
+   "category": "tank",
+   "variant": "challenger1"
+  },
+  {
+   "path": "visual_gallery/tank/challenger1/challenger1_29744801.jpg",
+   "category": "tank",
+   "variant": "challenger1"
+  },
+  {
+   "path": "visual_gallery/tank/challenger2/challenger2_015c3014.jpg",
+   "category": "tank",
+   "variant": "challenger2"
+  },
+  {
+   "path": "visual_gallery/tank/challenger2/challenger2_a07fb096.jpg",
+   "category": "tank",
+   "variant": "challenger2"
+  },
+  {
+   "path": "visual_gallery/tank/challenger2/challenger2_b4dc9b3f.jpg",
+   "category": "tank",
+   "variant": "challenger2"
+  },
+  {
+   "path": "visual_gallery/tank/k2_black_panther/Screenshot 2026-09-26 183218.png",
+   "category": "tank",
+   "variant": "k2_black_panther"
+  },
+  {
+   "path": "visual_gallery/tank/k2_black_panther/Screenshot 2026-09-26 183333.png",
+   "category": "tank",
+   "variant": "k2_black_panther"
+  },
+  {
+   "path": "visual_gallery/tank/k2_black_panther/Screenshot 2026-09-26 183343.png",
+   "category": "tank",
+   "variant": "k2_black_panther"
+  },
+  {
+   "path": "visual_gallery/tank/k2_black_panther/k2_black_panther_27d8c999.jpg",
+   "category": "tank",
+   "variant": "k2_black_panther"
+  },
+  {
+   "path": "visual_gallery/tank/karrar_tank/Screenshot 2026-09-25 211429.png",
+   "category": "tank",
+   "variant": "karrar_tank"
+  },
+  {
+   "path": "visual_gallery/tank/karrar_tank/Screenshot 2026-09-25 211452.png",
+   "category": "tank",
+   "variant": "karrar_tank"
+  },
+  {
+   "path": "visual_gallery/tank/leclerc/leclerc_4699817a.jpg",
+   "category": "tank",
+   "variant": "leclerc"
+  },
+  {
+   "path": "visual_gallery/tank/leclerc/leclerc_8431ad5a.jpg",
+   "category": "tank",
+   "variant": "leclerc"
+  },
+  {
+   "path": "visual_gallery/tank/leclerc/leclerc_bc057879.jpg",
+   "category": "tank",
+   "variant": "leclerc"
+  },
+  {
+   "path": "visual_gallery/tank/leopard_2/leopard_2_23b8351d.jpg",
+   "category": "tank",
+   "variant": "leopard_2"
+  },
+  {
+   "path": "visual_gallery/tank/leopard_2/leopard_2_6936d60b.jpg",
+   "category": "tank",
+   "variant": "leopard_2"
+  },
+  {
+   "path": "visual_gallery/tank/leopard_2/leopard_2_814c3325.jpg",
+   "category": "tank",
+   "variant": "leopard_2"
+  },
+  {
+   "path": "visual_gallery/tank/leopard_2/leopard_2_d89f6fc4.jpg",
+   "category": "tank",
+   "variant": "leopard_2"
+  },
+  {
+   "path": "visual_gallery/tank/m1_abrams/m1_abrams_28ebbe02.jpg",
+   "category": "tank",
+   "variant": "m1_abrams"
+  },
+  {
+   "path": "visual_gallery/tank/m1_abrams/m1_abrams_5a65818b.jpg",
+   "category": "tank",
+   "variant": "m1_abrams"
+  },
+  {
+   "path": "visual_gallery/tank/m1_abrams/m1_abrams_7352c322.jpg",
+   "category": "tank",
+   "variant": "m1_abrams"
+  },
+  {
+   "path": "visual_gallery/tank/m1_abrams/m1_abrams_ef6beeba.jpg",
+   "category": "tank",
+   "variant": "m1_abrams"
+  },
+  {
+   "path": "visual_gallery/tank/merkava/merkava_57a44d55.jpg",
+   "category": "tank",
+   "variant": "merkava"
+  },
+  {
+   "path": "visual_gallery/tank/merkava/merkava_657fee23.jpg",
+   "category": "tank",
+   "variant": "merkava"
+  },
+  {
+   "path": "visual_gallery/tank/merkava/merkava_af9ced21.jpg",
+   "category": "tank",
+   "variant": "merkava"
+  },
+  {
+   "path": "visual_gallery/tank/merkava/merkava_b823fbb0.jpg",
+   "category": "tank",
+   "variant": "merkava"
+  },
+  {
+   "path": "visual_gallery/tank/t14_armata/Screenshot 2026-09-25 205144.png",
+   "category": "tank",
+   "variant": "t14_armata"
+  },
+  {
+   "path": "visual_gallery/tank/t14_armata/t14_armata_1.jpg",
+   "category": "tank",
+   "variant": "t14_armata"
+  },
+  {
+   "path": "visual_gallery/tank/t14_armata/t14_armata_378ff7e6.jpg",
+   "category": "tank",
+   "variant": "t14_armata"
+  },
+  {
+   "path": "visual_gallery/tank/t14_armata/t14_armata_d22c49fc.jpg",
+   "category": "tank",
+   "variant": "t14_armata"
+  },
+  {
+   "path": "visual_gallery/tank/t62/t62_aa38106b.jpg",
+   "category": "tank",
+   "variant": "t62"
+  },
+  {
+   "path": "visual_gallery/tank/t72/Screenshot 2026-09-25 200825.png",
+   "category": "tank",
+   "variant": "t72"
+  },
+  {
+   "path": "visual_gallery/tank/t72/Screenshot 2026-09-25 203008.png",
+   "category": "tank",
+   "variant": "t72"
+  },
+  {
+   "path": "visual_gallery/tank/t72/confirmed_011.jpg",
+   "category": "tank",
+   "variant": "t72"
+  },
+  {
+   "path": "visual_gallery/tank/t72/confirmed_012.jpg",
+   "category": "tank",
+   "variant": "t72"
+  },
+  {
+   "path": "visual_gallery/tank/t72b3/Screenshot 2026-09-25 205931.png",
+   "category": "tank",
+   "variant": "t72b3"
+  },
+  {
+   "path": "visual_gallery/tank/t72b3/Screenshot 2026-09-25 210221.png",
+   "category": "tank",
+   "variant": "t72b3"
+  },
+  {
+   "path": "visual_gallery/tank/t72b3/confirmed_010.jpg",
+   "category": "tank",
+   "variant": "t72b3"
+  },
+  {
+   "path": "visual_gallery/tank/t90/t90_261b590a.jpg",
+   "category": "tank",
+   "variant": "t90"
+  },
+  {
+   "path": "visual_gallery/tank/t90/t90_2709e5b9.jpg",
+   "category": "tank",
+   "variant": "t90"
+  },
+  {
+   "path": "visual_gallery/tank/t90/t90_5871224a.jpg",
+   "category": "tank",
+   "variant": "t90"
+  },
+  {
+   "path": "visual_gallery/tank/type_96/type_96_75eb8b7a.jpg",
+   "category": "tank",
+   "variant": "type_96"
+  },
+  {
+   "path": "visual_gallery/tank/type_96/type_96_e760fe38.jpg",
+   "category": "tank",
+   "variant": "type_96"
+  },
+  {
+   "path": "visual_gallery/tank/type_96/type_96_fe176df8.jpg",
+   "category": "tank",
+   "variant": "type_96"
+  },
+  {
+   "path": "visual_gallery/tank/type_99/type_99_aa71926c.jpg",
+   "category": "tank",
+   "variant": "type_99"
+  },
+  {
+   "path": "visual_gallery/vehicle/ampv/Screenshot 2026-09-28 162438.png",
+   "category": "vehicle",
+   "variant": "ampv"
+  },
+  {
+   "path": "visual_gallery/vehicle/ascod/Screenshot 2026-09-29 212458.png",
+   "category": "vehicle",
+   "variant": "ascod"
+  },
+  {
+   "path": "visual_gallery/vehicle/ascod/ascod_622116e3.jpg",
+   "category": "vehicle",
+   "variant": "ascod"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp2/Screenshot 2026-09-29 213211.png",
+   "category": "vehicle",
+   "variant": "bmp2"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp2/Screenshot 2026-09-29 213246.png",
+   "category": "vehicle",
+   "variant": "bmp2"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp2/Screenshot 2026-09-29 213344.png",
+   "category": "vehicle",
+   "variant": "bmp2"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp3/Screenshot 2026-09-29 214222.png",
+   "category": "vehicle",
+   "variant": "bmp3"
+  },
+  {
+   "path": "visual_gallery/vehicle/bmp3/Screenshot 2026-09-29 214245.png",
+   "category": "vehicle",
+   "variant": "bmp3"
+  },
+  {
+   "path": "visual_gallery/vehicle/borsuk/Screenshot 2026-09-29 215023.png",
+   "category": "vehicle",
+   "variant": "borsuk"
+  },
+  {
+   "path": "visual_gallery/vehicle/borsuk/Screenshot 2026-09-29 215418.png",
+   "category": "vehicle",
+   "variant": "borsuk"
+  },
+  {
+   "path": "visual_gallery/vehicle/borsuk/borsuk_c6e14cce.jpg",
+   "category": "vehicle",
+   "variant": "borsuk"
+  },
+  {
+   "path": "visual_gallery/vehicle/borsuk/confirmed_011.jpg",
+   "category": "vehicle",
+   "variant": "borsuk"
+  },
+  {
+   "path": "visual_gallery/vehicle/btr80/Screenshot 2026-09-29 221015.png",
+   "category": "vehicle",
+   "variant": "btr80"
+  },
+  {
+   "path": "visual_gallery/vehicle/cv90/Screenshot 2026-09-29 221341.png",
+   "category": "vehicle",
+   "variant": "cv90"
+  },
+  {
+   "path": "visual_gallery/vehicle/cv90/Screenshot 2026-09-29 221405.png",
+   "category": "vehicle",
+   "variant": "cv90"
+  },
+  {
+   "path": "visual_gallery/vehicle/cv90/confirmed_010.jpg",
+   "category": "vehicle",
+   "variant": "cv90"
+  },
+  {
+   "path": "visual_gallery/vehicle/fmtv/Screenshot 2026-09-29 221743.png",
+   "category": "vehicle",
+   "variant": "fmtv"
+  },
+  {
+   "path": "visual_gallery/vehicle/fmtv/Screenshot 2026-09-29 221800.png",
+   "category": "vehicle",
+   "variant": "fmtv"
+  },
+  {
+   "path": "visual_gallery/vehicle/hemtt/Screenshot 2026-09-29 222144.png",
+   "category": "vehicle",
+   "variant": "hemtt"
+  },
+  {
+   "path": "visual_gallery/vehicle/hemtt/Screenshot 2026-09-29 222438.png",
+   "category": "vehicle",
+   "variant": "hemtt"
+  },
+  {
+   "path": "visual_gallery/vehicle/hmmww/Screenshot 2026-09-29 223118.png",
+   "category": "vehicle",
+   "variant": "hmmww"
+  },
+  {
+   "path": "visual_gallery/vehicle/hmmww/Screenshot 2026-09-29 223331.png",
+   "category": "vehicle",
+   "variant": "hmmww"
+  },
+  {
+   "path": "visual_gallery/vehicle/infantry_soldier/Screenshot 2026-09-30 100000.png",
+   "category": "vehicle",
+   "variant": "infantry_soldier"
+  },
+  {
+   "path": "visual_gallery/vehicle/infantry_soldier/Screenshot 2026-09-30 100005.png",
+   "category": "vehicle",
+   "variant": "infantry_soldier"
+  },
+  {
+   "path": "visual_gallery/vehicle/lav25/Screenshot 2026-09-30 100311.png",
+   "category": "vehicle",
+   "variant": "lav25"
+  },
+  {
+   "path": "visual_gallery/vehicle/lav25/Screenshot 2026-09-30 100346.png",
+   "category": "vehicle",
+   "variant": "lav25"
+  },
+  {
+   "path": "visual_gallery/vehicle/m113/Screenshot 2026-09-30 101938.png",
+   "category": "vehicle",
+   "variant": "m113"
+  },
+  {
+   "path": "visual_gallery/vehicle/m113/Screenshot 2026-09-30 133048.png",
+   "category": "vehicle",
+   "variant": "m113"
+  },
+  {
+   "path": "visual_gallery/vehicle/m113/m113_1.jpg",
+   "category": "vehicle",
+   "variant": "m113"
+  },
+  {
+   "path": "visual_gallery/vehicle/namer_apc/namer_apc_4.jpg",
+   "category": "vehicle",
+   "variant": "namer_apc"
+  }
+ ],
+ "split_of_query": {
+  "0": "calib",
+  "1": "calib",
+  "2": "test",
+  "3": "calib",
+  "4": "calib",
+  "5": "test",
+  "6": "calib",
+  "7": "test",
+  "8": "test",
+  "9": "test",
+  "10": "test",
+  "11": "test",
+  "12": "test",
+  "13": "test",
+  "14": "calib",
+  "15": "test",
+  "16": "calib",
+  "17": "calib",
+  "18": "calib",
+  "19": "test",
+  "20": "test",
+  "21": "test",
+  "22": "test",
+  "23": "calib",
+  "24": "test",
+  "25": "calib",
+  "26": "calib",
+  "27": "test",
+  "28": "test",
+  "29": "calib",
+  "30": "test",
+  "31": "calib",
+  "32": "test",
+  "33": "calib",
+  "34": "test",
+  "35": "calib",
+  "36": "calib",
+  "37": "test",
+  "38": "test",
+  "39": "test",
+  "40": "test",
+  "41": "test",
+  "42": "calib",
+  "43": "calib",
+  "44": "calib",
+  "45": "test",
+  "46": "test",
+  "47": "calib",
+  "48": "test",
+  "49": "test",
+  "50": "calib",
+  "51": "calib",
+  "52": "calib",
+  "53": "calib",
+  "54": "calib",
+  "55": "calib",
+  "56": "test",
+  "57": "test",
+  "58": "test",
+  "59": "calib",
+  "60": "test",
+  "61": "test",
+  "62": "test",
+  "63": "calib",
+  "64": "test",
+  "65": "test",
+  "66": "test",
+  "67": "calib",
+  "68": "calib",
+  "69": "test",
+  "70": "test",
+  "71": "test",
+  "72": "test",
+  "73": "test",
+  "74": "calib",
+  "75": "test",
+  "76": "calib",
+  "77": "test",
+  "78": "calib",
+  "79": "calib",
+  "80": "test",
+  "81": "test",
+  "82": "test",
+  "83": "test",
+  "84": "test",
+  "85": "calib",
+  "86": "calib",
+  "87": "calib",
+  "88": "calib",
+  "89": "calib",
+  "90": "test",
+  "91": "calib",
+  "92": "calib",
+  "93": "test",
+  "94": "test",
+  "95": "test",
+  "96": "test",
+  "97": "calib",
+  "98": "calib",
+  "99": "test",
+  "100": "test",
+  "101": "calib",
+  "102": "calib",
+  "103": "test",
+  "104": "test",
+  "105": "test",
+  "106": "calib",
+  "107": "test",
+  "108": "test",
+  "109": "test",
+  "110": "calib",
+  "111": "calib",
+  "112": "calib",
+  "113": "calib",
+  "114": "test",
+  "115": "test",
+  "116": "test",
+  "117": "test",
+  "118": "test",
+  "119": "test",
+  "120": "test",
+  "121": "calib",
+  "122": "calib",
+  "123": "test",
+  "124": "calib",
+  "125": "calib",
+  "126": "test",
+  "127": "test",
+  "128": "test",
+  "129": "test",
+  "130": "test",
+  "131": "calib",
+  "132": "test",
+  "133": "calib",
+  "134": "calib",
+  "135": "test",
+  "136": "calib",
+  "137": "calib",
+  "138": "test",
+  "139": "test",
+  "140": "test",
+  "141": "test",
+  "142": "calib",
+  "143": "test",
+  "144": "calib",
+  "145": "test",
+  "146": "test",
+  "147": "calib",
+  "148": "test",
+  "149": "test",
+  "150": "test",
+  "151": "test",
+  "152": "calib",
+  "153": "test",
+  "154": "test",
+  "155": "test",
+  "156": "calib",
+  "157": "calib",
+  "158": "calib",
+  "159": "test",
+  "160": "test",
+  "161": "test",
+  "162": "calib",
+  "163": "test",
+  "164": "test",
+  "165": "test",
+  "166": "test",
+  "167": "test",
+  "168": "calib",
+  "169": "calib",
+  "170": "test",
+  "171": "test",
+  "172": "calib",
+  "173": "test",
+  "174": "test",
+  "175": "test",
+  "176": "calib",
+  "177": "test",
+  "178": "test",
+  "179": "test",
+  "180": "test",
+  "181": "test",
+  "182": "test",
+  "183": "test",
+  "184": "test",
+  "185": "test",
+  "186": "calib",
+  "187": "test",
+  "188": "calib",
+  "189": "test",
+  "190": "test",
+  "191": "calib",
+  "192": "test",
+  "193": "test",
+  "194": "test",
+  "195": "test",
+  "196": "calib",
+  "197": "test",
+  "198": "test",
+  "199": "test",
+  "200": "test",
+  "201": "test",
+  "202": "test",
+  "203": "calib",
+  "204": "test",
+  "205": "test",
+  "206": "test",
+  "207": "calib",
+  "208": "test",
+  "209": "calib",
+  "210": "test",
+  "211": "calib",
+  "212": "calib",
+  "213": "calib",
+  "214": "test",
+  "215": "test",
+  "216": "test",
+  "217": "test",
+  "218": "test",
+  "219": "calib",
+  "220": "test",
+  "221": "test",
+  "222": "test",
+  "223": "calib",
+  "224": "calib",
+  "225": "calib",
+  "226": "calib",
+  "227": "test",
+  "228": "calib",
+  "229": "test",
+  "230": "calib",
+  "231": "calib",
+  "232": "test",
+  "233": "test",
+  "234": "test",
+  "235": "test",
+  "236": "calib",
+  "237": "calib",
+  "238": "calib",
+  "239": "test",
+  "240": "test",
+  "241": "calib",
+  "242": "test",
+  "243": "calib",
+  "244": "calib",
+  "245": "test",
+  "246": "calib",
+  "247": "calib",
+  "248": "test",
+  "249": "test",
+  "250": "calib",
+  "251": "calib",
+  "252": "calib",
+  "253": "test",
+  "254": "test",
+  "255": "calib",
+  "256": "calib",
+  "257": "test",
+  "258": "calib",
+  "259": "test",
+  "260": "test",
+  "261": "calib",
+  "262": "calib",
+  "263": "test",
+  "264": "test",
+  "265": "test",
+  "266": "calib",
+  "267": "test",
+  "268": "test",
+  "269": "calib",
+  "270": "calib",
+  "271": "calib",
+  "272": "calib",
+  "273": "test",
+  "274": "test",
+  "275": "test",
+  "276": "calib",
+  "277": "calib",
+  "278": "test",
+  "279": "test",
+  "280": "test",
+  "281": "test",
+  "282": "test",
+  "283": "calib"
+ }
+}

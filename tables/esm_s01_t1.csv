@@ -1,0 +1,10 @@
+Dataset,Set,Images,Identities,Query rows
+ab4,index,790,100,-
+ab4,query (held-out),284,95,-
+ab4,calibration queries,114,66,-
+ab4,test queries,170,80,-
+Tier C,index (after losing 171 images),619,93,-
+Tier C,paired test queries (before / after exclusion),169 / 160,73 clusters,-
+v9 RQ-1,gallery,1667,145,-
+v9 RQ-1,calibration,-,73,831
+v9 RQ-1,test,-,72,832

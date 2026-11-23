@@ -1,0 +1,39 @@
+{
+  "prereg": "prereg_v9.md SEALED",
+  "n_queries": 1667,
+  "n_transforms": 11,
+  "total": 18337,
+  "transforms": [
+    "G1",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "G2",
+    "X1",
+    "X2",
+    "X3",
+    "X4"
+  ],
+  "canonical_T": [
+    "G1",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5"
+  ],
+  "stress_T": [
+    "G2",
+    "X1",
+    "X2",
+    "X3",
+    "X4"
+  ],
+  "encoder": "siglip2_I",
+  "mask": "A(ii) component mask theta=0.98, same as tierA_v3",
+  "m_id_definition": "s1_id - s2_id (top1-top2 identity max-pooled scores); same as ab4 Sc4",
+  "s1_definition": "top1 identity max-pooled score (absolute similarity)",
+  "delta_definition": "delta = value(T(x)) - value(x) on same masked setting"
+}

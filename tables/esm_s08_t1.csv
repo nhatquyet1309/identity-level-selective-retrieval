@@ -1,0 +1,7 @@
+Cell,Micro top-1
+SigLIP2-S,59.11%
+SigLIP2-I,81.12%
+CLIP-B-S,44.38%
+CLIP-B-I,46.00%
+DINOv2,54.48%
+CLIP-L/14,68.13%

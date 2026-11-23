@@ -1,0 +1,6 @@
+# Statistics and number-checking step (all scripts except prereg_v9_capture.py and tierA_smoke.py).
+# Python 3.10 or newer. Only numpy is imported by these scripts.
+# Source of the version: env.txt of the capture machine (Python 3.10.12), see docs/reproducibility.md.
+# The v9rev_* scripts were run locally with Python 3.11 and a numpy version that was not recorded;
+# 2.2.6 is the only numpy version on record.
+numpy==2.2.6

@@ -1,0 +1,5 @@
+Dataset,n,conflict n,"error rate, conflict","error rate, other",similarity,MSP,energy,gap
+ab4 test (n_c >= 3),169,20,0.550,0.403,+0.0014,−0.0096,+0.0008,−0.0117
+ab4 calibration,114,17,0.706,0.402,−0.0171,−0.0003,−0.0196,−0.0054
+v9 SigLIP2-I test,832,12,1.000,0.166,−0.0013,−0.0014,−0.0014,−0.0018
+v9 CLIP-B-I test,832,112,1.000,0.464,−0.0545,−0.0342,−0.0583,−0.0256

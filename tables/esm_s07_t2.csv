@@ -1,0 +1,12 @@
+Name,Group,Parameter,top-1 flip,Spearman,Kendall,decision flip,accept to refuse,refuse to accept,rho
+G1,canonical,"horizontal mirror, no numeric parameter",0.0462,0.9937,0.9440,0.0438,0.0264,0.0174,1.049
+L1,canonical,factor 0.8,0.0246,0.9979,0.9703,0.0156,0.0108,0.0048,1.014
+L2,canonical,factor 1.2,0.0348,0.9957,0.9571,0.0300,0.0222,0.0078,1.003
+L3,canonical,factor 0.8,0.0126,0.9990,0.9808,0.0108,0.0060,0.0048,1.110
+L4,canonical,factor 0.8,0.0228,0.9978,0.9701,0.0198,0.0144,0.0054,0.970
+L5,canonical,+0.05 turn = 13 H units (of 255) ~ 18 degrees,0.0282,0.9977,0.9691,0.0186,0.0126,0.0060,1.064
+G2,stress,"vertical flip, no numeric parameter",0.2178,0.9379,0.8055,0.1422,0.1404,0.0018,0.361
+X1,stress,factor 0.5,0.0474,0.9936,0.9436,0.0462,0.0384,0.0078,0.919
+X2,stress,factor 1.5,0.0672,0.9877,0.9213,0.0660,0.0570,0.0090,0.914
+X3,stress,factor 0.4,0.0498,0.9925,0.9388,0.0570,0.0456,0.0114,0.993
+X4,stress,factor 0.5,0.0444,0.9936,0.9436,0.0468,0.0408,0.0060,0.919

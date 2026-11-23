@@ -1,0 +1,5 @@
+Overlap,ab4,Tier C,v9 RQ-1
+index and query images,0,-,-
+calibration and test images,0,-,-
+identities shared by calibration and test,51,-,0
+query identities not in the index,0,7,-

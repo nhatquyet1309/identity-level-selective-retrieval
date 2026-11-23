@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper below."
+title: "Comparing Confidence Scores for Refusal in Small-Gallery Fine-Grained Identification"
+type: software
+authors:
+  - family-names: "Tran"
+    given-names: "Nhat Quyet"
+    affiliation: "Le Quy Don Technical University, Hanoi, Vietnam"
+  - family-names: "Nguyen"
+    given-names: "Quang Thi"
+    affiliation: "Le Quy Don Technical University, Hanoi, Vietnam"
+  - family-names: "Nguyen"
+    given-names: "Thanh Anh"
+    affiliation: "Le Quy Don Technical University, Hanoi, Vietnam"
+  - family-names: "Nguyen"
+    given-names: "Quang Thinh"
+    affiliation: "Le Quy Don Technical University, Hanoi, Vietnam"
+license: MIT
+repository-code: "https://github.com/nhatquyet1309/identity-level-selective-retrieval"
+keywords:
+  - selective classification
+  - refusal
+  - confidence scores
+  - fine-grained identification
+  - E-AURC
+preferred-citation:
+  type: conference-paper
+  title: "Comparing Confidence Scores for Refusal in Small-Gallery Fine-Grained Identification"
+  authors:
+    - family-names: "Tran"
+      given-names: "Nhat Quyet"
+      affiliation: "Le Quy Don Technical University, Hanoi, Vietnam"
+    - family-names: "Nguyen"
+      given-names: "Quang Thi"
+      affiliation: "Le Quy Don Technical University, Hanoi, Vietnam"
+    - family-names: "Nguyen"
+      given-names: "Thanh Anh"
+      affiliation: "Le Quy Don Technical University, Hanoi, Vietnam"
+    - family-names: "Nguyen"
+      given-names: "Quang Thinh"
+      affiliation: "Le Quy Don Technical University, Hanoi, Vietnam"
+  collection-title: "ICISN 2027 (Lecture Notes in Networks and Systems)"
+  year: 2027
+  notes: "To appear; under review."

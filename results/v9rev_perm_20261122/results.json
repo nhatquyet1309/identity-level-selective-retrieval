@@ -1,0 +1,56 @@
+{
+  "deviation": "D19",
+  "post_hoc": true,
+  "label": "post hoc cluster sign-flip permutation test (descriptive sensitivity to McNemar independence)",
+  "seed": 20261022,
+  "sources": [
+    "03_experiments/results/C_caseI_20261119/619/predictions_siglip619.jsonl",
+    "03_experiments/results/C_caseI_20261119/619/predictions_clipb619.jsonl",
+    "03_experiments/results/5070-20261026-ab4/predictions.jsonl",
+    "03_experiments/results/preregv7_tierA_20261117/loo_Aii.csv"
+  ],
+  "comparisons": {
+    "tierC_siglip2_vs_clip": {
+      "description": "A = SigLIP2-I, B = CLIP-B-I (619 index, paired by query_id)",
+      "n": 160,
+      "n_clusters": 73,
+      "b": 8,
+      "c": 54,
+      "delta": 0.2875,
+      "mcnemar_exact_p": 1.709326186236787e-09,
+      "perm_p": 9.99990000099999e-06,
+      "B": 100000,
+      "seed": 20261022,
+      "p_min_resolvable": 9.99990000099999e-06,
+      "interpretation_note": "McNemar treats the paired cases as independent; cases from the same identity are correlated (identity clusters), so its p-value is anti-conservative. The permutation p flips the sign of whole identity clusters (paired, two-sided) and respects this clustering; it is a post hoc sensitivity check, not a replacement of the preregistered test."
+    },
+    "tierA_siglip2_I_vs_S": {
+      "description": "A = siglip2 image-only (I), B = siglip2 with text/S (S) on D(ii)",
+      "n": 1663,
+      "n_clusters": 141,
+      "b": 46,
+      "c": 412,
+      "delta": 0.2200841852074564,
+      "mcnemar_exact_p": 1.3304793004014549e-74,
+      "perm_p": 9.99990000099999e-06,
+      "B": 100000,
+      "seed": 20261022,
+      "p_min_resolvable": 9.99990000099999e-06,
+      "interpretation_note": "McNemar treats the paired cases as independent; cases from the same identity are correlated (identity clusters), so its p-value is anti-conservative. The permutation p flips the sign of whole identity clusters (paired, two-sided) and respects this clustering; it is a post hoc sensitivity check, not a replacement of the preregistered test."
+    },
+    "tierA_clip_I_vs_S": {
+      "description": "A = clip image-only (I), B = clip with text/S (S) on D(ii)",
+      "n": 1663,
+      "n_clusters": 141,
+      "b": 150,
+      "c": 177,
+      "delta": 0.016235718580877932,
+      "mcnemar_exact_p": 0.15037903893147264,
+      "perm_p": 0.46721532784672154,
+      "B": 100000,
+      "seed": 20261022,
+      "p_min_resolvable": 9.99990000099999e-06,
+      "interpretation_note": "McNemar treats the paired cases as independent; cases from the same identity are correlated (identity clusters), so its p-value is anti-conservative. The permutation p flips the sign of whole identity clusters (paired, two-sided) and respects this clustering; it is a post hoc sensitivity check, not a replacement of the preregistered test."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Credentials and local settings
+.env
+.env.*
+
+# Model weights, indexes and large arrays (never committed)
+*.npz
+*.npy
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.faiss
+
+# Images (galleries are not distributed)
+*.jpg
+*.jpeg
+*.png
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp

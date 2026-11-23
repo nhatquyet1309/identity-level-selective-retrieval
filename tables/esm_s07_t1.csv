@@ -1,0 +1,12 @@
+Name,Group,Operation,Parameter
+G1,canonical,Horizontal flip (mirror left-right),"horizontal mirror, no numeric parameter"
+L1,canonical,Brightness scaling (ImageEnhance.Brightness),factor 0.8
+L2,canonical,Brightness scaling (ImageEnhance.Brightness),factor 1.2
+L3,canonical,Saturation scaling (ImageEnhance.Color),factor 0.8
+L4,canonical,Contrast scaling (ImageEnhance.Contrast),factor 0.8
+L5,canonical,Hue shift in HSV,+0.05 turn = 13 H units (of 255) ~ 18 degrees
+G2,stress,Vertical flip (top-bottom),"vertical flip, no numeric parameter"
+X1,stress,Brightness scaling (ImageEnhance.Brightness),factor 0.5
+X2,stress,Brightness scaling (ImageEnhance.Brightness),factor 1.5
+X3,stress,Saturation scaling (ImageEnhance.Color),factor 0.4
+X4,stress,Contrast scaling (ImageEnhance.Contrast),factor 0.5

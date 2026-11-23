@@ -1,0 +1,3 @@
+Group,top-1 flip,Spearman,Kendall,decision flip,accept to refuse,refuse to accept,rho (ratio of per-transform medians averaged (post hoc); differs from the pooled preregistered rho of the paper)
+canonical,0.0282,0.9970,0.9652,0.0231,0.0154,0.0077,1.035
+stress,0.0853,0.9811,0.9105,0.0716,0.0644,0.0072,0.821

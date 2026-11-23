@@ -1,0 +1,469 @@
+{
+  "deviation": "D15",
+  "post_hoc": true,
+  "seed": 20261022,
+  "n_boot": 2000,
+  "label": "post hoc, descriptive: 4 score tren Y_c, hai regime nhan (yc_argmax chinh; global_argmax khop D13)",
+  "sources": [
+    "03_experiments/results/prereg_v9_gap_20261121/pass1_capture.npz",
+    "03_experiments/results/prereg_v9_gap_20261121/pass1_meta.json",
+    "03_experiments/results/prereg_v9_gap_20261121/pass2b_meta.json",
+    "03_experiments/results/prereg_v9_gap_20261121/p1_results.json",
+    "03_experiments/results/D13_Yc_sensitivity_20261121/results.json"
+  ],
+  "rng_substream_rule": "default_rng([20261022, zlib.crc32(tag)]); tag = '<eid>|<regime>|<stratum>'; cum = identity",
+  "T_policy": "sealed_T_star_no_reselection",
+  "regime_note": "yc_argmax: nhan = argmax trong Y_c (ties -> chi so nho nhat) la regime CHINH; global_argmax: nhan sealed (argmax 145 identity), tuong thich D13.",
+  "label_regimes": {
+    "yc_argmax": {
+      "encoders": {
+        "siglip2_I": {
+          "T_star_MSP": 0.01,
+          "T_star_energy": 0.01,
+          "strata": {
+            "all_832": {
+              "n": 832,
+              "n_err": 143,
+              "metrics": {
+                "s1": {
+                  "e_aurc": 0.05786982842082501,
+                  "auroc": 0.7604717488607183
+                },
+                "MSP": {
+                  "e_aurc": 0.028291887494325717,
+                  "auroc": 0.8700559237569397
+                },
+                "energy": {
+                  "e_aurc": 0.0629463402400267,
+                  "auroc": 0.7465872298963736
+                },
+                "gap": {
+                  "e_aurc": 0.03007116158473398,
+                  "auroc": 0.8621393120667431
+                }
+              },
+              "paired_delta_eaurc": {
+                "gap_minus_s1": {
+                  "delta": -0.027798666836091033,
+                  "ci95_lo": -0.049586258951597455,
+                  "ci95_hi": -0.00735848394195006,
+                  "label": "better"
+                },
+                "gap_minus_MSP": {
+                  "delta": 0.0017792740904082616,
+                  "ci95_lo": 0.00043708110715306867,
+                  "ci95_hi": 0.0034239421332785906,
+                  "label": "worse"
+                },
+                "gap_minus_energy": {
+                  "delta": -0.032875178655292714,
+                  "ci95_lo": -0.0579714354414115,
+                  "ci95_hi": -0.010432503206733033,
+                  "label": "better"
+                },
+                "MSP_minus_gap": {
+                  "delta": -0.0017792740904082616,
+                  "ci95_lo": -0.0034239421332785906,
+                  "ci95_hi": -0.00043708110715306867,
+                  "label": "better"
+                }
+              }
+            },
+            "nc_ge3": {
+              "n": 826,
+              "n_err": 142,
+              "metrics": {
+                "s1": {
+                  "e_aurc": 0.057470749333037405,
+                  "auroc": 0.762416604892513
+                },
+                "MSP": {
+                  "e_aurc": 0.028589148128339157,
+                  "auroc": 0.8686784449386377
+                },
+                "energy": {
+                  "e_aurc": 0.06253022722045717,
+                  "auroc": 0.7486306729264476
+                },
+                "gap": {
+                  "e_aurc": 0.030396718773828272,
+                  "auroc": 0.860544848035582
+                }
+              },
+              "paired_delta_eaurc": {
+                "gap_minus_s1": {
+                  "delta": -0.027074030559209133,
+                  "ci95_lo": -0.04961672546253213,
+                  "ci95_hi": -0.007611311846589165,
+                  "label": "better"
+                },
+                "gap_minus_MSP": {
+                  "delta": 0.001807570645489115,
+                  "ci95_lo": 0.0004375515670820816,
+                  "ci95_hi": 0.003476214974924704,
+                  "label": "worse"
+                },
+                "gap_minus_energy": {
+                  "delta": -0.032133508446628906,
+                  "ci95_lo": -0.05768180136846757,
+                  "ci95_hi": -0.01071826592780387,
+                  "label": "better"
+                },
+                "MSP_minus_gap": {
+                  "delta": -0.001807570645489115,
+                  "ci95_lo": -0.003476214974924704,
+                  "ci95_hi": -0.0004375515670820816,
+                  "label": "better"
+                }
+              }
+            }
+          }
+        },
+        "clip_I": {
+          "T_star_MSP": 0.01,
+          "T_star_energy": 0.01,
+          "strata": {
+            "all_832": {
+              "n": 832,
+              "n_err": 411,
+              "metrics": {
+                "s1": {
+                  "e_aurc": 0.21150429257007694,
+                  "auroc": 0.6442313805040715
+                },
+                "MSP": {
+                  "e_aurc": 0.12258423244108321,
+                  "auroc": 0.7780917870208228
+                },
+                "energy": {
+                  "e_aurc": 0.2370115421203378,
+                  "auroc": 0.6199813906178662
+                },
+                "gap": {
+                  "e_aurc": 0.13113997118228857,
+                  "auroc": 0.758343880576313
+                }
+              },
+              "paired_delta_eaurc": {
+                "gap_minus_s1": {
+                  "delta": -0.08036432138778837,
+                  "ci95_lo": -0.12321094031124274,
+                  "ci95_hi": -0.03967280301926703,
+                  "label": "better"
+                },
+                "gap_minus_MSP": {
+                  "delta": 0.008555738741205354,
+                  "ci95_lo": 0.0022792871793104754,
+                  "ci95_hi": 0.014996748872080969,
+                  "label": "worse"
+                },
+                "gap_minus_energy": {
+                  "delta": -0.10587157093804922,
+                  "ci95_lo": -0.15217198501415632,
+                  "ci95_hi": -0.06205765129476072,
+                  "label": "better"
+                },
+                "MSP_minus_gap": {
+                  "delta": -0.008555738741205354,
+                  "ci95_lo": -0.014996748872080969,
+                  "ci95_hi": -0.0022792871793104754,
+                  "label": "better"
+                }
+              }
+            },
+            "nc_ge3": {
+              "n": 826,
+              "n_err": 408,
+              "metrics": {
+                "s1": {
+                  "e_aurc": 0.2106819218853173,
+                  "auroc": 0.6457277887231447
+                },
+                "MSP": {
+                  "e_aurc": 0.11847986390053777,
+                  "auroc": 0.7815519748569284
+                },
+                "energy": {
+                  "e_aurc": 0.2363846720103836,
+                  "auroc": 0.6211417581386621
+                },
+                "gap": {
+                  "e_aurc": 0.12776884278463363,
+                  "auroc": 0.7619441317196736
+                }
+              },
+              "paired_delta_eaurc": {
+                "gap_minus_s1": {
+                  "delta": -0.08291307910068368,
+                  "ci95_lo": -0.12468492519975158,
+                  "ci95_hi": -0.04259178274397194,
+                  "label": "better"
+                },
+                "gap_minus_MSP": {
+                  "delta": 0.009288978884095855,
+                  "ci95_lo": 0.0033746975535929465,
+                  "ci95_hi": 0.01596650526537803,
+                  "label": "worse"
+                },
+                "gap_minus_energy": {
+                  "delta": -0.10861582922574997,
+                  "ci95_lo": -0.15615481693445105,
+                  "ci95_hi": -0.06456630873667113,
+                  "label": "better"
+                },
+                "MSP_minus_gap": {
+                  "delta": -0.009288978884095855,
+                  "ci95_lo": -0.01596650526537803,
+                  "ci95_hi": -0.0033746975535929465,
+                  "label": "better"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "global_argmax": {
+      "encoders": {
+        "siglip2_I": {
+          "T_star_MSP": 0.01,
+          "T_star_energy": 0.01,
+          "strata": {
+            "all_832": {
+              "n": 832,
+              "n_err": 148,
+              "metrics": {
+                "s1": {
+                  "e_aurc": 0.0573146887694377,
+                  "auroc": 0.7702505136715663
+                },
+                "MSP": {
+                  "e_aurc": 0.02849984652780087,
+                  "auroc": 0.8729749486328434
+                },
+                "energy": {
+                  "e_aurc": 0.06244608111431703,
+                  "auroc": 0.7564406511774933
+                },
+                "gap": {
+                  "e_aurc": 0.030541593278261493,
+                  "auroc": 0.8641635056108741
+                }
+              },
+              "paired_delta_eaurc": {
+                "gap_minus_s1": {
+                  "delta": -0.026773095491176204,
+                  "ci95_lo": -0.04914355125852697,
+                  "ci95_hi": -0.007099290880204076,
+                  "label": "better"
+                },
+                "gap_minus_MSP": {
+                  "delta": 0.0020417467504606213,
+                  "ci95_lo": 0.0006172452195655759,
+                  "ci95_hi": 0.003734663854994576,
+                  "label": "worse"
+                },
+                "gap_minus_energy": {
+                  "delta": -0.03190448783605554,
+                  "ci95_lo": -0.05724906005976396,
+                  "ci95_hi": -0.009945578448985712,
+                  "label": "better"
+                },
+                "MSP_minus_gap": {
+                  "delta": -0.0020417467504606213,
+                  "ci95_lo": -0.003734663854994576,
+                  "ci95_hi": -0.0006172452195655759,
+                  "label": "better"
+                }
+              }
+            },
+            "nc_ge3": {
+              "n": 826,
+              "n_err": 147,
+              "metrics": {
+                "s1": {
+                  "e_aurc": 0.056905726278265956,
+                  "auroc": 0.772244096460381
+                },
+                "MSP": {
+                  "e_aurc": 0.028804136113667857,
+                  "auroc": 0.8716299480027652
+                },
+                "energy": {
+                  "e_aurc": 0.062020801023418656,
+                  "auroc": 0.7585284481981305
+                },
+                "gap": {
+                  "e_aurc": 0.030872762784948268,
+                  "auroc": 0.8626231052067366
+                }
+              },
+              "paired_delta_eaurc": {
+                "gap_minus_s1": {
+                  "delta": -0.026032963493317688,
+                  "ci95_lo": -0.048776191143779145,
+                  "ci95_hi": -0.007187204782136718,
+                  "label": "better"
+                },
+                "gap_minus_MSP": {
+                  "delta": 0.0020686266712804102,
+                  "ci95_lo": 0.0006637245568394841,
+                  "ci95_hi": 0.003804069575294443,
+                  "label": "worse"
+                },
+                "gap_minus_energy": {
+                  "delta": -0.03114803823847039,
+                  "ci95_lo": -0.05725949608870949,
+                  "ci95_hi": -0.010534805471923155,
+                  "label": "better"
+                },
+                "MSP_minus_gap": {
+                  "delta": -0.0020686266712804102,
+                  "ci95_lo": -0.003804069575294443,
+                  "ci95_hi": -0.0006637245568394841,
+                  "label": "better"
+                }
+              }
+            }
+          }
+        },
+        "clip_I": {
+          "T_star_MSP": 0.01,
+          "T_star_energy": 0.01,
+          "strata": {
+            "all_832": {
+              "n": 832,
+              "n_err": 446,
+              "metrics": {
+                "s1": {
+                  "e_aurc": 0.1994487684753546,
+                  "auroc": 0.6781000952624364
+                },
+                "MSP": {
+                  "e_aurc": 0.12504337973593377,
+                  "auroc": 0.794999883826297
+                },
+                "energy": {
+                  "e_aurc": 0.22627499091134406,
+                  "auroc": 0.6527161411742838
+                },
+                "gap": {
+                  "e_aurc": 0.1359841398481652,
+                  "auroc": 0.7710971444503822
+                }
+              },
+              "paired_delta_eaurc": {
+                "gap_minus_s1": {
+                  "delta": -0.06346462862718938,
+                  "ci95_lo": -0.1079468959388324,
+                  "ci95_hi": -0.02058277906220055,
+                  "label": "better"
+                },
+                "gap_minus_MSP": {
+                  "delta": 0.01094076011223144,
+                  "ci95_lo": 0.004429805022947396,
+                  "ci95_hi": 0.017708549028777783,
+                  "label": "worse"
+                },
+                "gap_minus_energy": {
+                  "delta": -0.09029085106317886,
+                  "ci95_lo": -0.14040855078464992,
+                  "ci95_hi": -0.044891531450882316,
+                  "label": "better"
+                },
+                "MSP_minus_gap": {
+                  "delta": -0.01094076011223144,
+                  "ci95_lo": -0.017708549028777783,
+                  "ci95_hi": -0.004429805022947396,
+                  "label": "better"
+                }
+              }
+            },
+            "nc_ge3": {
+              "n": 826,
+              "n_err": 442,
+              "metrics": {
+                "s1": {
+                  "e_aurc": 0.19927966542551465,
+                  "auroc": 0.6777726715686274
+                },
+                "MSP": {
+                  "e_aurc": 0.1132858211996857,
+                  "auroc": 0.8005396870286576
+                },
+                "energy": {
+                  "e_aurc": 0.2263046058606498,
+                  "auroc": 0.6520609445701357
+                },
+                "gap": {
+                  "e_aurc": 0.12495899681843389,
+                  "auroc": 0.7768193815987934
+                }
+              },
+              "paired_delta_eaurc": {
+                "gap_minus_s1": {
+                  "delta": -0.07432066860708075,
+                  "ci95_lo": -0.11675397939823658,
+                  "ci95_hi": -0.033538447327853375,
+                  "label": "better"
+                },
+                "gap_minus_MSP": {
+                  "delta": 0.0116731756187482,
+                  "ci95_lo": 0.0045469697969556504,
+                  "ci95_hi": 0.01869970068823474,
+                  "label": "worse"
+                },
+                "gap_minus_energy": {
+                  "delta": -0.1013456090422159,
+                  "ci95_lo": -0.1486562446305195,
+                  "ci95_hi": -0.05785658379406987,
+                  "label": "better"
+                },
+                "MSP_minus_gap": {
+                  "delta": -0.0116731756187482,
+                  "ci95_lo": -0.01869970068823474,
+                  "ci95_hi": -0.0045469697969556504,
+                  "label": "better"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "label_agreement": {
+    "siglip2_I": {
+      "n_total": 1663,
+      "n_label_differ": 23,
+      "n_correctness_differ": 9
+    },
+    "clip_I": {
+      "n_total": 1663,
+      "n_label_differ": 233,
+      "n_correctness_differ": 67
+    }
+  },
+  "encoder_summary": {
+    "yc_argmax": {
+      "siglip2_I": {
+        "accuracy_test": 0.828125,
+        "n": 832
+      },
+      "clip_I": {
+        "accuracy_test": 0.5060096153846154,
+        "n": 832
+      }
+    },
+    "global_argmax": {
+      "siglip2_I": {
+        "accuracy_test": 0.8221153846153846,
+        "n": 832
+      },
+      "clip_I": {
+        "accuracy_test": 0.4639423076923077,
+        "n": 832
+      }
+    }
+  }
+}

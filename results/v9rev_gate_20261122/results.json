@@ -1,0 +1,229 @@
+{
+  "deviation": "D17",
+  "post_hoc": true,
+  "seed": 20261022,
+  "label": "post hoc, descriptive ablation: conflict gate co/khong (khong ket luan chung nhan)",
+  "note": "Descriptive ablation only: conflict gate (refuse khi conflict=1) co/khong tren cung quan the query; khong phai ket luan chung nhan hay kiem dinh gia thuyet.",
+  "sources": [
+    "03_experiments/results/5070-20261026-ab4/predictions.jsonl",
+    "03_experiments/results/prereg_v9_gap_20261121/pass1_capture.npz",
+    "03_experiments/results/prereg_v9_gap_20261121/pass1_meta.json",
+    "03_experiments/results/prereg_v9_gap_20261121/pass2b_meta.json",
+    "03_experiments/results/prereg_v9_gap_20261121/p1_results.json"
+  ],
+  "gate_rule": "conflict=1 -> score=-inf (duoi moi query khac, ties on dinh); khong cong = score goc",
+  "ab4_temperatures": {
+    "MSP": 0.02,
+    "energy": 0.01
+  },
+  "datasets": {
+    "ab4_test": {
+      "n": 169,
+      "n_conflict": 20,
+      "err_rate_conflict": 0.55,
+      "err_rate_nonconflict": 0.40268456375838924,
+      "scores": {
+        "s1": {
+          "without_gate": {
+            "e_aurc": 0.1280833354032935,
+            "auroc": 0.7387180224202357
+          },
+          "with_gate": {
+            "e_aurc": 0.12948048592576397,
+            "auroc": 0.7328973843058351
+          },
+          "delta_eaurc_gate_minus_nogate": 0.0013971505224704694
+        },
+        "MSP": {
+          "without_gate": {
+            "e_aurc": 0.1288942258836386,
+            "auroc": 0.7388617418798505
+          },
+          "with_gate": {
+            "e_aurc": 0.11932921937888005,
+            "auroc": 0.7402270767461915
+          },
+          "delta_eaurc_gate_minus_nogate": -0.009565006504758555
+        },
+        "energy": {
+          "without_gate": {
+            "e_aurc": 0.13891477845188163,
+            "auroc": 0.7234837597010635
+          },
+          "with_gate": {
+            "e_aurc": 0.13972050262273483,
+            "auroc": 0.718381718884737
+          },
+          "delta_eaurc_gate_minus_nogate": 0.0008057241708532004
+        },
+        "gap": {
+          "without_gate": {
+            "e_aurc": 0.12452775328538693,
+            "auroc": 0.7497844208105777
+          },
+          "with_gate": {
+            "e_aurc": 0.11281856734754142,
+            "auroc": 0.7472693302673182
+          },
+          "delta_eaurc_gate_minus_nogate": -0.011709185937845507
+        }
+      }
+    },
+    "ab4_calib": {
+      "n": 114,
+      "n_conflict": 17,
+      "err_rate_conflict": 0.7058823529411765,
+      "err_rate_nonconflict": 0.4020618556701031,
+      "scores": {
+        "s1": {
+          "without_gate": {
+            "e_aurc": 0.16735865479931245,
+            "auroc": 0.6430127606598195
+          },
+          "with_gate": {
+            "e_aurc": 0.15023881253254784,
+            "auroc": 0.67942732648615
+          },
+          "delta_eaurc_gate_minus_nogate": -0.017119842266764607
+        },
+        "MSP": {
+          "without_gate": {
+            "e_aurc": 0.12402489058513268,
+            "auroc": 0.7734204793028322
+          },
+          "with_gate": {
+            "e_aurc": 0.12375667735203531,
+            "auroc": 0.7612822906940554
+          },
+          "delta_eaurc_gate_minus_nogate": -0.0002682132330973641
+        },
+        "energy": {
+          "without_gate": {
+            "e_aurc": 0.17372156750126377,
+            "auroc": 0.6324307500778089
+          },
+          "with_gate": {
+            "e_aurc": 0.1540935461093098,
+            "auroc": 0.6725801431683784
+          },
+          "delta_eaurc_gate_minus_nogate": -0.019628021391953965
+        },
+        "gap": {
+          "without_gate": {
+            "e_aurc": 0.13945647917185894,
+            "auroc": 0.7323373793962029
+          },
+          "with_gate": {
+            "e_aurc": 0.13404019138453577,
+            "auroc": 0.7370059134765017
+          },
+          "delta_eaurc_gate_minus_nogate": -0.005416287787323171
+        }
+      }
+    },
+    "v9_siglip2_I_test": {
+      "n": 832,
+      "n_conflict": 12,
+      "err_rate_conflict": 1.0,
+      "err_rate_nonconflict": 0.16585365853658537,
+      "scores": {
+        "s1": {
+          "without_gate": {
+            "e_aurc": 0.05799471204900433,
+            "auroc": 0.7667832305990201
+          },
+          "with_gate": {
+            "e_aurc": 0.05666967326371529,
+            "auroc": 0.7743302513039355
+          },
+          "delta_eaurc_gate_minus_nogate": -0.0013250387852890427
+        },
+        "MSP": {
+          "without_gate": {
+            "e_aurc": 0.027971064717078793,
+            "auroc": 0.8737256993835941
+          },
+          "with_gate": {
+            "e_aurc": 0.02653811344011431,
+            "auroc": 0.8814406511774933
+          },
+          "delta_eaurc_gate_minus_nogate": -0.0014329512769644809
+        },
+        "energy": {
+          "without_gate": {
+            "e_aurc": 0.06314596288478888,
+            "auroc": 0.7528844634107792
+          },
+          "with_gate": {
+            "e_aurc": 0.061772102753016686,
+            "auroc": 0.7607772245930141
+          },
+          "delta_eaurc_gate_minus_nogate": -0.001373860131772195
+        },
+        "gap": {
+          "without_gate": {
+            "e_aurc": 0.030541593278261493,
+            "auroc": 0.8641635056108741
+          },
+          "with_gate": {
+            "e_aurc": 0.028768448404708605,
+            "auroc": 0.8732811759127549
+          },
+          "delta_eaurc_gate_minus_nogate": -0.001773144873552887
+        }
+      }
+    },
+    "v9_clip_I_test": {
+      "n": 832,
+      "n_conflict": 112,
+      "err_rate_conflict": 1.0,
+      "err_rate_nonconflict": 0.4638888888888889,
+      "scores": {
+        "s1": {
+          "without_gate": {
+            "e_aurc": 0.2256270697372481,
+            "auroc": 0.6523269592694998
+          },
+          "with_gate": {
+            "e_aurc": 0.17108782161795938,
+            "auroc": 0.742541648272497
+          },
+          "delta_eaurc_gate_minus_nogate": -0.05453924811928873
+        },
+        "MSP": {
+          "without_gate": {
+            "e_aurc": 0.13140542176702746,
+            "auroc": 0.778904017286647
+          },
+          "with_gate": {
+            "e_aurc": 0.09721509176550946,
+            "auroc": 0.8369560166360742
+          },
+          "delta_eaurc_gate_minus_nogate": -0.034190330001518
+        },
+        "energy": {
+          "without_gate": {
+            "e_aurc": 0.25364809473740735,
+            "auroc": 0.6238295499430749
+          },
+          "with_gate": {
+            "e_aurc": 0.1953482964684286,
+            "auroc": 0.7217523641348544
+          },
+          "delta_eaurc_gate_minus_nogate": -0.05829979826897874
+        },
+        "gap": {
+          "without_gate": {
+            "e_aurc": 0.1359841398481652,
+            "auroc": 0.7710971444503822
+          },
+          "with_gate": {
+            "e_aurc": 0.11041876375937487,
+            "auroc": 0.8176072864146472
+          },
+          "delta_eaurc_gate_minus_nogate": -0.025565376088790337
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+Encoder,Split (n),"ΔE-AURC, gap minus MSP","Δlog-loss, M0 minus M3","Δlog-loss, M2 minus M1"
+SigLIP2-I,calibration (831),+0.0007 [−0.0005; 0.0021],+0.0011 [−0.0061; 0.0079],+0.0009 [−0.0048; 0.0061]
+SigLIP2-I,test (832),+0.0018 [0.0004; 0.0035],n/a,n/a
+CLIP-B-I,calibration (831),+0.0076 [0.0022; 0.0132],+0.0113 [0.0002; 0.0230],+0.0126 [0.0009; 0.0247]
+CLIP-B-I,test (832),+0.0086 [0.0022; 0.0147],n/a,n/a

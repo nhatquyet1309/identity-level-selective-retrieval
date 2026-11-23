@@ -1,0 +1,6 @@
+Score,Longest error-free prefix,Conclusion at 5%,Conclusion at 1%
+similarity s1,21,bound above alpha: observed risk above target,bound above alpha: insufficient data
+MSP,9,bound above alpha: observed risk above target,bound above alpha: insufficient data
+energy,19,bound above alpha: observed risk above target,bound above alpha: insufficient data
+identity gap,7,bound above alpha: observed risk above target,bound above alpha: insufficient data
+image-level gap,5,bound above alpha: observed risk above target,bound above alpha: insufficient data

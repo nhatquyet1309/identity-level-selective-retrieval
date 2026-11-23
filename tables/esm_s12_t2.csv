@@ -1,0 +1,13 @@
+Image id,Identity,s1 pass 1,s1 round 2 (15% crop),s1 round 3 (exact box),Round 3
+a400m_atlas_bc50ef27.jpg,a400m_atlas,0.972,0.923,0.971,accept
+b1b_276f7599.jpg,b1b,0.974,0.917,0.976,accept
+b1b_30192fc4.jpg,b1b,0.978,0.908,0.979,accept
+b1b_b22c6f15.jpg,b1b,0.978,0.919,0.979,accept
+e3_sentry_39884534.jpg,e3_sentry,0.964,0.927,0.963,accept
+e3_sentry_e5883adf.jpg,e3_sentry,0.964,0.923,0.963,accept
+f18_hornet_5b7d2c06.jpg,f18_hornet,0.967,0.906,0.966,accept
+f18_hornet_6c80ba6c.jpg,f18_hornet,0.969,0.908,0.968,accept
+f18_hornet_6f9d84f9.jpg,f18_hornet,0.963,0.901,0.962,accept
+f18_hornet_d0156697.jpg,f18_hornet,0.969,0.922,0.968,accept
+su34_fullback_28e08df3.jpg,su34_fullback,0.966,0.946,0.968,accept
+su34_fullback_3cacbd29.jpg,su34_fullback,0.966,0.938,0.961,accept

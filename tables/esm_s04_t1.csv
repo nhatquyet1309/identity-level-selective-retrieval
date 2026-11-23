@@ -1,0 +1,7 @@
+Dataset,n,E-AURC m_id,E-AURC m_img,Delta (m_img - m_id),label,rank-2 image same identity
+ab4 test (n_c >= 3),169,0.1245,0.1556,+0.0311 [−0.0176; 0.0750],insufficient,69 of 169
+ab4 calibration,114,0.1395,0.1792,+0.0398 [−0.0072; 0.0937],insufficient,42 of 114
+"v9 SigLIP2-I, global labels",832,0.0303,0.1120,+0.0817 [0.0572; 0.1095],worse,614 of 832
+"v9 SigLIP2-I, labels agree with Y_c",820,0.0292,0.1065,+0.0773 [0.0541; 0.1016],worse,620 of 820
+"v9 CLIP-B-I, global labels",832,0.1451,0.2150,+0.0699 [0.0406; 0.1042],worse,278 of 832
+"v9 CLIP-B-I, labels agree with Y_c",720,0.1276,0.1982,+0.0706 [0.0409; 0.1028],worse,275 of 720

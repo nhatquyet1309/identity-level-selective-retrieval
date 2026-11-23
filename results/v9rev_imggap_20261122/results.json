@@ -1,0 +1,198 @@
+{
+  "deviation": "D16",
+  "post_hoc": true,
+  "seed": 20261022,
+  "n_boot": 2000,
+  "label": "post hoc, descriptive: image-level gap m_img vs identity gap m_id",
+  "sources": [
+    "03_experiments/results/5070-20261026-ab4/predictions.jsonl",
+    "03_experiments/results/prereg_v9_gap_20261121/pass1_capture.npz",
+    "03_experiments/results/prereg_v9_gap_20261121/pass1_meta.json",
+    "03_experiments/results/prereg_v9_gap_20261121/pass2b_meta.json",
+    "03_experiments/results/prereg_v9_gap_20261121/p1_results.json"
+  ],
+  "rng_substream_rule": "default_rng([20261022, zlib.crc32(tag)]); tag = ten dataset (| khoi); cum = identity",
+  "ab4_all_top2_same_identity": 111,
+  "datasets": {
+    "ab4_test": {
+      "n": 169,
+      "n_err": 71,
+      "e_aurc": {
+        "m_id": 0.12452775328538693,
+        "m_img": 0.15560829591601116
+      },
+      "auroc": {
+        "m_id": 0.7497844208105777,
+        "m_img": 0.6649899396378269
+      },
+      "paired_delta_eaurc_mimg_minus_mid": {
+        "delta": 0.031080542630624236,
+        "ci95_lo": -0.0175982399816272,
+        "ci95_hi": 0.07504314713966048,
+        "label": "insufficient"
+      },
+      "rank2_same_identity": {
+        "n_same": 69,
+        "n_other": 100,
+        "frac_same": 0.40828402366863903,
+        "acc_same": 0.7391304347826086,
+        "e_aurc_mid_same": 0.09485600344466152,
+        "e_aurc_mimg_same": 0.0762274485044176,
+        "acc_other": 0.47,
+        "e_aurc_mid_other": 0.180765989206091,
+        "e_aurc_mimg_other": 0.19963254772211547
+      }
+    },
+    "ab4_calib": {
+      "n": 114,
+      "n_err": 51,
+      "e_aurc": {
+        "m_id": 0.13945647917185894,
+        "m_img": 0.17921130611690905
+      },
+      "auroc": {
+        "m_id": 0.7323373793962029,
+        "m_img": 0.6746031746031746
+      },
+      "paired_delta_eaurc_mimg_minus_mid": {
+        "delta": 0.039754826945050115,
+        "ci95_lo": -0.0071914823921484265,
+        "ci95_hi": 0.09367096216850618,
+        "label": "insufficient"
+      },
+      "rank2_same_identity": {
+        "n_same": 42,
+        "n_other": 72,
+        "frac_same": 0.3684210526315789,
+        "acc_same": 0.7142857142857143,
+        "e_aurc_mid_same": 0.06870098050112794,
+        "e_aurc_mimg_same": 0.11308820230820832,
+        "acc_other": 0.4583333333333333,
+        "e_aurc_mid_other": 0.212703883005152,
+        "e_aurc_mimg_other": 0.19395049263367128
+      }
+    },
+    "v9_siglip2_I_test": {
+      "global": {
+        "n": 832,
+        "n_err": 148,
+        "e_aurc": {
+          "m_id": 0.030267472525636867,
+          "m_img": 0.11201653128494272
+        },
+        "auroc": {
+          "m_id": 0.8637881302354986,
+          "m_img": 0.5807205231547337
+        },
+        "paired_delta_eaurc_mimg_minus_mid": {
+          "delta": 0.08174905875930585,
+          "ci95_lo": 0.05723335813316178,
+          "ci95_hi": 0.1094608082963416,
+          "label": "worse"
+        },
+        "rank2_same_identity": {
+          "n_same": 614,
+          "n_other": 218,
+          "frac_same": 0.7379807692307693,
+          "acc_same": 0.9364820846905537,
+          "e_aurc_mid_same": 0.016889777905865513,
+          "e_aurc_mimg_same": 0.04585060259669889,
+          "acc_other": 0.5,
+          "e_aurc_mid_other": 0.18671732272646172,
+          "e_aurc_mimg_other": 0.18671732272646172
+        }
+      },
+      "yc_subset": {
+        "n": 820,
+        "n_err": 136,
+        "e_aurc": {
+          "m_id": 0.029189450088679948,
+          "m_img": 0.10646170087969363
+        },
+        "auroc": {
+          "m_id": 0.8621001031991744,
+          "m_img": 0.5747602769177846
+        },
+        "paired_delta_eaurc_mimg_minus_mid": {
+          "delta": 0.07727225079101369,
+          "ci95_lo": 0.05407968308976481,
+          "ci95_hi": 0.10155957743892308,
+          "label": "worse"
+        },
+        "rank2_same_identity": {
+          "n_same": 620,
+          "n_other": 200,
+          "frac_same": 0.7560975609756098,
+          "acc_same": 0.9370967741935484,
+          "e_aurc_mid_same": 0.017315219287034757,
+          "e_aurc_mimg_same": 0.04491050188330597,
+          "acc_other": 0.515,
+          "e_aurc_mid_other": 0.18772849397642916,
+          "e_aurc_mimg_other": 0.18772849397642916
+        },
+        "n_subset": 820
+      }
+    },
+    "v9_clip_I_test": {
+      "global": {
+        "n": 832,
+        "n_err": 446,
+        "e_aurc": {
+          "m_id": 0.14506975589154636,
+          "m_img": 0.21495164234348124
+        },
+        "auroc": {
+          "m_id": 0.7533283765886754,
+          "m_img": 0.6394432956156044
+        },
+        "paired_delta_eaurc_mimg_minus_mid": {
+          "delta": 0.06988188645193488,
+          "ci95_lo": 0.04057314951494881,
+          "ci95_hi": 0.10420739112237336,
+          "label": "worse"
+        },
+        "rank2_same_identity": {
+          "n_same": 278,
+          "n_other": 554,
+          "frac_same": 0.33413461538461536,
+          "acc_same": 0.6906474820143885,
+          "e_aurc_mid_same": 0.10573729870828641,
+          "e_aurc_mimg_same": 0.16272435737170254,
+          "acc_other": 0.35018050541516244,
+          "e_aurc_mid_other": 0.20413553457278982,
+          "e_aurc_mimg_other": 0.20413553457278982
+        }
+      },
+      "yc_subset": {
+        "n": 720,
+        "n_err": 334,
+        "e_aurc": {
+          "m_id": 0.127595015899722,
+          "m_img": 0.1982333988256731
+        },
+        "auroc": {
+          "m_id": 0.7564456579069839,
+          "m_img": 0.6327293599329837
+        },
+        "paired_delta_eaurc_mimg_minus_mid": {
+          "delta": 0.0706383829259511,
+          "ci95_lo": 0.040917636304257904,
+          "ci95_hi": 0.1027516251417282,
+          "label": "worse"
+        },
+        "rank2_same_identity": {
+          "n_same": 275,
+          "n_other": 445,
+          "frac_same": 0.3819444444444444,
+          "acc_same": 0.730909090909091,
+          "e_aurc_mid_same": 0.08720521751973428,
+          "e_aurc_mimg_same": 0.15110247596863335,
+          "acc_other": 0.4157303370786517,
+          "e_aurc_mid_other": 0.19408348494337524,
+          "e_aurc_mimg_other": 0.19408348494337524
+        },
+        "n_subset": 720
+      }
+    }
+  }
+}

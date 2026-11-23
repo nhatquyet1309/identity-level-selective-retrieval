@@ -1,0 +1,8 @@
+ID,Topic,Result folder,Status
+D14,"Split table and terminology (ab4, Tier C 619, v9 RQ-1)",v9rev_split,post hoc
+D15,"Y_c sensitivity: four scores on the same candidate set, two label regimes",v9rev_yc,post hoc
+D16,Image-level gap against identity gap,v9rev_imggap,post hoc
+D17,"Conflict gate, descriptive ablation",v9rev_gate,post hoc
+D18,Clopper–Pearson one-sided bound per threshold,v9rev_cp,post hoc
+D19,Cluster sign-flip permutation test (complements McNemar),v9rev_perm,post hoc
+D20,"Tier B: eleven query transforms, SigLIP2-I only",v9rev_tierB,post hoc

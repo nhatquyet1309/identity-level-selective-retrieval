@@ -1,0 +1,1030 @@
+{
+ "run_id": "5070-261119-ab4ci619-clipb",
+ "seed": 20261022,
+ "encoder_id": "clip-vit-b32",
+ "use_text": false,
+ "protocol": {
+  "encoder": "clip_b32",
+  "encoder_id": "clip-vit-b32",
+  "use_text": false,
+  "holdout_frac": 0.3,
+  "calib_frac": 0.4,
+  "T_grid": [
+   0.01,
+   0.02,
+   0.05,
+   0.1,
+   0.5,
+   1.0
+  ],
+  "alpha": [
+   0.01,
+   0.05
+  ],
+  "bootstrap": 2000,
+  "coarse_source": "oracle",
+  "cluster": "identity",
+  "tie_rule": "argmax, stable order by identity name",
+  "split_from": "results/5070-20261026-ab4/split.json",
+  "index_from": null,
+  "drop_missing_index": true
+ },
+ "data": {
+  "n_gallery": 1074,
+  "n_index": 619,
+  "n_query": 284,
+  "n_calib": 114,
+  "n_test": 170,
+  "n_identities": 93,
+  "n_nc_lt2_refuse": 0,
+  "n_nc_lt2_with_m_img_defined": 0,
+  "n_c_hist": {
+   "33": 94,
+   "19": 57,
+   "13": 36,
+   "10": 45,
+   "2": 1,
+   "16": 51
+  }
+ },
+ "strata": {
+  "n_c>=3": {
+   "n_test": 169,
+   "n_calib": 114,
+   "r_same": 0.38461538461538464,
+   "top1": 0.4911242603550296,
+   "scores": {
+    "Sc1": {
+     "n": 169,
+     "top1": 0.4911242603550296,
+     "aurc": 0.3282833492351486,
+     "e_aurc": 0.16712445486998853,
+     "auroc": 0.711263659288316,
+     "top3": 0.7100591715976331,
+     "r_same": 0.38461538461538464,
+     "e_aurc_ci95": [
+      0.11112807147329536,
+      0.239724101097477
+     ],
+     "auroc_ci95": [
+      0.6158237172998628,
+      0.7907155900054035
+     ]
+    },
+    "Sc2_T0.01": {
+     "n": 169,
+     "top1": 0.4911242603550296,
+     "aurc": 0.32370994635160344,
+     "e_aurc": 0.16255105198644335,
+     "auroc": 0.7440459512468478,
+     "top3": 0.7100591715976331,
+     "r_same": 0.38461538461538464,
+     "e_aurc_ci95": [
+      0.1075056847130816,
+      0.22474349134078495
+     ],
+     "auroc_ci95": [
+      0.6731849285538309,
+      0.8139221656812294
+     ]
+    },
+    "Sc2_T0.02": {
+     "n": 169,
+     "top1": 0.4911242603550296,
+     "aurc": 0.3266708188893668,
+     "e_aurc": 0.16551192452420668,
+     "auroc": 0.7395629027738863,
+     "top3": 0.7100591715976331,
+     "r_same": 0.38461538461538464,
+     "e_aurc_ci95": [
+      0.10921885212150544,
+      0.2274691228663387
+     ],
+     "auroc_ci95": [
+      0.667403196337192,
+      0.8127679649023408
+     ]
+    },
+    "Sc2_T0.05": {
+     "n": 169,
+     "top1": 0.4911242603550296,
+     "aurc": 0.34272703773446983,
+     "e_aurc": 0.18156814336930974,
+     "auroc": 0.7021574670776127,
+     "top3": 0.7100591715976331,
+     "r_same": 0.38461538461538464,
+     "e_aurc_ci95": [
+      0.12239767298335064,
+      0.24459446217722375
+     ],
+     "auroc_ci95": [
+      0.6233107322278754,
+      0.780259735248103
+     ]
+    },
+    "Sc2_T0.1": {
+     "n": 169,
+     "top1": 0.4911242603550296,
+     "aurc": 0.38231355482370516,
+     "e_aurc": 0.22115466045854507,
+     "auroc": 0.6172597366209023,
+     "top3": 0.7100591715976331,
+     "r_same": 0.38461538461538464,
+     "e_aurc_ci95": [
+      0.15696319334543124,
+      0.28926958789616836
+     ],
+     "auroc_ci95": [
+      0.5317720591995447,
+      0.6984206158952608
+     ]
+    },
+    "Sc2_T0.5": {
+     "n": 169,
+     "top1": 0.4911242603550296,
+     "aurc": 0.4439713802770781,
+     "e_aurc": 0.282812485911918,
+     "auroc": 0.511347716447184,
+     "top3": 0.7100591715976331,
+     "r_same": 0.38461538461538464,
+     "e_aurc_ci95": [
+      0.20522581925282646,
+      0.37244157583962906
+     ],
+     "auroc_ci95": [
+      0.4109823521187625,
+      0.6099958065080021
+     ]
+    },
+    "Sc2_T1.0": {
+     "n": 169,
+     "top1": 0.4911242603550296,
+     "aurc": 0.44526419629009684,
+     "e_aurc": 0.28410530192493677,
+     "auroc": 0.5092462874754833,
+     "top3": 0.7100591715976331,
+     "r_same": 0.38461538461538464,
+     "e_aurc_ci95": [
+      0.20572299427296106,
+      0.3743803040299357
+     ],
+     "auroc_ci95": [
+      0.4086533030388061,
+      0.6082399425287357
+     ]
+    },
+    "Sc3_T0.01": {
+     "n": 169,
+     "top1": 0.4911242603550296,
+     "aurc": 0.34344548080602705,
+     "e_aurc": 0.18228658644086695,
+     "auroc": 0.6969739422807509,
+     "top3": 0.7100591715976331,
+     "r_same": 0.38461538461538464,
+     "e_aurc_ci95": [
+      0.12307291288666339,
+      0.25773825872355016
+     ],
+     "auroc_ci95": [
+      0.601428817977241,
+      0.7780190130632936
+     ]
+    },
+    "Sc3_T0.02": {
+     "n": 169,
+     "top1": 0.4911242603550296,
+     "aurc": 0.38457995608286677,
+     "e_aurc": 0.22342106171770668,
+     "auroc": 0.6629307929391987,
+     "top3": 0.7100591715976331,
+     "r_same": 0.38461538461538464,
+     "e_aurc_ci95": [
+      0.1521894105889941,
+      0.3059407400145718
+     ],
+     "auroc_ci95": [
+      0.567401197939991,
+      0.7500045854732208
+     ]
+    },
+    "Sc3_T0.05": {
+     "n": 169,
+     "top1": 0.4911242603550296,
+     "aurc": 0.4503515952286133,
+     "e_aurc": 0.28919270086345317,
+     "auroc": 0.5989072569347156,
+     "top3": 0.7100591715976331,
+     "r_same": 0.38461538461538464,
+     "e_aurc_ci95": [
+      0.19585655160357107,
+      0.3832872970313877
+     ],
+     "auroc_ci95": [
+      0.4988090370346446,
+      0.6875814225998189
+     ]
+    },
+    "Sc3_T0.1": {
+     "n": 169,
+     "top1": 0.4911242603550296,
+     "aurc": 0.4495040905080268,
+     "e_aurc": 0.2883451961428667,
+     "auroc": 0.5736901092743065,
+     "top3": 0.7100591715976331,
+     "r_same": 0.38461538461538464,
+     "e_aurc_ci95": [
+      0.19809605678364287,
+      0.38198400708689106
+     ],
+     "auroc_ci95": [
+      0.4775211226729502,
+      0.6611469464429179
+     ]
+    },
+    "Sc3_T0.5": {
+     "n": 169,
+     "top1": 0.4911242603550296,
+     "aurc": 0.4480861723320779,
+     "e_aurc": 0.28692727796691786,
+     "auroc": 0.549873914261698,
+     "top3": 0.7100591715976331,
+     "r_same": 0.38461538461538464,
+     "e_aurc_ci95": [
+      0.19160367845350246,
+      0.385271703337861
+     ],
+     "auroc_ci95": [
+      0.4444111032558516,
+      0.6510157699443414
+     ]
+    },
+    "Sc3_T1.0": {
+     "n": 169,
+     "top1": 0.4911242603550296,
+     "aurc": 0.44880320316941713,
+     "e_aurc": 0.28764430880425707,
+     "auroc": 0.5469319137013169,
+     "top3": 0.7100591715976331,
+     "r_same": 0.38461538461538464,
+     "e_aurc_ci95": [
+      0.19136214540361873,
+      0.3845738836419342
+     ],
+     "auroc_ci95": [
+      0.44166415741516546,
+      0.6516986428973431
+     ]
+    },
+    "Sc4": {
+     "n": 169,
+     "top1": 0.4911242603550296,
+     "aurc": 0.3231859898697068,
+     "e_aurc": 0.16202709550454672,
+     "auroc": 0.7373213785374054,
+     "top3": 0.7100591715976331,
+     "r_same": 0.38461538461538464,
+     "e_aurc_ci95": [
+      0.10915338859371122,
+      0.22346231569123468
+     ],
+     "auroc_ci95": [
+      0.6650176780544161,
+      0.8062764557268423
+     ]
+    }
+   },
+   "calibration": {
+    "Sc1": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc2_T0.01": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc2_T0.02": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc2_T0.05": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc2_T0.1": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc2_T0.5": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc2_T1.0": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc3_T0.01": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc3_T0.02": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc3_T0.05": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc3_T0.1": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc3_T0.5": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc3_T1.0": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc4": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    }
+   }
+  },
+  "n_c==2": {
+   "n_test": 1,
+   "n_calib": 0,
+   "r_same": 0.0,
+   "top1": 1.0,
+   "scores": {
+    "Sc1": {
+     "n": 1,
+     "top1": 1.0,
+     "aurc": 0.0,
+     "e_aurc": 0.0,
+     "auroc": null,
+     "top3": 1.0,
+     "r_same": 0.0,
+     "e_aurc_ci95": [
+      0.0,
+      0.0
+     ],
+     "auroc_ci95": null
+    },
+    "Sc2_T0.01": {
+     "n": 1,
+     "top1": 1.0,
+     "aurc": 0.0,
+     "e_aurc": 0.0,
+     "auroc": null,
+     "top3": 1.0,
+     "r_same": 0.0,
+     "e_aurc_ci95": [
+      0.0,
+      0.0
+     ],
+     "auroc_ci95": null
+    },
+    "Sc2_T0.02": {
+     "n": 1,
+     "top1": 1.0,
+     "aurc": 0.0,
+     "e_aurc": 0.0,
+     "auroc": null,
+     "top3": 1.0,
+     "r_same": 0.0,
+     "e_aurc_ci95": [
+      0.0,
+      0.0
+     ],
+     "auroc_ci95": null
+    },
+    "Sc2_T0.05": {
+     "n": 1,
+     "top1": 1.0,
+     "aurc": 0.0,
+     "e_aurc": 0.0,
+     "auroc": null,
+     "top3": 1.0,
+     "r_same": 0.0,
+     "e_aurc_ci95": [
+      0.0,
+      0.0
+     ],
+     "auroc_ci95": null
+    },
+    "Sc2_T0.1": {
+     "n": 1,
+     "top1": 1.0,
+     "aurc": 0.0,
+     "e_aurc": 0.0,
+     "auroc": null,
+     "top3": 1.0,
+     "r_same": 0.0,
+     "e_aurc_ci95": [
+      0.0,
+      0.0
+     ],
+     "auroc_ci95": null
+    },
+    "Sc2_T0.5": {
+     "n": 1,
+     "top1": 1.0,
+     "aurc": 0.0,
+     "e_aurc": 0.0,
+     "auroc": null,
+     "top3": 1.0,
+     "r_same": 0.0,
+     "e_aurc_ci95": [
+      0.0,
+      0.0
+     ],
+     "auroc_ci95": null
+    },
+    "Sc2_T1.0": {
+     "n": 1,
+     "top1": 1.0,
+     "aurc": 0.0,
+     "e_aurc": 0.0,
+     "auroc": null,
+     "top3": 1.0,
+     "r_same": 0.0,
+     "e_aurc_ci95": [
+      0.0,
+      0.0
+     ],
+     "auroc_ci95": null
+    },
+    "Sc3_T0.01": {
+     "n": 1,
+     "top1": 1.0,
+     "aurc": 0.0,
+     "e_aurc": 0.0,
+     "auroc": null,
+     "top3": 1.0,
+     "r_same": 0.0,
+     "e_aurc_ci95": [
+      0.0,
+      0.0
+     ],
+     "auroc_ci95": null
+    },
+    "Sc3_T0.02": {
+     "n": 1,
+     "top1": 1.0,
+     "aurc": 0.0,
+     "e_aurc": 0.0,
+     "auroc": null,
+     "top3": 1.0,
+     "r_same": 0.0,
+     "e_aurc_ci95": [
+      0.0,
+      0.0
+     ],
+     "auroc_ci95": null
+    },
+    "Sc3_T0.05": {
+     "n": 1,
+     "top1": 1.0,
+     "aurc": 0.0,
+     "e_aurc": 0.0,
+     "auroc": null,
+     "top3": 1.0,
+     "r_same": 0.0,
+     "e_aurc_ci95": [
+      0.0,
+      0.0
+     ],
+     "auroc_ci95": null
+    },
+    "Sc3_T0.1": {
+     "n": 1,
+     "top1": 1.0,
+     "aurc": 0.0,
+     "e_aurc": 0.0,
+     "auroc": null,
+     "top3": 1.0,
+     "r_same": 0.0,
+     "e_aurc_ci95": [
+      0.0,
+      0.0
+     ],
+     "auroc_ci95": null
+    },
+    "Sc3_T0.5": {
+     "n": 1,
+     "top1": 1.0,
+     "aurc": 0.0,
+     "e_aurc": 0.0,
+     "auroc": null,
+     "top3": 1.0,
+     "r_same": 0.0,
+     "e_aurc_ci95": [
+      0.0,
+      0.0
+     ],
+     "auroc_ci95": null
+    },
+    "Sc3_T1.0": {
+     "n": 1,
+     "top1": 1.0,
+     "aurc": 0.0,
+     "e_aurc": 0.0,
+     "auroc": null,
+     "top3": 1.0,
+     "r_same": 0.0,
+     "e_aurc_ci95": [
+      0.0,
+      0.0
+     ],
+     "auroc_ci95": null
+    },
+    "Sc4": {
+     "n": 1,
+     "top1": 1.0,
+     "aurc": 0.0,
+     "e_aurc": 0.0,
+     "auroc": null,
+     "top3": 1.0,
+     "r_same": 0.0,
+     "e_aurc_ci95": [
+      0.0,
+      0.0
+     ],
+     "auroc_ci95": null
+    }
+   },
+   "calibration": {
+    "Sc1": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc2_T0.01": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc2_T0.02": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc2_T0.05": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc2_T0.1": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc2_T0.5": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc2_T1.0": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc3_T0.01": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc3_T0.02": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc3_T0.05": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc3_T0.1": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc3_T0.5": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc3_T1.0": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    },
+    "Sc4": {
+     "0.01": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.01 tren split hieu chuan"
+     },
+     "0.05": {
+      "tau": null,
+      "infeasible": true,
+      "note": "khong co tau nao dat CP <= 0.05 tren split hieu chuan"
+     }
+    }
+   }
+  }
+ },
+ "calibration": {},
+ "paired": {
+  "n": 169,
+  "n_calib": 114,
+  "T_star": {
+   "Sc1": null,
+   "Sc2": 0.01,
+   "Sc3": 0.01
+  },
+  "T_star_rule": "argmin E-AURC tren split CALIB (khai bao truoc, chon mot lan cho ca so sanh chinh)",
+  "primary": {
+   "Sc1": {
+    "delta_e_aurc_vs_Sc4": 0.0050973593654418115,
+    "ci95": [
+     -0.0658566189290216,
+     0.08017376660677836
+    ],
+    "p_bootstrap": 0.797,
+    "n_bootstrap": 2000,
+    "verdict": "khong du bang chung"
+   },
+   "Sc2": {
+    "delta_e_aurc_vs_Sc4": 0.0005239564818966258,
+    "ci95": [
+     -0.008214942486675076,
+     0.009205938954743998
+    ],
+    "p_bootstrap": 0.939,
+    "n_bootstrap": 2000,
+    "verdict": "khong du bang chung"
+   },
+   "Sc3": {
+    "delta_e_aurc_vs_Sc4": 0.020259490936320235,
+    "ci95": [
+     -0.05496151482128122,
+     0.10103669795006244
+    ],
+    "p_bootstrap": 0.589,
+    "n_bootstrap": 2000,
+    "verdict": "khong du bang chung"
+   }
+  },
+  "holm": {
+   "Sc3": {
+    "p_raw": 0.589,
+    "p_holm": 1.0
+   },
+   "Sc1": {
+    "p_raw": 0.797,
+    "p_holm": 1.0
+   },
+   "Sc2": {
+    "p_raw": 0.939,
+    "p_holm": 1.0
+   }
+  },
+  "sensitivity_T_grid": {
+   "Sc2": {
+    "T0.01": {
+     "delta_e_aurc_vs_Sc4": 0.0005239564818966258,
+     "ci95": [
+      -0.008214942486675076,
+      0.009205938954743998
+     ],
+     "p_bootstrap": 0.939,
+     "n_bootstrap": 2000,
+     "verdict": "khong du bang chung"
+    },
+    "T0.02": {
+     "delta_e_aurc_vs_Sc4": 0.003484829019659963,
+     "ci95": [
+      -0.013082243678146031,
+      0.018819533879039705
+     ],
+     "p_bootstrap": 0.686,
+     "n_bootstrap": 2000,
+     "verdict": "khong du bang chung"
+    },
+    "T0.05": {
+     "delta_e_aurc_vs_Sc4": 0.019541047864763017,
+     "ci95": [
+      -0.013864490775262552,
+      0.05276805867191162
+     ],
+     "p_bootstrap": 0.23,
+     "n_bootstrap": 2000,
+     "verdict": "khong du bang chung"
+    },
+    "T0.1": {
+     "delta_e_aurc_vs_Sc4": 0.059127564953998346,
+     "ci95": [
+      0.007760795921205059,
+      0.1126062456905424
+     ],
+     "p_bootstrap": 0.021,
+     "n_bootstrap": 2000,
+     "verdict": "Sc4 tot hon"
+    },
+    "T0.5": {
+     "delta_e_aurc_vs_Sc4": 0.12078539040737127,
+     "ci95": [
+      0.03669286506318253,
+      0.21606780580035087
+     ],
+     "p_bootstrap": 0.003,
+     "n_bootstrap": 2000,
+     "verdict": "Sc4 tot hon"
+    },
+    "T1.0": {
+     "delta_e_aurc_vs_Sc4": 0.12207820642039005,
+     "ci95": [
+      0.037245106925920125,
+      0.218502127482182
+     ],
+     "p_bootstrap": 0.003,
+     "n_bootstrap": 2000,
+     "verdict": "Sc4 tot hon"
+    }
+   },
+   "Sc3": {
+    "T0.01": {
+     "delta_e_aurc_vs_Sc4": 0.020259490936320235,
+     "ci95": [
+      -0.05496151482128122,
+      0.10103669795006244
+     ],
+     "p_bootstrap": 0.589,
+     "n_bootstrap": 2000,
+     "verdict": "khong du bang chung"
+    },
+    "T0.02": {
+     "delta_e_aurc_vs_Sc4": 0.061393966213159956,
+     "ci95": [
+      -0.02747633233779511,
+      0.15440114186388235
+     ],
+     "p_bootstrap": 0.189,
+     "n_bootstrap": 2000,
+     "verdict": "khong du bang chung"
+    },
+    "T0.05": {
+     "delta_e_aurc_vs_Sc4": 0.12716560535890645,
+     "ci95": [
+      0.014314940975236678,
+      0.23635911536412027
+     ],
+     "p_bootstrap": 0.025,
+     "n_bootstrap": 2000,
+     "verdict": "Sc4 tot hon"
+    },
+    "T0.1": {
+     "delta_e_aurc_vs_Sc4": 0.12631810063831997,
+     "ci95": [
+      0.01246756809122588,
+      0.23212563803752173
+     ],
+     "p_bootstrap": 0.022,
+     "n_bootstrap": 2000,
+     "verdict": "Sc4 tot hon"
+    },
+    "T0.5": {
+     "delta_e_aurc_vs_Sc4": 0.12490018246237114,
+     "ci95": [
+      0.011725729541868858,
+      0.2312753101587328
+     ],
+     "p_bootstrap": 0.03,
+     "n_bootstrap": 2000,
+     "verdict": "Sc4 tot hon"
+    },
+    "T1.0": {
+     "delta_e_aurc_vs_Sc4": 0.12561721329971035,
+     "ci95": [
+      0.011612847452396635,
+      0.23102222354763438
+     ],
+     "p_bootstrap": 0.028,
+     "n_bootstrap": 2000,
+     "verdict": "Sc4 tot hon"
+    }
+   }
+  }
+ },
+ "checks": {
+  "m_img = min(s1-a, m_id) violations": 0,
+  "n_nc_lt2_counted": 0,
+  "r_same_overall": 0.352112676056338
+ }
+}

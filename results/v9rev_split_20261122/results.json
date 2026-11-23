@@ -1,0 +1,97 @@
+{
+  "deviation": "D14",
+  "post_hoc": true,
+  "label": "post hoc descriptive split/terminology audit (no new statistics)",
+  "seed": 20261022,
+  "sources": [
+    "03_experiments/results/5070-20261026-ab4/split.json",
+    "03_experiments/results/5070-20261026-ab4/predictions.jsonl",
+    "03_experiments/results/C_caseI_20261119/619/predictions_siglip619.jsonl",
+    "03_experiments/results/C_caseI_20261119/619/predictions_clipb619.jsonl",
+    "03_experiments/results/C_caseI_20261119/619/metrics_siglip619.json",
+    "03_experiments/results/rq1_20261119/split.json",
+    "03_experiments/results/prereg_v9_gap_20261121/pass1_meta.json"
+  ],
+  "datasets": {
+    "ab4": {
+      "index": {
+        "n_images": 790,
+        "n_identities": 100
+      },
+      "query": {
+        "n_images": 284,
+        "n_identities": 95
+      },
+      "calibration": {
+        "n_images": 114,
+        "n_identities": 66
+      },
+      "test": {
+        "n_images": 170,
+        "n_identities": 80
+      },
+      "overlap": {
+        "index_query_images": 0,
+        "calib_test_images": 0,
+        "calib_test_identities": 51,
+        "query_identities_not_in_index": 0
+      },
+      "protocol": "gallery_holdout: held-out query images of known identities; 30% of the images of each identity are set aside as query (seed 20261022); every query identity has other images in the index; calibration/test are split by image, so they share identities"
+    },
+    "tierC_619": {
+      "index": {
+        "n_images": 619,
+        "n_identities": 93
+      },
+      "dropped_index_images": 171,
+      "lost_identities": [
+        "ababil",
+        "bmp3",
+        "fmtv",
+        "fpv_kamikaze_aze",
+        "karrar_tank",
+        "lav25",
+        "t72b3"
+      ],
+      "test_pairs": {
+        "n_before": 169,
+        "n_after": 160,
+        "n_excluded": 9,
+        "n_clusters": 73
+      },
+      "excluded_qids": [
+        "q00123",
+        "q00139",
+        "q00140",
+        "q00141",
+        "q00218",
+        "q00245",
+        "q00260",
+        "q00278",
+        "q00279"
+      ],
+      "overlap": {
+        "query_identities_not_in_index": 7
+      },
+      "protocol": "same split as ab4; index reduced to the 619 images whose sources are still resolvable; held-out query images; queries whose identity lost every index image (GT outside Y_c) are excluded from the paired test set"
+    },
+    "v9_rq1": {
+      "gallery": {
+        "n_images": 1667,
+        "n_identities": 145
+      },
+      "calibration": {
+        "n_identities": 73,
+        "n_query_rows": 831
+      },
+      "test": {
+        "n_identities": 72,
+        "n_query_rows": 832
+      },
+      "overlap": {
+        "calib_test_identities": 0
+      },
+      "query_protocol": "each gallery image is a query under leave-one-out with a near-duplicate mask (cosine theta = 0.98); the identity is always present in the gallery; the identity-disjoint property applies only to calibration versus test lists, not to query versus gallery"
+    }
+  }
+}

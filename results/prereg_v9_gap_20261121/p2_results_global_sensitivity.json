@@ -1,0 +1,200 @@
+{
+  "prereg": "prereg_v9.md SEALED",
+  "seed": 20261022,
+  "rng_family": "numpy.default_rng(PCG64)",
+  "n_boot": 2000,
+  "encoder": "siglip2_I",
+  "n_queries": 1667,
+  "n_transforms": 11,
+  "total": 18337,
+  "transforms": [
+    "G1",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "G2",
+    "X1",
+    "X2",
+    "X3",
+    "X4"
+  ],
+  "delta_definition": "delta = value(T(x)) - value(x), same component-masked A(ii) setting; m_id=s1_id-s2_id (identity max-pool), s1=top1 identity score",
+  "d12_note": "D12 sửa Sc4 P1 sang inter-identity gap trong Y_c (ab4 L486-496). P2 capture (pass2_capture.npz) chỉ lưu scalar top-2 identity global, không có vector 145 identity theo transform; do đó P2 m_id ở đây vẫn là global identity top-2 (không Y_c-restricted). Không recapture theo chỉ đạo; cần recapture nếu muốn P2 Y_c-restricted.",
+  "groups": {
+    "canonical_6T": {
+      "median_abs_delta_mid": 0.002579599618911743,
+      "median_abs_delta_s1": 0.0025098323822021484,
+      "ratio_median": 1.0277975681580698,
+      "ci95_lo": 0.9806032058573145,
+      "ci95_hi": 1.0819864523943867,
+      "state": "KHÔNG THẤY KHÁC",
+      "n_rows": 10002,
+      "n_boot": 2000,
+      "p95_abs_delta_mid": 0.011893025040626526,
+      "p95_abs_delta_s1": 0.012161207199096661,
+      "transforms": [
+        "G1",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5"
+      ]
+    },
+    "stress_5T": {
+      "median_abs_delta_mid": 0.0059005022048950195,
+      "median_abs_delta_s1": 0.006730437278747559,
+      "ratio_median": 0.8766892789457836,
+      "ci95_lo": 0.8297225435798655,
+      "ci95_hi": 0.9251422522559487,
+      "state": "ỔN ĐỊNH HƠN",
+      "n_rows": 8335,
+      "n_boot": 2000,
+      "p95_abs_delta_mid": 0.030960237979888887,
+      "p95_abs_delta_s1": 0.06507993340492246,
+      "transforms": [
+        "G2",
+        "X1",
+        "X2",
+        "X3",
+        "X4"
+      ]
+    }
+  },
+  "per_transform": {
+    "G1": {
+      "median_abs_delta_mid": 0.004613101482391357,
+      "median_abs_delta_s1": 0.004392504692077637,
+      "ratio_median": 1.0502211848997205,
+      "ci95_lo": 0.9576928616229912,
+      "ci95_hi": 1.1526969948931165,
+      "state": "KHÔNG THẤY KHÁC",
+      "n_rows": 1667,
+      "n_boot": 2000,
+      "p95_abs_delta_mid": 0.018152052164077753,
+      "p95_abs_delta_s1": 0.017810803651809686
+    },
+    "L1": {
+      "median_abs_delta_mid": 0.0023456811904907227,
+      "median_abs_delta_s1": 0.0022683143615722656,
+      "ratio_median": 1.0341076308597856,
+      "ci95_lo": 0.936571086684378,
+      "ci95_hi": 1.094026731378503,
+      "state": "KHÔNG THẤY KHÁC",
+      "n_rows": 1667,
+      "n_boot": 2000,
+      "p95_abs_delta_mid": 0.008759713172912575,
+      "p95_abs_delta_s1": 0.009279185533523556
+    },
+    "L2": {
+      "median_abs_delta_mid": 0.0033360719680786133,
+      "median_abs_delta_s1": 0.0033638477325439453,
+      "ratio_median": 0.991742859167907,
+      "ci95_lo": 0.9160964044923593,
+      "ci95_hi": 1.0846771095305343,
+      "state": "KHÔNG THẤY KHÁC",
+      "n_rows": 1667,
+      "n_boot": 2000,
+      "p95_abs_delta_mid": 0.014857119321823117,
+      "p95_abs_delta_s1": 0.015991687774658182
+    },
+    "L3": {
+      "median_abs_delta_mid": 0.001558840274810791,
+      "median_abs_delta_s1": 0.0014420151710510254,
+      "ratio_median": 1.0810151696771793,
+      "ci95_lo": 0.9944296472699021,
+      "ci95_hi": 1.1882348449385178,
+      "state": "KHÔNG THẤY KHÁC",
+      "n_rows": 1667,
+      "n_boot": 2000,
+      "p95_abs_delta_mid": 0.006297487020492541,
+      "p95_abs_delta_s1": 0.0059625387191772445
+    },
+    "L4": {
+      "median_abs_delta_mid": 0.002322375774383545,
+      "median_abs_delta_s1": 0.002379119396209717,
+      "ratio_median": 0.9761493172992609,
+      "ci95_lo": 0.899787750701323,
+      "ci95_hi": 1.0467874460027413,
+      "state": "KHÔNG THẤY KHÁC",
+      "n_rows": 1667,
+      "n_boot": 2000,
+      "p95_abs_delta_mid": 0.009252035617828332,
+      "p95_abs_delta_s1": 0.009472644329071044
+    },
+    "L5": {
+      "median_abs_delta_mid": 0.0024260282516479492,
+      "median_abs_delta_s1": 0.0023023486137390137,
+      "ratio_median": 1.0537189012866648,
+      "ci95_lo": 0.9626940736834989,
+      "ci95_hi": 1.1373061791767387,
+      "state": "KHÔNG THẤY KHÁC",
+      "n_rows": 1667,
+      "n_boot": 2000,
+      "p95_abs_delta_mid": 0.009812873601913439,
+      "p95_abs_delta_s1": 0.009279584884643546
+    },
+    "G2": {
+      "median_abs_delta_mid": 0.015041649341583252,
+      "median_abs_delta_s1": 0.04016613960266113,
+      "ratio_median": 0.3744858104458387,
+      "ci95_lo": 0.3310101401887497,
+      "ci95_hi": 0.4257802388023134,
+      "state": "ỔN ĐỊNH HƠN",
+      "n_rows": 1667,
+      "n_boot": 2000,
+      "p95_abs_delta_mid": 0.059378504753112675,
+      "p95_abs_delta_s1": 0.10054989457130432
+    },
+    "X1": {
+      "median_abs_delta_mid": 0.00428694486618042,
+      "median_abs_delta_s1": 0.0045934319496154785,
+      "ratio_median": 0.9332771037435931,
+      "ci95_lo": 0.8682864066216259,
+      "ci95_hi": 1.0130462255892576,
+      "state": "KHÔNG THẤY KHÁC",
+      "n_rows": 1667,
+      "n_boot": 2000,
+      "p95_abs_delta_mid": 0.01781600713729858,
+      "p95_abs_delta_s1": 0.016710066795349116
+    },
+    "X2": {
+      "median_abs_delta_mid": 0.006004512310028076,
+      "median_abs_delta_s1": 0.006567120552062988,
+      "ratio_median": 0.91432953947249,
+      "ci95_lo": 0.8436825007350256,
+      "ci95_hi": 0.9884228172837043,
+      "state": "ỔN ĐỊNH HƠN",
+      "n_rows": 1667,
+      "n_boot": 2000,
+      "p95_abs_delta_mid": 0.02393689155578608,
+      "p95_abs_delta_s1": 0.02882906794548032
+    },
+    "X3": {
+      "median_abs_delta_mid": 0.0051174163818359375,
+      "median_abs_delta_s1": 0.005214810371398926,
+      "ratio_median": 0.9813235798376957,
+      "ci95_lo": 0.9087133569333882,
+      "ci95_hi": 1.073324494665302,
+      "state": "KHÔNG THẤY KHÁC",
+      "n_rows": 1667,
+      "n_boot": 2000,
+      "p95_abs_delta_mid": 0.019325435161590576,
+      "p95_abs_delta_s1": 0.018210077285766582
+    },
+    "X4": {
+      "median_abs_delta_mid": 0.004559636116027832,
+      "median_abs_delta_s1": 0.004885435104370117,
+      "ratio_median": 0.9333121858376848,
+      "ci95_lo": 0.8479889330577722,
+      "ci95_hi": 1.0203244860470337,
+      "state": "KHÔNG THẤY KHÁC",
+      "n_rows": 1667,
+      "n_boot": 2000,
+      "p95_abs_delta_mid": 0.017710345983505245,
+      "p95_abs_delta_s1": 0.017006760835647564
+    }
+  }
+}

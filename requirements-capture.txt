@@ -1,0 +1,8 @@
+# Capture step (prereg_v9_capture.py, tierA_smoke.py): needs a GPU and the gallery, which are not included.
+# Versions are those recorded on the capture machine (Python 3.10.12): env.txt, docs/reproducibility.md, docs/repro_facts_v9j.md.
+-r requirements.txt
+torch==2.14.1+cu130          # CUDA 13.0 build; torchvision 0.29.1+cu130 was installed alongside
+transformers==4.57.2
+Pillow==12.3.0
+faiss-cpu==1.15.1            # faiss 1.15.1 is recorded; the cpu or gpu variant is not recorded (faiss-gpu is equally possible)
+# clip: the OpenAI CLIP package (import clip), used for CLIP ViT-B/32; its version or commit is not recorded, so it is not pinned.

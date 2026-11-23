@@ -1,0 +1,9 @@
+Encoder,Score,E-AURC,AUROC
+SigLIP2-I,similarity,0.0579,0.7605
+SigLIP2-I,MSP,0.0283,0.8701
+SigLIP2-I,energy,0.0629,0.7466
+SigLIP2-I,identity gap,0.0301,0.8621
+CLIP-B-I,similarity,0.2115,0.6442
+CLIP-B-I,MSP,0.1226,0.7781
+CLIP-B-I,energy,0.2370,0.6200
+CLIP-B-I,identity gap,0.1311,0.7583

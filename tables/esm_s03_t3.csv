@@ -1,0 +1,9 @@
+Regime,Encoder,Stratum,gap - similarity,label,gap - MSP,label,gap - energy,label
+yc_argmax,SigLIP2-I,all_832 (n = 832),−0.0278 [−0.0496; −0.0074],better,+0.0018 [0.0004; 0.0034],worse,−0.0329 [−0.0580; −0.0104],better
+yc_argmax,SigLIP2-I,nc_ge3 (n = 826),−0.0271 [−0.0496; −0.0076],better,+0.0018 [0.0004; 0.0035],worse,−0.0321 [−0.0577; −0.0107],better
+yc_argmax,CLIP-B-I,all_832 (n = 832),−0.0804 [−0.1232; −0.0397],better,+0.0086 [0.0023; 0.0150],worse,−0.1059 [−0.1522; −0.0621],better
+yc_argmax,CLIP-B-I,nc_ge3 (n = 826),−0.0829 [−0.1247; −0.0426],better,+0.0093 [0.0034; 0.0160],worse,−0.1086 [−0.1562; −0.0646],better
+global_argmax,SigLIP2-I,all_832 (n = 832),−0.0268 [−0.0491; −0.0071],better,+0.0020 [0.0006; 0.0037],worse,−0.0319 [−0.0572; −0.0099],better
+global_argmax,SigLIP2-I,nc_ge3 (n = 826),−0.0260 [−0.0488; −0.0072],better,+0.0021 [0.0007; 0.0038],worse,−0.0311 [−0.0573; −0.0105],better
+global_argmax,CLIP-B-I,all_832 (n = 832),−0.0635 [−0.1079; −0.0206],better,+0.0109 [0.0044; 0.0177],worse,−0.0903 [−0.1404; −0.0449],better
+global_argmax,CLIP-B-I,nc_ge3 (n = 826),−0.0743 [−0.1168; −0.0335],better,+0.0117 [0.0045; 0.0187],worse,−0.1013 [−0.1487; −0.0579],better

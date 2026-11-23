@@ -1,0 +1,774 @@
+{
+  "deviation": "D13",
+  "prereg": "prereg_v9.md SEALED",
+  "seed": 20261022,
+  "n_boot": 2000,
+  "rng_family": "numpy.default_rng(PCG64)",
+  "rng_substream_rule": "default_rng([20261022, zlib.crc32(f'{eid}|{other}'.encode())]); dùng chung mọi tầng và định nghĩa",
+  "split_hash": "77a6428941ed701e2570b2ede8babe28506a941e38800db2f4444f37c864a18f",
+  "T_policy": "sealed_T_star_no_reselection",
+  "coarse_map": {
+    "Airplane": [
+      "aircraft"
+    ],
+    "Tank": [
+      "tank"
+    ],
+    "Vehicle": [
+      "vehicle",
+      "artillery",
+      "air_defense",
+      "missile"
+    ],
+    "Helicopter": [
+      "helicopter"
+    ],
+    "Drone": [
+      "drone"
+    ],
+    "Ship": [
+      "ship"
+    ]
+  },
+  "category_source": "pass2b_meta.json",
+  "yc_sizes": {
+    "Airplane": 30,
+    "Tank": 22,
+    "Vehicle": 52,
+    "Helicopter": 20,
+    "Drone": 19,
+    "Ship": 2
+  },
+  "encoders": {
+    "siglip2_I": {
+      "T_star_MSP": 0.01,
+      "T_star_energy": 0.01,
+      "strata": {
+        "all_832": {
+          "n": 832,
+          "n_err": 148,
+          "global": {
+            "metrics_test": {
+              "sim": {
+                "aurc": 0.07495472280712133,
+                "e_aurc": 0.05799471204900433,
+                "auroc": 0.7667832305990201,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.44471153846153844,
+                  "risk": 0.04864864864864865,
+                  "n_accepted": 370,
+                  "n_errors": 18,
+                  "cp_upper": 0.07128957896624873
+                }
+              },
+              "MSP": {
+                "aurc": 0.044931075475195786,
+                "e_aurc": 0.027971064717078793,
+                "auroc": 0.8737256993835941,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.6826923076923077,
+                  "risk": 0.04929577464788732,
+                  "n_accepted": 568,
+                  "n_errors": 28,
+                  "cp_upper": 0.0669645360562478
+                }
+              },
+              "energy": {
+                "aurc": 0.08010597364290588,
+                "e_aurc": 0.06314596288478888,
+                "auroc": 0.7528844634107792,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.4230769230769231,
+                  "risk": 0.048295454545454544,
+                  "n_accepted": 352,
+                  "n_errors": 17,
+                  "cp_upper": 0.07156360745170172
+                }
+              },
+              "gap": {
+                "aurc": 0.047501604036378486,
+                "e_aurc": 0.030541593278261493,
+                "auroc": 0.8641635056108741,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.6802884615384616,
+                  "risk": 0.04946996466431095,
+                  "n_accepted": 566,
+                  "n_errors": 28,
+                  "cp_upper": 0.06719894300615266
+                }
+              }
+            },
+            "paired_delta_eaurc": {
+              "gap_minus_sim": {
+                "delta_eaurc_gap_minus_other": -0.02745311877074284,
+                "eaurc_gap": 0.030541593278261493,
+                "eaurc_other": 0.05799471204900433,
+                "ci95_lo": -0.051111532212719864,
+                "ci95_hi": -0.007012150602859627,
+                "p_boot_two_sided": 0.008995502248875561,
+                "n_boot": 2000,
+                "holm_p_adj": 0.017991004497751123,
+                "label": "better"
+              },
+              "gap_minus_MSP": {
+                "delta_eaurc_gap_minus_other": 0.0025705285611827,
+                "eaurc_gap": 0.030541593278261493,
+                "eaurc_other": 0.027971064717078793,
+                "ci95_lo": -0.0006011010129646809,
+                "ci95_hi": 0.006336062034659359,
+                "p_boot_two_sided": 0.11894052973513243,
+                "n_boot": 2000,
+                "holm_p_adj": 0.11894052973513243,
+                "label": "insufficient"
+              },
+              "gap_minus_energy": {
+                "delta_eaurc_gap_minus_other": -0.03260436960652739,
+                "eaurc_gap": 0.030541593278261493,
+                "eaurc_other": 0.06314596288478888,
+                "ci95_lo": -0.05858720494008617,
+                "ci95_hi": -0.010268585737327507,
+                "p_boot_two_sided": 0.00399800099950025,
+                "n_boot": 2000,
+                "holm_p_adj": 0.01199400299850075,
+                "label": "better"
+              }
+            }
+          },
+          "Yc": {
+            "metrics_test": {
+              "sim": {
+                "aurc": 0.07495472280712133,
+                "e_aurc": 0.05799471204900433,
+                "auroc": 0.7667832305990201,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.44471153846153844,
+                  "risk": 0.04864864864864865,
+                  "n_accepted": 370,
+                  "n_errors": 18,
+                  "cp_upper": 0.07128957896624873
+                }
+              },
+              "MSP": {
+                "aurc": 0.045459857285917865,
+                "e_aurc": 0.02849984652780087,
+                "auroc": 0.8729749486328434,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.6899038461538461,
+                  "risk": 0.04878048780487805,
+                  "n_accepted": 574,
+                  "n_errors": 28,
+                  "cp_upper": 0.06627102425872605
+                }
+              },
+              "energy": {
+                "aurc": 0.07940609187243403,
+                "e_aurc": 0.06244608111431703,
+                "auroc": 0.7564406511774933,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.4230769230769231,
+                  "risk": 0.048295454545454544,
+                  "n_accepted": 352,
+                  "n_errors": 17,
+                  "cp_upper": 0.07156360745170172
+                }
+              },
+              "gap": {
+                "aurc": 0.047501604036378486,
+                "e_aurc": 0.030541593278261493,
+                "auroc": 0.8641635056108741,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.6802884615384616,
+                  "risk": 0.04946996466431095,
+                  "n_accepted": 566,
+                  "n_errors": 28,
+                  "cp_upper": 0.06719894300615266
+                }
+              }
+            },
+            "paired_delta_eaurc": {
+              "gap_minus_sim": {
+                "delta_eaurc_gap_minus_other": -0.02745311877074284,
+                "eaurc_gap": 0.030541593278261493,
+                "eaurc_other": 0.05799471204900433,
+                "ci95_lo": -0.051111532212719864,
+                "ci95_hi": -0.007012150602859627,
+                "p_boot_two_sided": 0.008995502248875561,
+                "n_boot": 2000,
+                "holm_p_adj": 0.013993003498250875,
+                "label": "better"
+              },
+              "gap_minus_MSP": {
+                "delta_eaurc_gap_minus_other": 0.0020417467504606213,
+                "eaurc_gap": 0.030541593278261493,
+                "eaurc_other": 0.02849984652780087,
+                "ci95_lo": 0.0006282790592660505,
+                "ci95_hi": 0.003710767415840135,
+                "p_boot_two_sided": 0.0069965017491254375,
+                "n_boot": 2000,
+                "holm_p_adj": 0.013993003498250875,
+                "label": "insufficient"
+              },
+              "gap_minus_energy": {
+                "delta_eaurc_gap_minus_other": -0.03190448783605554,
+                "eaurc_gap": 0.030541593278261493,
+                "eaurc_other": 0.06244608111431703,
+                "ci95_lo": -0.05811057065967672,
+                "ci95_hi": -0.009735777817114847,
+                "p_boot_two_sided": 0.00399800099950025,
+                "n_boot": 2000,
+                "holm_p_adj": 0.01199400299850075,
+                "label": "better"
+              }
+            }
+          }
+        },
+        "nc_ge3": {
+          "n": 826,
+          "n_err": 147,
+          "global": {
+            "metrics_test": {
+              "sim": {
+                "aurc": 0.07455874348281467,
+                "e_aurc": 0.0575819424583954,
+                "auroc": 0.7687876328734734,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.44794188861985473,
+                  "risk": 0.04864864864864865,
+                  "n_accepted": 370,
+                  "n_errors": 18,
+                  "cp_upper": 0.07128957896624873
+                }
+              },
+              "MSP": {
+                "aurc": 0.04526673802357355,
+                "e_aurc": 0.02828993699915427,
+                "auroc": 0.8723613156602847,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.6815980629539952,
+                  "risk": 0.0497335701598579,
+                  "n_accepted": 563,
+                  "n_errors": 28,
+                  "cp_upper": 0.06755364621440048
+                }
+              },
+              "energy": {
+                "aurc": 0.07969402486317172,
+                "e_aurc": 0.06271722383875244,
+                "auroc": 0.7549818159959124,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.4261501210653753,
+                  "risk": 0.048295454545454544,
+                  "n_accepted": 352,
+                  "n_errors": 17,
+                  "cp_upper": 0.07156360745170172
+                }
+              },
+              "gap": {
+                "aurc": 0.04784956380936754,
+                "e_aurc": 0.030872762784948268,
+                "auroc": 0.8626231052067366,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.6791767554479419,
+                  "risk": 0.049910873440285206,
+                  "n_accepted": 561,
+                  "n_errors": 28,
+                  "cp_upper": 0.0677922023518795
+                }
+              }
+            },
+            "paired_delta_eaurc": {
+              "gap_minus_sim": {
+                "delta_eaurc_gap_minus_other": -0.026709179673447134,
+                "eaurc_gap": 0.030872762784948268,
+                "eaurc_other": 0.0575819424583954,
+                "ci95_lo": -0.04865340538608367,
+                "ci95_hi": -0.006876608153837247,
+                "p_boot_two_sided": 0.0079960019990005,
+                "n_boot": 2000,
+                "holm_p_adj": 0.015992003998001,
+                "label": "better"
+              },
+              "gap_minus_MSP": {
+                "delta_eaurc_gap_minus_other": 0.0025828257857939962,
+                "eaurc_gap": 0.030872762784948268,
+                "eaurc_other": 0.02828993699915427,
+                "ci95_lo": -0.0006394189383078106,
+                "ci95_hi": 0.006122922108719603,
+                "p_boot_two_sided": 0.11094452773613193,
+                "n_boot": 2000,
+                "holm_p_adj": 0.11094452773613193,
+                "label": "insufficient"
+              },
+              "gap_minus_energy": {
+                "delta_eaurc_gap_minus_other": -0.031844461053804174,
+                "eaurc_gap": 0.030872762784948268,
+                "eaurc_other": 0.06271722383875244,
+                "ci95_lo": -0.05835930096187876,
+                "ci95_hi": -0.009247291060238354,
+                "p_boot_two_sided": 0.001999000499750125,
+                "n_boot": 2000,
+                "holm_p_adj": 0.005997001499250375,
+                "label": "better"
+              }
+            }
+          },
+          "Yc": {
+            "metrics_test": {
+              "sim": {
+                "aurc": 0.07455874348281467,
+                "e_aurc": 0.0575819424583954,
+                "auroc": 0.7687876328734734,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.44794188861985473,
+                  "risk": 0.04864864864864865,
+                  "n_accepted": 370,
+                  "n_errors": 18,
+                  "cp_upper": 0.07128957896624873
+                }
+              },
+              "MSP": {
+                "aurc": 0.04578093713808713,
+                "e_aurc": 0.028804136113667857,
+                "auroc": 0.8716299480027652,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.6888619854721549,
+                  "risk": 0.0492091388400703,
+                  "n_accepted": 569,
+                  "n_errors": 28,
+                  "cp_upper": 0.06684794467811311
+                }
+              },
+              "energy": {
+                "aurc": 0.07899760204783793,
+                "e_aurc": 0.062020801023418656,
+                "auroc": 0.7585284481981305,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.4261501210653753,
+                  "risk": 0.048295454545454544,
+                  "n_accepted": 352,
+                  "n_errors": 17,
+                  "cp_upper": 0.07156360745170172
+                }
+              },
+              "gap": {
+                "aurc": 0.04784956380936754,
+                "e_aurc": 0.030872762784948268,
+                "auroc": 0.8626231052067366,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.6791767554479419,
+                  "risk": 0.049910873440285206,
+                  "n_accepted": 561,
+                  "n_errors": 28,
+                  "cp_upper": 0.0677922023518795
+                }
+              }
+            },
+            "paired_delta_eaurc": {
+              "gap_minus_sim": {
+                "delta_eaurc_gap_minus_other": -0.026709179673447134,
+                "eaurc_gap": 0.030872762784948268,
+                "eaurc_other": 0.0575819424583954,
+                "ci95_lo": -0.04865340538608367,
+                "ci95_hi": -0.006876608153837247,
+                "p_boot_two_sided": 0.0079960019990005,
+                "n_boot": 2000,
+                "holm_p_adj": 0.01199400299850075,
+                "label": "better"
+              },
+              "gap_minus_MSP": {
+                "delta_eaurc_gap_minus_other": 0.0020686266712804102,
+                "eaurc_gap": 0.030872762784948268,
+                "eaurc_other": 0.028804136113667857,
+                "ci95_lo": 0.0005785381933632122,
+                "ci95_hi": 0.003804473794386701,
+                "p_boot_two_sided": 0.005997001499250375,
+                "n_boot": 2000,
+                "holm_p_adj": 0.01199400299850075,
+                "label": "insufficient"
+              },
+              "gap_minus_energy": {
+                "delta_eaurc_gap_minus_other": -0.03114803823847039,
+                "eaurc_gap": 0.030872762784948268,
+                "eaurc_other": 0.062020801023418656,
+                "ci95_lo": -0.05717766166526447,
+                "ci95_hi": -0.008661536968044094,
+                "p_boot_two_sided": 0.001999000499750125,
+                "n_boot": 2000,
+                "holm_p_adj": 0.005997001499250375,
+                "label": "better"
+              }
+            }
+          }
+        }
+      }
+    },
+    "clip_I": {
+      "T_star_MSP": 0.01,
+      "T_star_energy": 0.01,
+      "strata": {
+        "all_832": {
+          "n": 832,
+          "n_err": 446,
+          "global": {
+            "metrics_test": {
+              "sim": {
+                "aurc": 0.4057013027683131,
+                "e_aurc": 0.2256270697372481,
+                "auroc": 0.6523269592694998,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.0,
+                  "risk": 0.0,
+                  "n_accepted": 0,
+                  "n_errors": 0,
+                  "cp_upper": 1.0
+                }
+              },
+              "MSP": {
+                "aurc": 0.3114796547980925,
+                "e_aurc": 0.13140542176702746,
+                "auroc": 0.778904017286647,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.026442307692307692,
+                  "risk": 0.045454545454545456,
+                  "n_accepted": 22,
+                  "n_errors": 1,
+                  "cp_upper": 0.1981221316368814
+                }
+              },
+              "energy": {
+                "aurc": 0.43372232776847236,
+                "e_aurc": 0.25364809473740735,
+                "auroc": 0.6238295499430749,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.002403846153846154,
+                  "risk": 0.0,
+                  "n_accepted": 2,
+                  "n_errors": 0,
+                  "cp_upper": 0.7763932022500208
+                }
+              },
+              "gap": {
+                "aurc": 0.3160583728792302,
+                "e_aurc": 0.1359841398481652,
+                "auroc": 0.7710971444503822,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.05048076923076923,
+                  "risk": 0.047619047619047616,
+                  "n_accepted": 42,
+                  "n_errors": 2,
+                  "cp_upper": 0.14241447656314604
+                }
+              }
+            },
+            "paired_delta_eaurc": {
+              "gap_minus_sim": {
+                "delta_eaurc_gap_minus_other": -0.0896429298890829,
+                "eaurc_gap": 0.1359841398481652,
+                "eaurc_other": 0.2256270697372481,
+                "ci95_lo": -0.1348509908778594,
+                "ci95_hi": -0.04431072910997567,
+                "p_boot_two_sided": 0.0009995002498750624,
+                "n_boot": 2000,
+                "holm_p_adj": 0.0029985007496251873,
+                "label": "better"
+              },
+              "gap_minus_MSP": {
+                "delta_eaurc_gap_minus_other": 0.004578718081137745,
+                "eaurc_gap": 0.1359841398481652,
+                "eaurc_other": 0.13140542176702746,
+                "ci95_lo": -0.015909495906975605,
+                "ci95_hi": 0.026273756943253443,
+                "p_boot_two_sided": 0.7666166916541729,
+                "n_boot": 2000,
+                "holm_p_adj": 0.7666166916541729,
+                "label": "insufficient"
+              },
+              "gap_minus_energy": {
+                "delta_eaurc_gap_minus_other": -0.11766395488924214,
+                "eaurc_gap": 0.1359841398481652,
+                "eaurc_other": 0.25364809473740735,
+                "ci95_lo": -0.1707555776712853,
+                "ci95_hi": -0.07069285461482847,
+                "p_boot_two_sided": 0.0009995002498750624,
+                "n_boot": 2000,
+                "holm_p_adj": 0.0029985007496251873,
+                "label": "better"
+              }
+            }
+          },
+          "Yc": {
+            "metrics_test": {
+              "sim": {
+                "aurc": 0.4057013027683131,
+                "e_aurc": 0.2256270697372481,
+                "auroc": 0.6523269592694998,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.0,
+                  "risk": 0.0,
+                  "n_accepted": 0,
+                  "n_errors": 0,
+                  "cp_upper": 1.0
+                }
+              },
+              "MSP": {
+                "aurc": 0.3051176127669988,
+                "e_aurc": 0.12504337973593377,
+                "auroc": 0.794999883826297,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.04927884615384615,
+                  "risk": 0.04878048780487805,
+                  "n_accepted": 41,
+                  "n_errors": 2,
+                  "cp_upper": 0.14570550339142957
+                }
+              },
+              "energy": {
+                "aurc": 0.4063492239424091,
+                "e_aurc": 0.22627499091134406,
+                "auroc": 0.6527161411742838,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.009615384615384616,
+                  "risk": 0.0,
+                  "n_accepted": 8,
+                  "n_errors": 0,
+                  "cp_upper": 0.31234397806636766
+                }
+              },
+              "gap": {
+                "aurc": 0.3160583728792302,
+                "e_aurc": 0.1359841398481652,
+                "auroc": 0.7710971444503822,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.05048076923076923,
+                  "risk": 0.047619047619047616,
+                  "n_accepted": 42,
+                  "n_errors": 2,
+                  "cp_upper": 0.14241447656314604
+                }
+              }
+            },
+            "paired_delta_eaurc": {
+              "gap_minus_sim": {
+                "delta_eaurc_gap_minus_other": -0.0896429298890829,
+                "eaurc_gap": 0.1359841398481652,
+                "eaurc_other": 0.2256270697372481,
+                "ci95_lo": -0.1348509908778594,
+                "ci95_hi": -0.04431072910997567,
+                "p_boot_two_sided": 0.0009995002498750624,
+                "n_boot": 2000,
+                "holm_p_adj": 0.0029985007496251873,
+                "label": "better"
+              },
+              "gap_minus_MSP": {
+                "delta_eaurc_gap_minus_other": 0.01094076011223144,
+                "eaurc_gap": 0.1359841398481652,
+                "eaurc_other": 0.12504337973593377,
+                "ci95_lo": 0.004241136389484079,
+                "ci95_hi": 0.0176710391524353,
+                "p_boot_two_sided": 0.0029985007496251873,
+                "n_boot": 2000,
+                "holm_p_adj": 0.0029985007496251873,
+                "label": "insufficient"
+              },
+              "gap_minus_energy": {
+                "delta_eaurc_gap_minus_other": -0.09029085106317886,
+                "eaurc_gap": 0.1359841398481652,
+                "eaurc_other": 0.22627499091134406,
+                "ci95_lo": -0.1400755651755632,
+                "ci95_hi": -0.04460796913034356,
+                "p_boot_two_sided": 0.0009995002498750624,
+                "n_boot": 2000,
+                "holm_p_adj": 0.0029985007496251873,
+                "label": "better"
+              }
+            }
+          }
+        },
+        "nc_ge3": {
+          "n": 826,
+          "n_err": 442,
+          "global": {
+            "metrics_test": {
+              "sim": {
+                "aurc": 0.4049204752839275,
+                "e_aurc": 0.22557213202830748,
+                "auroc": 0.651907758295626,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.0,
+                  "risk": 0.0,
+                  "n_accepted": 0,
+                  "n_errors": 0,
+                  "cp_upper": 1.0
+                }
+              },
+              "MSP": {
+                "aurc": 0.3081865340595762,
+                "e_aurc": 0.12883819080395617,
+                "auroc": 0.7820336067119156,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.026634382566585957,
+                  "risk": 0.045454545454545456,
+                  "n_accepted": 22,
+                  "n_errors": 1,
+                  "cp_upper": 0.1981221316368814
+                }
+              },
+              "energy": {
+                "aurc": 0.4331339936022165,
+                "e_aurc": 0.2537856503465965,
+                "auroc": 0.6230733880090498,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.002421307506053269,
+                  "risk": 0.0,
+                  "n_accepted": 2,
+                  "n_errors": 0,
+                  "cp_upper": 0.7763932022500208
+                }
+              },
+              "gap": {
+                "aurc": 0.3043073400740539,
+                "e_aurc": 0.12495899681843389,
+                "auroc": 0.7768193815987934,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.12227602905569007,
+                  "risk": 0.04950495049504951,
+                  "n_accepted": 101,
+                  "n_errors": 5,
+                  "cp_upper": 0.10126897166065325
+                }
+              }
+            },
+            "paired_delta_eaurc": {
+              "gap_minus_sim": {
+                "delta_eaurc_gap_minus_other": -0.10061313520987358,
+                "eaurc_gap": 0.12495899681843389,
+                "eaurc_other": 0.22557213202830748,
+                "ci95_lo": -0.1433426047829707,
+                "ci95_hi": -0.05832146061202189,
+                "p_boot_two_sided": 0.0009995002498750624,
+                "n_boot": 2000,
+                "holm_p_adj": 0.0029985007496251873,
+                "label": "better"
+              },
+              "gap_minus_MSP": {
+                "delta_eaurc_gap_minus_other": -0.003879193985522278,
+                "eaurc_gap": 0.12495899681843389,
+                "eaurc_other": 0.12883819080395617,
+                "ci95_lo": -0.02022033810821644,
+                "ci95_hi": 0.010058053640366629,
+                "p_boot_two_sided": 0.5967016491754122,
+                "n_boot": 2000,
+                "holm_p_adj": 0.5967016491754122,
+                "label": "insufficient"
+              },
+              "gap_minus_energy": {
+                "delta_eaurc_gap_minus_other": -0.1288266535281626,
+                "eaurc_gap": 0.12495899681843389,
+                "eaurc_other": 0.2537856503465965,
+                "ci95_lo": -0.17857654865098782,
+                "ci95_hi": -0.08341673965057007,
+                "p_boot_two_sided": 0.0009995002498750624,
+                "n_boot": 2000,
+                "holm_p_adj": 0.0029985007496251873,
+                "label": "better"
+              }
+            }
+          },
+          "Yc": {
+            "metrics_test": {
+              "sim": {
+                "aurc": 0.4049204752839275,
+                "e_aurc": 0.22557213202830748,
+                "auroc": 0.651907758295626,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.0,
+                  "risk": 0.0,
+                  "n_accepted": 0,
+                  "n_errors": 0,
+                  "cp_upper": 1.0
+                }
+              },
+              "MSP": {
+                "aurc": 0.2926341644553057,
+                "e_aurc": 0.1132858211996857,
+                "auroc": 0.8005396870286576,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.1053268765133172,
+                  "risk": 0.04597701149425287,
+                  "n_accepted": 87,
+                  "n_errors": 4,
+                  "cp_upper": 0.10212653039482451
+                }
+              },
+              "energy": {
+                "aurc": 0.4056529491162698,
+                "e_aurc": 0.2263046058606498,
+                "auroc": 0.6520609445701357,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.009685230024213076,
+                  "risk": 0.0,
+                  "n_accepted": 8,
+                  "n_errors": 0,
+                  "cp_upper": 0.31234397806636766
+                }
+              },
+              "gap": {
+                "aurc": 0.3043073400740539,
+                "e_aurc": 0.12495899681843389,
+                "auroc": 0.7768193815987934,
+                "coverage_at_risk_5pct": {
+                  "coverage": 0.12227602905569007,
+                  "risk": 0.04950495049504951,
+                  "n_accepted": 101,
+                  "n_errors": 5,
+                  "cp_upper": 0.10126897166065325
+                }
+              }
+            },
+            "paired_delta_eaurc": {
+              "gap_minus_sim": {
+                "delta_eaurc_gap_minus_other": -0.10061313520987358,
+                "eaurc_gap": 0.12495899681843389,
+                "eaurc_other": 0.22557213202830748,
+                "ci95_lo": -0.1433426047829707,
+                "ci95_hi": -0.05832146061202189,
+                "p_boot_two_sided": 0.0009995002498750624,
+                "n_boot": 2000,
+                "holm_p_adj": 0.0029985007496251873,
+                "label": "better"
+              },
+              "gap_minus_MSP": {
+                "delta_eaurc_gap_minus_other": 0.0116731756187482,
+                "eaurc_gap": 0.12495899681843389,
+                "eaurc_other": 0.1132858211996857,
+                "ci95_lo": 0.0047843059868264304,
+                "ci95_hi": 0.018408468450694677,
+                "p_boot_two_sided": 0.001999000499750125,
+                "n_boot": 2000,
+                "holm_p_adj": 0.0029985007496251873,
+                "label": "insufficient"
+              },
+              "gap_minus_energy": {
+                "delta_eaurc_gap_minus_other": -0.1013456090422159,
+                "eaurc_gap": 0.12495899681843389,
+                "eaurc_other": 0.2263046058606498,
+                "ci95_lo": -0.1491551127126185,
+                "ci95_hi": -0.05956953691703458,
+                "p_boot_two_sided": 0.0009995002498750624,
+                "n_boot": 2000,
+                "holm_p_adj": 0.0029985007496251873,
+                "label": "better"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "consistency_check": {
+    "max_abs_diff_point_estimates": 0.0,
+    "max_abs_diff_ci": 0.001907688742951226,
+    "labels_match": true,
+    "T_star_match": true
+  }
+}

@@ -1,0 +1,17 @@
+Encoder,Score,alpha,Threshold rows with nominal bound at most alpha,Conclusion
+SigLIP2-I,similarity s1,5%,52,bound at most alpha (nominal)
+SigLIP2-I,similarity s1,1%,0,bound above alpha: observed risk above target
+SigLIP2-I,MSP,5%,247,bound at most alpha (nominal)
+SigLIP2-I,MSP,1%,0,bound above alpha: observed risk above target
+SigLIP2-I,energy,5%,54,bound at most alpha (nominal)
+SigLIP2-I,energy,1%,0,bound above alpha: observed risk above target
+SigLIP2-I,identity gap,5%,269,bound at most alpha (nominal)
+SigLIP2-I,identity gap,1%,0,bound above alpha: observed risk above target
+CLIP-B-I,similarity s1,5%,0,bound above alpha: observed risk above target
+CLIP-B-I,similarity s1,1%,0,bound above alpha: observed risk above target
+CLIP-B-I,MSP,5%,0,bound above alpha: observed risk above target
+CLIP-B-I,MSP,1%,0,bound above alpha: observed risk above target
+CLIP-B-I,energy,5%,0,bound above alpha: observed risk above target
+CLIP-B-I,energy,1%,0,bound above alpha: observed risk above target
+CLIP-B-I,identity gap,5%,0,bound above alpha: observed risk above target
+CLIP-B-I,identity gap,1%,0,bound above alpha: observed risk above target

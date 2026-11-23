@@ -1,0 +1,6 @@
+Row,Threshold,Accepted n,Errors k,CP upper bound,Verdict at 5%
+"v9 SigLIP2-I gap, strictest row with bound at most alpha",0.1307,59,0,0.0495,bound at most alpha (nominal)
+"v9 SigLIP2-I gap, last row with bound at most alpha",0.0487,356,10,0.0472,bound at most alpha (nominal)
+"v9 SigLIP2-I gap, next row (5%)",0.0487,357,11,0.0505,bound above alpha: insufficient data
+"ab4 identity gap, end of the error-free prefix",0.0816,7,0,0.3482,bound above alpha: insufficient data
+"ab4 identity gap, first row with observed risk above 5%",0.0813,8,1,0.4707,bound above alpha: observed risk above target

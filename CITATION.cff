@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite the paper below."
-title: "Comparing Confidence Scores for Refusal in Small-Gallery Fine-Grained Identification"
+title: "Comparing Confidence Scores for Abstention in Small-Gallery Fine-Grained Identification"
 type: software
 authors:
   - family-names: "Tran"
@@ -30,7 +30,7 @@ keywords:
   - E-AURC
 preferred-citation:
   type: conference-paper
-  title: "Comparing Confidence Scores for Refusal in Small-Gallery Fine-Grained Identification"
+  title: "Comparing Confidence Scores for Abstention in Small-Gallery Fine-Grained Identification"
   authors:
     - family-names: "Tran"
       given-names: "Nhat Quyet"

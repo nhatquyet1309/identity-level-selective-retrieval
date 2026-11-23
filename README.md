@@ -1,20 +1,20 @@
-# Comparing Confidence Scores for Refusal in Small-Gallery Fine-Grained Identification
+# Comparing Confidence Scores for Abstention in Small-Gallery Fine-Grained Identification
 
-Code, logged results, detail tables and documentation for the paper *Comparing Confidence Scores for Refusal in Small-Gallery Fine-Grained Identification* (ICISN 2027, Lecture Notes in Networks and Systems; under review).
+Code, logged results, detail tables and documentation for the paper *Comparing Confidence Scores for Abstention in Small-Gallery Fine-Grained Identification* (ICISN 2027, Lecture Notes in Networks and Systems; under review).
 Repository: https://github.com/nhatquyet1309/identity-level-selective-retrieval
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24454224.svg)](https://doi.org/10.5281/zenodo.24454224)
 
 ## Summary
 
-In a preregistered benchmark, image-only SigLIP2 identified 80.6% of held-out query images against 51.9% for CLIP-B/32 (McNemar p = 1.7×10−9) on a small gallery. A system that refuses uncertain queries, rather than returning a wrong identity, can limit the cost of errors, so we compare four confidence scores (similarity, MSP, energy and the identity gap) for identity-level selective retrieval, which refuses when the gap between the best and second-best identity is small. On the 832 test queries of a 145-identity gallery, identity-level aggregation beats the image-level gap in both encoders. In the sealed preregistered re-test, the gap is better than similarity and energy and insufficient against MSP. On a common candidate set Yc (post hoc), MSP is slightly but significantly better than the identity gap in both encoders (95% CIs exclude 0), and the gap still beats similarity and energy. The registered operating point thresholds the absolute similarity, not the gap. Code, logged results and full result tables are publicly available at https://github.com/nhatquyet1309/identity-level-selective-retrieval.
+In a preregistered benchmark, image-only SigLIP2 identified 80.6% of held-out query images against 51.9% for CLIP-B/32 (McNemar p = 1.7×10−9) on a small gallery. A system that refuses uncertain queries, rather than returning a wrong identity, can limit the cost of errors, so we compare four confidence scores (similarity, MSP, energy and the identity gap) for identity-level selective retrieval, which refuses when the gap between the best and second-best identity is small. A post hoc analysis on the 832 test queries of a 145-identity gallery indicates that identity-level aggregation outperforms the image-level gap in both encoders. In the sealed preregistered re-test, the gap is better than similarity and energy and insufficient against MSP. On a common candidate set Yc (post hoc), MSP is better than the identity gap by a small margin in both encoders, with 95% cluster-bootstrap confidence intervals excluding zero, and the gap still beats similarity and energy. The registered operating point thresholds the absolute similarity, not the gap. Code, logged results and full result tables are publicly available at https://github.com/nhatquyet1309/identity-level-selective-retrieval.
 
 The numbers in the tables below are copied from the logged result files and are the same as in the paper, except the rho column of the Tier B table (see the note under it). Details that the paper leaves out
 for space (D11, lost images, the A-50 mislabel, the selection of Fig. 2 row 2, full confidence intervals) are in `docs/moved_from_paper.md`.
 
 ## Cite as
 
-Tran Nhat Quyet, Nguyen Quang Thi, Nguyen Thanh Anh, Nguyen Quang Thinh. *Comparing Confidence Scores for Refusal in Small-Gallery Fine-Grained Identification*. Le Quy Don Technical University, Hanoi, Vietnam. ICISN 2027 (Lecture Notes in Networks and Systems), to appear; under review.
+Tran Nhat Quyet, Nguyen Quang Thi, Nguyen Thanh Anh, Nguyen Quang Thinh. *Comparing Confidence Scores for Abstention in Small-Gallery Fine-Grained Identification*. Le Quy Don Technical University, Hanoi, Vietnam. ICISN 2027 (Lecture Notes in Networks and Systems), to appear; under review.
 
 DOI: https://doi.org/10.5281/zenodo.24454224
 Version DOI (v1.0.0): https://doi.org/10.5281/zenodo.24454225
@@ -22,7 +22,7 @@ Version DOI (v1.0.0): https://doi.org/10.5281/zenodo.24454225
 ```bibtex
 @inproceedings{identitygap2027,
   author    = {Tran Nhat Quyet and Nguyen Quang Thi and Nguyen Thanh Anh and Nguyen Quang Thinh},
-  title     = {Comparing Confidence Scores for Refusal in Small-Gallery Fine-Grained Identification},
+  title     = {Comparing Confidence Scores for Abstention in Small-Gallery Fine-Grained Identification},
   booktitle = {ICISN 2027 (Lecture Notes in Networks and Systems)},
   year      = {2027},
   note      = {To appear; under review},
@@ -78,6 +78,8 @@ Paired difference in E-AURC, gap minus the other score (negative: the gap is bet
 
 Sealed analysis (different candidate sets for MSP and energy, as preregistered): AURC for similarity, MSP, energy and gap is
 0.0750, 0.0449, 0.0801, 0.0475 for SigLIP2-I and 0.4057, 0.3115, 0.4337, 0.3161 for CLIP-B-I.
+
+Image-level gap (post hoc, D16; `results/v9rev_imggap_20261122/results.json`): the second-ranked image shows the top identity for 614 of 832 SigLIP2-I test queries (73.8%), 278 of 832 CLIP-B-I test queries (33.4%) and 69 of 169 ab4 test queries (40.8%).
 
 Seen retrieval (Tier A), micro top-1 accuracy of the six encoder cells (`tables/esm_s08_t1.csv`):
 

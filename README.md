@@ -3,7 +3,7 @@
 Code, logged results, detail tables and documentation for the paper *Comparing Confidence Scores for Abstention in Small-Gallery Fine-Grained Identification* (ICISN 2027, Lecture Notes in Networks and Systems; under review).
 Repository: https://github.com/nhatquyet1309/identity-level-selective-retrieval
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24454224.svg)](https://doi.org/10.5281/zenodo.24454224)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24454225.svg)](https://doi.org/10.5281/zenodo.24454225)
 
 ## Summary
 
@@ -16,8 +16,8 @@ for space (D11, lost images, the A-50 mislabel, the selection of Fig. 2 row 2, f
 
 Tran Nhat Quyet, Nguyen Quang Thi, Nguyen Thanh Anh, Nguyen Quang Thinh. *Comparing Confidence Scores for Abstention in Small-Gallery Fine-Grained Identification*. Le Quy Don Technical University, Hanoi, Vietnam. ICISN 2027 (Lecture Notes in Networks and Systems), to appear; under review.
 
-DOI: https://doi.org/10.5281/zenodo.24454224
-Version DOI (v1.0.0): https://doi.org/10.5281/zenodo.24454225
+DOI: https://doi.org/10.5281/zenodo.24454225
+All versions DOI (concept): https://doi.org/10.5281/zenodo.24454224
 
 ```bibtex
 @inproceedings{identitygap2027,
@@ -26,7 +26,7 @@ Version DOI (v1.0.0): https://doi.org/10.5281/zenodo.24454225
   booktitle = {ICISN 2027 (Lecture Notes in Networks and Systems)},
   year      = {2027},
   note      = {To appear; under review},
-  doi       = {10.5281/zenodo.24454224},
+  doi       = {10.5281/zenodo.24454225},
   url       = {https://github.com/nhatquyet1309/identity-level-selective-retrieval}
 }
 ```

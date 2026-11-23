@@ -3,6 +3,8 @@
 Code, logged results, detail tables and documentation for the paper *Comparing Confidence Scores for Refusal in Small-Gallery Fine-Grained Identification* (ICISN 2027, Lecture Notes in Networks and Systems; under review).
 Repository: https://github.com/nhatquyet1309/identity-level-selective-retrieval
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24454224.svg)](https://doi.org/10.5281/zenodo.24454224)
+
 ## Summary
 
 In a preregistered benchmark, image-only SigLIP2 identified 80.6% of held-out query images against 51.9% for CLIP-B/32 (McNemar p = 1.7×10−9) on a small gallery. A system that refuses uncertain queries, rather than returning a wrong identity, can limit the cost of errors, so we compare four confidence scores (similarity, MSP, energy and the identity gap) for identity-level selective retrieval, which refuses when the gap between the best and second-best identity is small. On the 832 test queries of a 145-identity gallery, identity-level aggregation beats the image-level gap in both encoders. In the sealed preregistered re-test, the gap is better than similarity and energy and insufficient against MSP. On a common candidate set Yc (post hoc), MSP is slightly but significantly better than the identity gap in both encoders (95% CIs exclude 0), and the gap still beats similarity and energy. The registered operating point thresholds the absolute similarity, not the gap. Code, logged results and full result tables are publicly available at https://github.com/nhatquyet1309/identity-level-selective-retrieval.
@@ -14,6 +16,9 @@ for space (D11, lost images, the A-50 mislabel, the selection of Fig. 2 row 2, f
 
 Tran Nhat Quyet, Nguyen Quang Thi, Nguyen Thanh Anh, Nguyen Quang Thinh. *Comparing Confidence Scores for Refusal in Small-Gallery Fine-Grained Identification*. Le Quy Don Technical University, Hanoi, Vietnam. ICISN 2027 (Lecture Notes in Networks and Systems), to appear; under review.
 
+DOI: https://doi.org/10.5281/zenodo.24454224
+Version DOI (v1.0.0): https://doi.org/10.5281/zenodo.24454225
+
 ```bibtex
 @inproceedings{identitygap2027,
   author    = {Tran Nhat Quyet and Nguyen Quang Thi and Nguyen Thanh Anh and Nguyen Quang Thinh},
@@ -21,6 +26,7 @@ Tran Nhat Quyet, Nguyen Quang Thi, Nguyen Thanh Anh, Nguyen Quang Thinh. *Compar
   booktitle = {ICISN 2027 (Lecture Notes in Networks and Systems)},
   year      = {2027},
   note      = {To appear; under review},
+  doi       = {10.5281/zenodo.24454224},
   url       = {https://github.com/nhatquyet1309/identity-level-selective-retrieval}
 }
 ```
